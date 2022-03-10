@@ -1,0 +1,72 @@
+[
+  {
+    "Value": "00",
+    "Description": "Undefined",
+    "Notes": ""
+  },
+  {
+    "Value": "01",
+    "Description": "Distinctive title (book); Cover title (serial); Title on item (serial content item or reviewed resource)",
+    "Notes": "The full text of the distinctive title of the item, without abbreviation or abridgement. For books, where the title alone is not distinctive, elements may be taken from a set or series title and part number etc to create a distinctive title. Where the item is an omnibus edition containing two or more works by the same author, and there is no separate combined title, a distinctive title may be constructed by concatenating the individual titles, with suitable punctuation, as in ‘Pride and prejudice / Sense and sensibility / Northanger Abbey’"
+  },
+  {
+    "Value": "02",
+    "Description": "ISSN key title of serial",
+    "Notes": "Serials only"
+  },
+  {
+    "Value": "03",
+    "Description": "Title in original language",
+    "Notes": "Where the subject of the ONIX record is a translated item"
+  },
+  {
+    "Value": "04",
+    "Description": "Title acronym or initialism",
+    "Notes": "For serials: an acronym or initialism of Title Type 01, eg ‘JAMA’, ‘JACM’"
+  },
+  {
+    "Value": "05",
+    "Description": "Abbreviated title",
+    "Notes": "An abbreviated form of Title Type 01"
+  },
+  {
+    "Value": "06",
+    "Description": "Title in other language",
+    "Notes": "A translation of Title Type 01 into another language"
+  },
+  {
+    "Value": "07",
+    "Description": "Thematic title of journal issue",
+    "Notes": "Serials only: when a journal issue is explicitly devoted to a specified topic"
+  },
+  {
+    "Value": "08",
+    "Description": "Former title",
+    "Notes": "Books or serials: when an item was previously published under another title"
+  },
+  {
+    "Value": "10",
+    "Description": "Distributor’s title",
+    "Notes": "For books: the title carried in a book distributor’s title file: frequently incomplete, and may include elements not properly part of the title"
+  },
+  {
+    "Value": "11",
+    "Description": "Alternative title on cover",
+    "Notes": "An alternative title that appears on the cover of a book"
+  },
+  {
+    "Value": "12",
+    "Description": "Alternative title on back",
+    "Notes": "An alternative title that appears on the back of a book"
+  },
+  {
+    "Value": "13",
+    "Description": "Expanded title",
+    "Notes": "An expanded form of the title, eg the title of a school text book with grade and type and other details added to make the title meaningful, where otherwise it would comprise only the curriculum subject. This title type is required for submissions to the Spanish ISBN Agency"
+  },
+  {
+    "Value": "14",
+    "Description": "Alternative title",
+    "Notes": "An alternative title that the book is widely known by, whether it appears on the book or not"
+  }
+]

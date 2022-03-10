@@ -1,0 +1,562 @@
+[
+  {
+    "Value": "A01",
+    "Description": "By (author)",
+    "Notes": "Author of a textual work"
+  },
+  {
+    "Value": "A02",
+    "Description": "With",
+    "Notes": "With or as told to: ‘ghost’ or secondary author of a literary work (for clarity, should not be used for true ‘ghost’ authors who are not credited on the book and whose existence is secret)"
+  },
+  {
+    "Value": "A03",
+    "Description": "Screenplay by",
+    "Notes": "Writer of screenplay or script (film or video)"
+  },
+  {
+    "Value": "A04",
+    "Description": "Libretto by",
+    "Notes": "Writer of libretto (opera): see also A31"
+  },
+  {
+    "Value": "A05",
+    "Description": "Lyrics by",
+    "Notes": "Author of lyrics (song): see also A31"
+  },
+  {
+    "Value": "A06",
+    "Description": "By (composer)",
+    "Notes": "Composer of music"
+  },
+  {
+    "Value": "A07",
+    "Description": "By (artist)",
+    "Notes": "Visual artist when named as the primary creator of, eg, a book of reproductions of artworks"
+  },
+  {
+    "Value": "A08",
+    "Description": "By (photographer)",
+    "Notes": "Photographer when named as the primary creator of, eg, a book of photographs"
+  },
+  {
+    "Value": "A09",
+    "Description": "Created by",
+    "Notes": "For example of editorial concept, of board game, etc"
+  },
+  {
+    "Value": "A10",
+    "Description": "From an idea by",
+    "Notes": ""
+  },
+  {
+    "Value": "A11",
+    "Description": "Designed by",
+    "Notes": ""
+  },
+  {
+    "Value": "A12",
+    "Description": "Illustrated by",
+    "Notes": "Artist when named as the creator of artwork which illustrates a text, or the originator (sometimes ‘penciller’ for collaborative art) of the artwork of a graphic novel or comic book"
+  },
+  {
+    "Value": "A13",
+    "Description": "Photographs by",
+    "Notes": "Photographer when named as the creator of photographs which illustrate a text"
+  },
+  {
+    "Value": "A14",
+    "Description": "Text by",
+    "Notes": "Author of text which accompanies art reproductions or photographs, or which is part of a graphic novel or comic book"
+  },
+  {
+    "Value": "A15",
+    "Description": "Preface by",
+    "Notes": "Author of preface"
+  },
+  {
+    "Value": "A16",
+    "Description": "Prologue by",
+    "Notes": "Author of prologue"
+  },
+  {
+    "Value": "A17",
+    "Description": "Summary by",
+    "Notes": "Author of summary"
+  },
+  {
+    "Value": "A18",
+    "Description": "Supplement by",
+    "Notes": "Author of supplement"
+  },
+  {
+    "Value": "A19",
+    "Description": "Afterword by",
+    "Notes": "Author of afterword"
+  },
+  {
+    "Value": "A20",
+    "Description": "Notes by",
+    "Notes": "Author of notes or annotations: see also A29"
+  },
+  {
+    "Value": "A21",
+    "Description": "Commentaries by",
+    "Notes": "Author of commentaries on the main text"
+  },
+  {
+    "Value": "A22",
+    "Description": "Epilogue by",
+    "Notes": "Author of epilogue"
+  },
+  {
+    "Value": "A23",
+    "Description": "Foreword by",
+    "Notes": "Author of foreword"
+  },
+  {
+    "Value": "A24",
+    "Description": "Introduction by",
+    "Notes": "Author of introduction: see also A29"
+  },
+  {
+    "Value": "A25",
+    "Description": "Footnotes by",
+    "Notes": "Author/compiler of footnotes"
+  },
+  {
+    "Value": "A26",
+    "Description": "Memoir by",
+    "Notes": "Author of memoir accompanying main text"
+  },
+  {
+    "Value": "A27",
+    "Description": "Experiments by",
+    "Notes": "Person who carried out experiments reported in the text"
+  },
+  {
+    "Value": "A29",
+    "Description": "Introduction and notes by",
+    "Notes": "Author of introduction and notes: see also A20 and A24"
+  },
+  {
+    "Value": "A30",
+    "Description": "Software written by",
+    "Notes": "Writer of computer programs ancillary to the text"
+  },
+  {
+    "Value": "A31",
+    "Description": "Book and lyrics by",
+    "Notes": "Author of the textual content of a musical drama: see also A04 and A05"
+  },
+  {
+    "Value": "A32",
+    "Description": "Contributions by",
+    "Notes": "Author of additional contributions to the text"
+  },
+  {
+    "Value": "A33",
+    "Description": "Appendix by",
+    "Notes": "Author of appendix"
+  },
+  {
+    "Value": "A34",
+    "Description": "Index by",
+    "Notes": "Compiler of index"
+  },
+  {
+    "Value": "A35",
+    "Description": "Drawings by",
+    "Notes": ""
+  },
+  {
+    "Value": "A36",
+    "Description": "Cover design or artwork by",
+    "Notes": "Use also for the cover artist of a graphic novel or comic book if named separately"
+  },
+  {
+    "Value": "A37",
+    "Description": "Preliminary work by",
+    "Notes": "Responsible for preliminary work on which the work is based"
+  },
+  {
+    "Value": "A38",
+    "Description": "Original author",
+    "Notes": "Author of the first edition (usually of a standard work) who is not an author of the current edition"
+  },
+  {
+    "Value": "A39",
+    "Description": "Maps by",
+    "Notes": "Maps drawn or otherwise contributed by"
+  },
+  {
+    "Value": "A40",
+    "Description": "Inked or colored by",
+    "Notes": "Use for secondary creators when separate persons are named as having respectively drawn and inked/colored/finished artwork, eg for a graphic novel or comic book. Use with A12 for ‘drawn by’. Use A40 for ‘finished by’, but prefer more specific codes A46 to A48 instead of A40 unless the more specific secondary roles are inappropriate, unclear or unavailable"
+  },
+  {
+    "Value": "A41",
+    "Description": "Paper engineering by",
+    "Notes": "Designer or paper engineer of die-cuts, press-outs or of pop-ups in a pop-up book, who may be different from the illustrator"
+  },
+  {
+    "Value": "A42",
+    "Description": "Continued by",
+    "Notes": "Use where a standard work is being continued by somebody other than the original author"
+  },
+  {
+    "Value": "A43",
+    "Description": "Interviewer",
+    "Notes": ""
+  },
+  {
+    "Value": "A44",
+    "Description": "Interviewee",
+    "Notes": ""
+  },
+  {
+    "Value": "A45",
+    "Description": "Comic script by",
+    "Notes": "Writer of dialogue, captions in a comic book (following an outline by the primary writer)"
+  },
+  {
+    "Value": "A46",
+    "Description": "Inker",
+    "Notes": "Renders final comic book line art based on work of the illustrator or penciller. Preferred to code A40"
+  },
+  {
+    "Value": "A47",
+    "Description": "Colorist",
+    "Notes": "Provides comic book color art and effects. Preferred to code A40"
+  },
+  {
+    "Value": "A48",
+    "Description": "Letterer",
+    "Notes": "Creates comic book text balloons and other text elements (where this is a distinct role from script writer and/or illustrator)"
+  },
+  {
+    "Value": "A51",
+    "Description": "Research by",
+    "Notes": "Person or organization responsible for performing research on which the work is based. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "A99",
+    "Description": "Other primary creator",
+    "Notes": "Other type of primary creator not specified above"
+  },
+  {
+    "Value": "B01",
+    "Description": "Edited by",
+    "Notes": ""
+  },
+  {
+    "Value": "B02",
+    "Description": "Revised by",
+    "Notes": ""
+  },
+  {
+    "Value": "B03",
+    "Description": "Retold by",
+    "Notes": ""
+  },
+  {
+    "Value": "B04",
+    "Description": "Abridged by",
+    "Notes": ""
+  },
+  {
+    "Value": "B05",
+    "Description": "Adapted by",
+    "Notes": ""
+  },
+  {
+    "Value": "B06",
+    "Description": "Translated by",
+    "Notes": ""
+  },
+  {
+    "Value": "B07",
+    "Description": "As told by",
+    "Notes": ""
+  },
+  {
+    "Value": "B08",
+    "Description": "Translated with commentary by",
+    "Notes": "This code applies where a translator has provided a commentary on issues relating to the translation. If the translator has also provided a commentary on the work itself, codes B06 and A21 should be used"
+  },
+  {
+    "Value": "B09",
+    "Description": "Series edited by",
+    "Notes": "Name of a series editor when the product belongs to a series"
+  },
+  {
+    "Value": "B10",
+    "Description": "Edited and translated by",
+    "Notes": ""
+  },
+  {
+    "Value": "B11",
+    "Description": "Editor-in-chief",
+    "Notes": ""
+  },
+  {
+    "Value": "B12",
+    "Description": "Guest editor",
+    "Notes": ""
+  },
+  {
+    "Value": "B13",
+    "Description": "Volume editor",
+    "Notes": ""
+  },
+  {
+    "Value": "B14",
+    "Description": "Editorial board member",
+    "Notes": ""
+  },
+  {
+    "Value": "B15",
+    "Description": "Editorial coordination by",
+    "Notes": ""
+  },
+  {
+    "Value": "B16",
+    "Description": "Managing editor",
+    "Notes": ""
+  },
+  {
+    "Value": "B17",
+    "Description": "Founded by",
+    "Notes": "Usually the founder editor of a serial publication: Begruendet von"
+  },
+  {
+    "Value": "B18",
+    "Description": "Prepared for publication by",
+    "Notes": ""
+  },
+  {
+    "Value": "B19",
+    "Description": "Associate editor",
+    "Notes": ""
+  },
+  {
+    "Value": "B20",
+    "Description": "Consultant editor",
+    "Notes": "Use also for ‘advisory editor’, ‘series advisor’, ‘editorial consultant’ etc"
+  },
+  {
+    "Value": "B21",
+    "Description": "General editor",
+    "Notes": ""
+  },
+  {
+    "Value": "B22",
+    "Description": "Dramatized by",
+    "Notes": ""
+  },
+  {
+    "Value": "B23",
+    "Description": "General rapporteur",
+    "Notes": "In Europe, an expert editor who takes responsibility for the legal content of a collaborative law volume"
+  },
+  {
+    "Value": "B24",
+    "Description": "Literary editor",
+    "Notes": "An editor who is responsible for establishing the text used in an edition of a literary work, where this is recognised as a distinctive role (in Spain, ‘editor literario’)"
+  },
+  {
+    "Value": "B25",
+    "Description": "Arranged by (music)",
+    "Notes": ""
+  },
+  {
+    "Value": "B26",
+    "Description": "Technical editor",
+    "Notes": "Responsible for the technical accuracy and language, may also be involved in coordinating and preparing technical material for publication"
+  },
+  {
+    "Value": "B27",
+    "Description": "Thesis advisor or supervisor",
+    "Notes": ""
+  },
+  {
+    "Value": "B28",
+    "Description": "Thesis examiner",
+    "Notes": ""
+  },
+  {
+    "Value": "B29",
+    "Description": "Scientific editor",
+    "Notes": "Responsible overall for the scientific content of the publication"
+  },
+  {
+    "Value": "B30",
+    "Description": "Historical advisor",
+    "Notes": "For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "B31",
+    "Description": "Original editor",
+    "Notes": "Editor of the first edition (usually of a standard work) who is not an editor of the current edition. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "B32",
+    "Description": "Translation revised by",
+    "Notes": "For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "B99",
+    "Description": "Other adaptation by",
+    "Notes": "Other type of adaptation or editing not specified above"
+  },
+  {
+    "Value": "C01",
+    "Description": "Compiled by",
+    "Notes": "For puzzles, directories, statistics, etc"
+  },
+  {
+    "Value": "C02",
+    "Description": "Selected by",
+    "Notes": "For textual material (eg for an anthology)"
+  },
+  {
+    "Value": "C03",
+    "Description": "Non-text material selected by",
+    "Notes": "Eg for a collection of photographs etc"
+  },
+  {
+    "Value": "C04",
+    "Description": "Curated by",
+    "Notes": "Eg for an exhibition"
+  },
+  {
+    "Value": "C99",
+    "Description": "Other compilation by",
+    "Notes": "Other type of compilation not specified above"
+  },
+  {
+    "Value": "D01",
+    "Description": "Producer",
+    "Notes": ""
+  },
+  {
+    "Value": "D02",
+    "Description": "Director",
+    "Notes": ""
+  },
+  {
+    "Value": "D03",
+    "Description": "Conductor",
+    "Notes": "Conductor of a musical performance"
+  },
+  {
+    "Value": "D04",
+    "Description": "Choreographer",
+    "Notes": "Of a dance performance. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "D99",
+    "Description": "Other direction by",
+    "Notes": "Other type of direction not specified above"
+  },
+  {
+    "Value": "E01",
+    "Description": "Actor",
+    "Notes": "Performer in a dramatized production (including a voice actor in an audio production)"
+  },
+  {
+    "Value": "E02",
+    "Description": "Dancer",
+    "Notes": ""
+  },
+  {
+    "Value": "E03",
+    "Description": "Narrator",
+    "Notes": "Where the narrator is a character in a dramatized production (including a voice actor in an audio production). For the ‘narrator’ of a non-dramatized audiobook, see code E07"
+  },
+  {
+    "Value": "E04",
+    "Description": "Commentator",
+    "Notes": ""
+  },
+  {
+    "Value": "E05",
+    "Description": "Vocal soloist",
+    "Notes": "Singer etc"
+  },
+  {
+    "Value": "E06",
+    "Description": "Instrumental soloist",
+    "Notes": ""
+  },
+  {
+    "Value": "E07",
+    "Description": "Read by",
+    "Notes": "Reader of recorded text, as in an audiobook"
+  },
+  {
+    "Value": "E08",
+    "Description": "Performed by (orchestra, band, ensemble)",
+    "Notes": "Name of a musical group in a performing role"
+  },
+  {
+    "Value": "E09",
+    "Description": "Speaker",
+    "Notes": "Of a speech, lecture etc"
+  },
+  {
+    "Value": "E10",
+    "Description": "Presenter",
+    "Notes": "Introduces and links other contributors and material, eg within a documentary"
+  },
+  {
+    "Value": "E99",
+    "Description": "Performed by",
+    "Notes": "Other type of performer not specified above: use for a recorded performance which does not fit a category above, eg a performance by a stand-up comedian"
+  },
+  {
+    "Value": "F01",
+    "Description": "Filmed/photographed by",
+    "Notes": "Cinematographer, etc"
+  },
+  {
+    "Value": "F02",
+    "Description": "Editor (film or video)",
+    "Notes": ""
+  },
+  {
+    "Value": "F99",
+    "Description": "Other recording by",
+    "Notes": "Other type of recording not specified above"
+  },
+  {
+    "Value": "Z01",
+    "Description": "Assisted by",
+    "Notes": "May be associated with any contributor role, and placement should therefore be controlled by contributor sequence numbering"
+  },
+  {
+    "Value": "Z02",
+    "Description": "Honored/dedicated to",
+    "Notes": ""
+  },
+  {
+    "Value": "Z03",
+    "Description": "Enacting jurisdiction",
+    "Notes": "For publication of laws, regulations, rulings etc. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "Z04",
+    "Description": "Peer reviewed",
+    "Notes": "Use with <UnnamedPersons> code 02 as a ‘flag’ to indicate the publication is anonymously peer-reviewed. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "Z98",
+    "Description": "(Various roles)",
+    "Notes": "For use ONLY with ‘et al’ or ‘Various’ within <UnnamedPersons>, where the roles of the multiple contributors vary"
+  },
+  {
+    "Value": "Z99",
+    "Description": "Other",
+    "Notes": "Other creative responsibility not falling within A to F above"
+  }
+]

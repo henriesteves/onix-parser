@@ -1,0 +1,732 @@
+[
+  {
+    "Value": "00",
+    "Description": "Undefined",
+    "Notes": ""
+  },
+  {
+    "Value": "AA",
+    "Description": "Audio",
+    "Notes": "Audio recording – detail unspecified"
+  },
+  {
+    "Value": "AB",
+    "Description": "Audio cassette",
+    "Notes": "Audio cassette (analogue)"
+  },
+  {
+    "Value": "AC",
+    "Description": "CD-Audio",
+    "Notes": "Audio compact disc: use for ‘Red book’ discs (conventional audio CD) and SACD, and use coding in <ProductFormDetail> to specify the format, if required"
+  },
+  {
+    "Value": "AD",
+    "Description": "DAT",
+    "Notes": "Digital audio tape cassette"
+  },
+  {
+    "Value": "AE",
+    "Description": "Audio disc",
+    "Notes": "Audio disc (excluding CD-Audio): use for ‘Yellow book’ (CD-Rom-style) discs, including for example mp3 CDs, and use coding in <ProductFormDetail> to specify the format of the data on the disc"
+  },
+  {
+    "Value": "AF",
+    "Description": "Audio tape",
+    "Notes": "Audio tape (analogue open reel tape)"
+  },
+  {
+    "Value": "AG",
+    "Description": "MiniDisc",
+    "Notes": "Sony MiniDisc format"
+  },
+  {
+    "Value": "AH",
+    "Description": "CD-Extra",
+    "Notes": "Audio compact disc with part CD-ROM content, also termed CD-Plus or Enhanced-CD: use for ‘Blue book’ and ‘Yellow/Red book’ two-session discs"
+  },
+  {
+    "Value": "AI",
+    "Description": "DVD Audio",
+    "Notes": ""
+  },
+  {
+    "Value": "AJ",
+    "Description": "Downloadable audio file",
+    "Notes": "Digital audio recording downloadable to the purchaser’s own device(s)"
+  },
+  {
+    "Value": "AK",
+    "Description": "Pre-recorded digital audio player",
+    "Notes": "For example, Playaway audiobook and player: use coding in <ProductFormDetail> to specify the recording format, if required"
+  },
+  {
+    "Value": "AL",
+    "Description": "Pre-recorded SD card",
+    "Notes": "For example, Audiofy audiobook chip"
+  },
+  {
+    "Value": "AM",
+    "Description": "LP",
+    "Notes": "Vinyl disc (analogue)."
+  },
+  {
+    "Value": "AN",
+    "Description": "Downloadable and online audio file",
+    "Notes": "Digital audio recording available both by download to the purchaser’s own device(s) and by online (eg streamed) access"
+  },
+  {
+    "Value": "AO",
+    "Description": "Online audio file",
+    "Notes": "Digital audio recording available online (eg streamed), not downloadable to the purchaser’s own device(s)"
+  },
+  {
+    "Value": "AZ",
+    "Description": "Other audio format",
+    "Notes": "Other audio format not specified by AB to AM. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "BA",
+    "Description": "Book",
+    "Notes": "Book – detail unspecified"
+  },
+  {
+    "Value": "BB",
+    "Description": "Hardback",
+    "Notes": "Hardback or cased book"
+  },
+  {
+    "Value": "BC",
+    "Description": "Paperback / softback",
+    "Notes": "Paperback or other softback book"
+  },
+  {
+    "Value": "BD",
+    "Description": "Loose-leaf",
+    "Notes": "Loose-leaf book"
+  },
+  {
+    "Value": "BE",
+    "Description": "Spiral bound",
+    "Notes": "Spiral, comb or coil bound book"
+  },
+  {
+    "Value": "BF",
+    "Description": "Pamphlet",
+    "Notes": "Pamphlet, stapled; use for German ‘geheftet’. Includes low-extent wire-stitched books bound without a distinct spine (eg many comic books)"
+  },
+  {
+    "Value": "BG",
+    "Description": "Leather / fine binding",
+    "Notes": "Use <ProductFormDetail> to provide additional description"
+  },
+  {
+    "Value": "BH",
+    "Description": "Board book",
+    "Notes": "Child’s book with all pages printed on board"
+  },
+  {
+    "Value": "BI",
+    "Description": "Rag book",
+    "Notes": "Child’s book with all pages printed on textile"
+  },
+  {
+    "Value": "BJ",
+    "Description": "Bath book",
+    "Notes": "Child’s book printed on waterproof material"
+  },
+  {
+    "Value": "BK",
+    "Description": "Novelty book",
+    "Notes": "A book whose novelty consists wholly or partly in a format which cannot be described by any other available code – a ‘conventional’ format code is always to be preferred; one or more Product Form Detail codes, eg from the B2nn group, should be used whenever possible to provide additional description"
+  },
+  {
+    "Value": "BL",
+    "Description": "Slide bound",
+    "Notes": "Slide bound book"
+  },
+  {
+    "Value": "BM",
+    "Description": "Big book",
+    "Notes": "Extra-large format for teaching etc; this format and terminology may be specifically UK; required as a top-level differentiator"
+  },
+  {
+    "Value": "BN",
+    "Description": "Part-work (fascículo)",
+    "Notes": "A part-work issued with its own ISBN and intended to be collected and bound into a complete book."
+  },
+  {
+    "Value": "BO",
+    "Description": "Fold-out book or chart",
+    "Notes": "Concertina-folded booklet or chart, designed to fold to pocket or regular page size, and usually bound within distinct board or card covers: use for German ‘Leporello’"
+  },
+  {
+    "Value": "BP",
+    "Description": "Foam book",
+    "Notes": "A children’s book whose cover and pages are made of foam"
+  },
+  {
+    "Value": "BZ",
+    "Description": "Other book format",
+    "Notes": "Other book format or binding not specified by BB to BP. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "CA",
+    "Description": "Sheet map",
+    "Notes": "Sheet map – detail unspecified"
+  },
+  {
+    "Value": "CB",
+    "Description": "Sheet map, folded",
+    "Notes": ""
+  },
+  {
+    "Value": "CC",
+    "Description": "Sheet map, flat",
+    "Notes": ""
+  },
+  {
+    "Value": "CD",
+    "Description": "Sheet map, rolled",
+    "Notes": "See <ProductPackaging> and Codelist 80 for ‘rolled in tube’"
+  },
+  {
+    "Value": "CE",
+    "Description": "Globe",
+    "Notes": "Globe or planisphere"
+  },
+  {
+    "Value": "CZ",
+    "Description": "Other cartographic",
+    "Notes": "Other cartographic format not specified by CB to CE. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "DA",
+    "Description": "Digital (on physical carrier)",
+    "Notes": "Digital content delivered on a physical carrier (detail unspecified)"
+  },
+  {
+    "Value": "DB",
+    "Description": "CD-ROM",
+    "Notes": ""
+  },
+  {
+    "Value": "DC",
+    "Description": "CD-I",
+    "Notes": "CD interactive: use for ‘Green book’ discs"
+  },
+  {
+    "Value": "DE",
+    "Description": "Game cartridge",
+    "Notes": ""
+  },
+  {
+    "Value": "DF",
+    "Description": "Diskette",
+    "Notes": "AKA ‘floppy disc’"
+  },
+  {
+    "Value": "DI",
+    "Description": "DVD-ROM",
+    "Notes": ""
+  },
+  {
+    "Value": "DJ",
+    "Description": "Secure Digital (SD) Memory Card",
+    "Notes": ""
+  },
+  {
+    "Value": "DK",
+    "Description": "Compact Flash Memory Card",
+    "Notes": ""
+  },
+  {
+    "Value": "DL",
+    "Description": "Memory Stick Memory Card",
+    "Notes": ""
+  },
+  {
+    "Value": "DM",
+    "Description": "USB Flash Drive",
+    "Notes": ""
+  },
+  {
+    "Value": "DN",
+    "Description": "Double-sided CD/DVD",
+    "Notes": "Double-sided disc, one side Audio CD/CD-ROM, other side DVD"
+  },
+  {
+    "Value": "DO",
+    "Description": "BR-ROM",
+    "Notes": "(Blu Ray ROM)"
+  },
+  {
+    "Value": "DZ",
+    "Description": "Other digital carrier",
+    "Notes": "Other carrier of digital content not specified by DB to DO. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "EA",
+    "Description": "Digital (delivered electronically)",
+    "Notes": "Digital content delivered electronically (delivery method unspecified)"
+  },
+  {
+    "Value": "EB",
+    "Description": "Digital download and online",
+    "Notes": "Digital content available both by download and by online access"
+  },
+  {
+    "Value": "EC",
+    "Description": "Digital online",
+    "Notes": "Digital content accessed online only"
+  },
+  {
+    "Value": "ED",
+    "Description": "Digital download",
+    "Notes": "Digital content delivered by download only"
+  },
+  {
+    "Value": "FA",
+    "Description": "Film or transparency",
+    "Notes": "Film or transparency – detail unspecified"
+  },
+  {
+    "Value": "FC",
+    "Description": "Slides",
+    "Notes": "Photographic transparencies mounted for projection"
+  },
+  {
+    "Value": "FD",
+    "Description": "OHP transparencies",
+    "Notes": "Transparencies for overhead projector"
+  },
+  {
+    "Value": "FE",
+    "Description": "Filmstrip",
+    "Notes": "Photographic transparencies, unmounted but cut into short multi-frame strips"
+  },
+  {
+    "Value": "FF",
+    "Description": "Film",
+    "Notes": "Continuous movie film as opposed to filmstrip"
+  },
+  {
+    "Value": "FZ",
+    "Description": "Other film or transparency format",
+    "Notes": "Other film or transparency format not specified by FB to FF. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "LA",
+    "Description": "Digital product license",
+    "Notes": "Digital product license (delivery method not encoded)"
+  },
+  {
+    "Value": "LB",
+    "Description": "Digital product license key",
+    "Notes": "Digital product license delivered through the retail supply chain as a physical ‘key’, typically a card or booklet containing a code enabling the purchaser to download the associated product"
+  },
+  {
+    "Value": "LC",
+    "Description": "Digital product license code",
+    "Notes": "Digital product license delivered by email or other electronic distribution, typically providing a code enabling the purchaser to activate, upgrade or extend the license supplied with the associated product"
+  },
+  {
+    "Value": "MA",
+    "Description": "Microform",
+    "Notes": "Microform – detail unspecified"
+  },
+  {
+    "Value": "MB",
+    "Description": "Microfiche",
+    "Notes": ""
+  },
+  {
+    "Value": "MC",
+    "Description": "Microfilm",
+    "Notes": "Roll microfilm"
+  },
+  {
+    "Value": "MZ",
+    "Description": "Other microform",
+    "Notes": "Other microform not specified by MB or MC. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "PA",
+    "Description": "Miscellaneous print",
+    "Notes": "Miscellaneous printed material – detail unspecified"
+  },
+  {
+    "Value": "PB",
+    "Description": "Address book",
+    "Notes": "May use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PC",
+    "Description": "Calendar",
+    "Notes": ""
+  },
+  {
+    "Value": "PD",
+    "Description": "Cards",
+    "Notes": "Cards, flash cards (eg for teaching reading), revision cards, divination, playing or trading cards"
+  },
+  {
+    "Value": "PE",
+    "Description": "Copymasters",
+    "Notes": "Copymasters, photocopiable sheets"
+  },
+  {
+    "Value": "PF",
+    "Description": "Diary or journal",
+    "Notes": "May use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PG",
+    "Description": "Frieze",
+    "Notes": "Narrow strip-shaped printed sheet used mostly for education or children’s products (eg depicting alphabet, number line, procession of illustrated characters etc). Usually intended for horizontal display"
+  },
+  {
+    "Value": "PH",
+    "Description": "Kit",
+    "Notes": "Parts for post-purchase assembly, including card, wood or plastic parts or model components, interlocking construction blocks, beads and other crafting materials etc"
+  },
+  {
+    "Value": "PI",
+    "Description": "Sheet music",
+    "Notes": "May use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PJ",
+    "Description": "Postcard book or pack",
+    "Notes": "Including greeting cards and packs. For bound books (usually with perforated sheets to remove cards), may use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PK",
+    "Description": "Poster",
+    "Notes": "Poster for retail sale – see also XF"
+  },
+  {
+    "Value": "PL",
+    "Description": "Record book",
+    "Notes": "Record book (eg ‘birthday book’, ‘baby book’): binding unspecified; may use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PM",
+    "Description": "Wallet or folder",
+    "Notes": "Wallet, folder or box (containing loose sheets etc, or empty): it is preferable to code the contents and treat ‘wallet’ (or folder / box) as packaging in <ProductPackaging> with Codelist 80, but if this is not possible (eg where the product is empty and intended for storing other loose items) the product as a whole may be coded as a ‘wallet’. For binders intended for loose leaf or partwork publications intended to be updateable, see codes BD, BN"
+  },
+  {
+    "Value": "PN",
+    "Description": "Pictures or photographs",
+    "Notes": ""
+  },
+  {
+    "Value": "PO",
+    "Description": "Wallchart",
+    "Notes": ""
+  },
+  {
+    "Value": "PP",
+    "Description": "Stickers",
+    "Notes": ""
+  },
+  {
+    "Value": "PQ",
+    "Description": "Plate (lámina)",
+    "Notes": "A book-sized (as opposed to poster-sized) sheet, usually in color or high quality print"
+  },
+  {
+    "Value": "PR",
+    "Description": "Notebook / blank book",
+    "Notes": "A book with all pages blank for the buyer’s own use; may use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PS",
+    "Description": "Organizer",
+    "Notes": "May use <ProductFormDetail> codes P201 to P204 to specify binding"
+  },
+  {
+    "Value": "PT",
+    "Description": "Bookmark",
+    "Notes": ""
+  },
+  {
+    "Value": "PU",
+    "Description": "Leaflet",
+    "Notes": "Folded but unbound"
+  },
+  {
+    "Value": "PV",
+    "Description": "Book plates",
+    "Notes": "Ex libris’ book labels and packs"
+  },
+  {
+    "Value": "PZ",
+    "Description": "Other printed item",
+    "Notes": "Other printed item not specified by PB to PQ. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "SA",
+    "Description": "Multiple-component retail product",
+    "Notes": "Presentation unspecified: format of product components must be given in <ProductPart>"
+  },
+  {
+    "Value": "SB",
+    "Description": "Multiple-component retail product, boxed",
+    "Notes": "Format of product components must be given in <ProductPart>"
+  },
+  {
+    "Value": "SC",
+    "Description": "Multiple-component retail product, slip-cased",
+    "Notes": "Format of product components must be given in <ProductPart>"
+  },
+  {
+    "Value": "SD",
+    "Description": "Multiple-component retail product, shrink-wrapped",
+    "Notes": "Format of product components must be given in <ProductPart>. Use code XL for a shrink-wrapped pack for trade supply, where the retail items it contains are intended for sale individually"
+  },
+  {
+    "Value": "SE",
+    "Description": "Multiple-component retail product, loose",
+    "Notes": "Format of product components must be given in <ProductPart>"
+  },
+  {
+    "Value": "SF",
+    "Description": "Multiple-component retail product, part(s) enclosed",
+    "Notes": "Multiple component product where subsidiary product part(s) is/are supplied as enclosures to the primary part, eg a book with a CD packaged in a sleeve glued within the back cover. Format of product components must be given in <ProductPart>"
+  },
+  {
+    "Value": "VA",
+    "Description": "Video",
+    "Notes": "Video – detail unspecified"
+  },
+  {
+    "Value": "VF",
+    "Description": "Videodisc",
+    "Notes": "eg Laserdisc"
+  },
+  {
+    "Value": "VI",
+    "Description": "DVD video",
+    "Notes": "DVD video: specify TV standard in <ProductFormDetail>"
+  },
+  {
+    "Value": "VJ",
+    "Description": "VHS video",
+    "Notes": "VHS videotape: specify TV standard in <ProductFormDetail>"
+  },
+  {
+    "Value": "VK",
+    "Description": "Betamax video",
+    "Notes": "Betamax videotape: specify TV standard in <ProductFormDetail>"
+  },
+  {
+    "Value": "VL",
+    "Description": "VCD",
+    "Notes": "VideoCD"
+  },
+  {
+    "Value": "VM",
+    "Description": "SVCD",
+    "Notes": "Super VideoCD"
+  },
+  {
+    "Value": "VN",
+    "Description": "HD DVD",
+    "Notes": "High definition DVD disc, Toshiba HD DVD format"
+  },
+  {
+    "Value": "VO",
+    "Description": "Blu-ray",
+    "Notes": "High definition DVD disc, Sony Blu-ray format"
+  },
+  {
+    "Value": "VP",
+    "Description": "UMD Video",
+    "Notes": "Sony Universal Media disc"
+  },
+  {
+    "Value": "VQ",
+    "Description": "CBHD",
+    "Notes": "China Blue High-Definition, derivative of HD-DVD"
+  },
+  {
+    "Value": "VZ",
+    "Description": "Other video format",
+    "Notes": "Other video format not specified by VB to VQ. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "XA",
+    "Description": "Trade-only material",
+    "Notes": "Trade-only material (unspecified)"
+  },
+  {
+    "Value": "XB",
+    "Description": "Dumpbin – empty",
+    "Notes": ""
+  },
+  {
+    "Value": "XC",
+    "Description": "Dumpbin – filled",
+    "Notes": "Dumpbin with contents. ISBN (where applicable) and format of contained items must be given in <ProductPart>"
+  },
+  {
+    "Value": "XD",
+    "Description": "Counterpack – empty",
+    "Notes": ""
+  },
+  {
+    "Value": "XE",
+    "Description": "Counterpack – filled",
+    "Notes": "Counterpack with contents. ISBN (where applicable) and format of contained items must be given in <ProductPart>"
+  },
+  {
+    "Value": "XF",
+    "Description": "Poster, promotional",
+    "Notes": "Promotional poster for display, not for sale – see also PK"
+  },
+  {
+    "Value": "XG",
+    "Description": "Shelf strip",
+    "Notes": ""
+  },
+  {
+    "Value": "XH",
+    "Description": "Window piece",
+    "Notes": "Promotional piece for shop window display"
+  },
+  {
+    "Value": "XI",
+    "Description": "Streamer",
+    "Notes": ""
+  },
+  {
+    "Value": "XJ",
+    "Description": "Spinner – empty",
+    "Notes": ""
+  },
+  {
+    "Value": "XK",
+    "Description": "Large book display",
+    "Notes": "Large scale facsimile of book for promotional display"
+  },
+  {
+    "Value": "XL",
+    "Description": "Shrink-wrapped pack",
+    "Notes": "A quantity pack with its own product code, usually for trade supply only: the retail items it contains are intended for sale individually. ISBN (where applicable) and format of contained items must be given in <ProductPart>. For products or product bundles supplied individually shrink-wrapped for retail sale, use code SD"
+  },
+  {
+    "Value": "XM",
+    "Description": "Boxed pack",
+    "Notes": "A quantity pack with its own product code, usually for trade supply only: the retail items it contains are intended for sale individually. ISBN (where applicable) and format of contained items must be given in <ProductPart>. For products or product bundles boxed individually for retail sale, use code SB"
+  },
+  {
+    "Value": "XN",
+    "Description": "Pack (outer packaging unspecified)",
+    "Notes": "A quantity pack with its own product code, usually for trade supply only: the retail items it contains are intended for sale individually. ISBN (where applicable) and format of contained items must be given in <ProductPart>. Use only when the pack is neither shrinp-wrapped nor boxed"
+  },
+  {
+    "Value": "XO",
+    "Description": "Spinner – filled",
+    "Notes": "Spinner with contents. ISBN(s) (where applicable) and detail of contained items must be given in <ProductPart>"
+  },
+  {
+    "Value": "XY",
+    "Description": "Other point of sale – including retail product",
+    "Notes": "Other point of sale material not specified by XB to XO, supplied with included product(s) for retail sale. The retail product(s) must be described in <ProductPart>. Further detail of the POS material is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "XZ",
+    "Description": "Other point of sale",
+    "Notes": "Other point of sale material not specified by XB to XY, promotional or decorative. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "ZA",
+    "Description": "General merchandise",
+    "Notes": "General merchandise – unspecified"
+  },
+  {
+    "Value": "ZB",
+    "Description": "Doll or figure",
+    "Notes": "Including action figures, figurines"
+  },
+  {
+    "Value": "ZC",
+    "Description": "Soft toy",
+    "Notes": "Soft or plush toy"
+  },
+  {
+    "Value": "ZD",
+    "Description": "Toy",
+    "Notes": "Including educational toys (where no other code is relevant)"
+  },
+  {
+    "Value": "ZE",
+    "Description": "Game",
+    "Notes": "Board game, or other game (except computer game: see DE and other D* codes)"
+  },
+  {
+    "Value": "ZF",
+    "Description": "T-shirt",
+    "Notes": ""
+  },
+  {
+    "Value": "ZG",
+    "Description": "E-book reader",
+    "Notes": "Dedicated e-book reading device, typically with mono screen"
+  },
+  {
+    "Value": "ZH",
+    "Description": "Tablet computer",
+    "Notes": "General purpose tablet computer, typically with color screen"
+  },
+  {
+    "Value": "ZI",
+    "Description": "Audiobook player",
+    "Notes": "Dedicated audiobook player device, typically including book-related features like bookmarking"
+  },
+  {
+    "Value": "ZJ",
+    "Description": "Jigsaw",
+    "Notes": "Jigsaw or similar ‘shapes’ puzzle"
+  },
+  {
+    "Value": "ZK",
+    "Description": "Mug",
+    "Notes": "For example, branded, promotional or tie-in drinking mug, cup etc"
+  },
+  {
+    "Value": "ZL",
+    "Description": "Tote bag",
+    "Notes": "For example, branded, promotional or tie-in bag"
+  },
+  {
+    "Value": "ZM",
+    "Description": "Tableware",
+    "Notes": "For example, branded, promotional or tie-in plates, bowls etc (note for mugs and cups, use code ZK)"
+  },
+  {
+    "Value": "ZN",
+    "Description": "Umbrella",
+    "Notes": "For example, branded, promotional or tie-in umbrella"
+  },
+  {
+    "Value": "ZO",
+    "Description": "Paints, crayons, pencils",
+    "Notes": "Coloring set, including pens, chalks, etc"
+  },
+  {
+    "Value": "ZX",
+    "Description": "Other toy/game accessories",
+    "Notes": "Other toy, game and puzzle items not specified by ZB to ZN, generally accessories to other products etc. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "ZY",
+    "Description": "Other apparel",
+    "Notes": "Other apparel items not specified by ZB to ZN, including branded, promotional or tie-in scarves, caps, aprons, dress-up costumes etc. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  },
+  {
+    "Value": "ZZ",
+    "Description": "Other merchandise",
+    "Notes": "Other merchandise not specified by ZB to ZY. Further detail is expected in <ProductFormDescription>, as <ProductFormDetail> and <ProductFormFeature> are unlikely to be sufficient"
+  }
+]

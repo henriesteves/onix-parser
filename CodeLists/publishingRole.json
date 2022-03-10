@@ -1,0 +1,92 @@
+[
+  {
+    "Value": "01",
+    "Description": "Publisher",
+    "Notes": ""
+  },
+  {
+    "Value": "02",
+    "Description": "Co-publisher",
+    "Notes": "Use where two or more publishers co-publish the exact same product, either under a single ISBN (in which case both publishers are co-publishers), or under different ISBNs (in which case the publisher of THIS ISBN is the publisher and the publishers of OTHER ISBNs are co-publishers. Note this is different from publication of ‘co-editions’"
+  },
+  {
+    "Value": "03",
+    "Description": "Sponsor",
+    "Notes": ""
+  },
+  {
+    "Value": "04",
+    "Description": "Publisher of original-language version",
+    "Notes": "Of a translated work"
+  },
+  {
+    "Value": "05",
+    "Description": "Host/distributor of electronic content",
+    "Notes": ""
+  },
+  {
+    "Value": "06",
+    "Description": "Published for/on behalf of",
+    "Notes": ""
+  },
+  {
+    "Value": "07",
+    "Description": "Published in association with",
+    "Notes": "Use also for ‘Published in cooperation with’"
+  },
+  {
+    "Value": "09",
+    "Description": "New or acquiring publisher",
+    "Notes": "When ownership of a product or title is transferred from one publisher to another"
+  },
+  {
+    "Value": "10",
+    "Description": "Publishing group",
+    "Notes": "The group to which a publisher (publishing role 01) belongs: use only if a publisher has been identified with role code 01"
+  },
+  {
+    "Value": "11",
+    "Description": "Publisher of facsimile original",
+    "Notes": "The publisher of the edition of which a product is a facsimile"
+  },
+  {
+    "Value": "12",
+    "Description": "Repackager of prebound edition",
+    "Notes": "The repackager of a prebound edition that has been assigned its own identifier. (In the US, a ‘prebound edition’ is a book that was previously bound, normally as a paperback, and has been rebound with a library-quality hardcover binding by a supplier other than the original publisher.) Required when the <EditionType> is coded PRB. The original publisher should be named as the ‘publisher’"
+  },
+  {
+    "Value": "13",
+    "Description": "Former publisher",
+    "Notes": "When ownership of a product or title is transferred from one publisher to another (complement of code 09)"
+  },
+  {
+    "Value": "14",
+    "Description": "Publication funder",
+    "Notes": "Body funding publication fees, if different from the body funding the underlying research. Intended primarily for use with open access publications"
+  },
+  {
+    "Value": "15",
+    "Description": "Research funder",
+    "Notes": "Body funding the research on which publication is based, if different from the body funding the publication. Intended primarily for use with open access publications"
+  },
+  {
+    "Value": "16",
+    "Description": "Funding body",
+    "Notes": "Body funding research and publication. Intended primarily for use with open access publications"
+  },
+  {
+    "Value": "17",
+    "Description": "Printer",
+    "Notes": "Organisation responsible for printing a printed product. Supplied primarily to meet legal deposit requirements, and may apply only to the first impression. The organisation may also be responsible for binding, when a separate binder is not specified"
+  },
+  {
+    "Value": "18",
+    "Description": "Binder",
+    "Notes": "Organisation responsible for binding a printed product (where distinct from the printer). Supplied primarily to meet legal deposit requirements, and may apply only to the first impression"
+  },
+  {
+    "Value": "19",
+    "Description": "Manufacturer",
+    "Notes": "Organisation primarily responsible for physical manufacture of a product, when neither Printer nor Binder is directly appropriate (for example, with disc or tape products, or digital products on a physical carrier)"
+  }
+]
