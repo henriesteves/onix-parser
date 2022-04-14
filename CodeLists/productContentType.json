@@ -1,0 +1,217 @@
+[
+  {
+    "Value": "10",
+    "Description": "Text (eye-readable)",
+    "Notes": "Readable text of the main work: this value is required, together with applicable <ProductForm> and <ProductFormDetail> values, to designate an e-book or other digital or physical product whose primary content is eye-readable text"
+  },
+  {
+    "Value": "15",
+    "Description": "Extensive links between internal content",
+    "Notes": "E-publication contains a significant number of actionable cross-references, hyperlinked notes and annotations, or with other actionable links between largely textual elements (eg quiz/test questions, ‘choose your own ending’ etc)"
+  },
+  {
+    "Value": "14",
+    "Description": "Extensive links to external content",
+    "Notes": "E-publication contains a significant number of actionable (clickable) web links"
+  },
+  {
+    "Value": "16",
+    "Description": "Additional eye-readable text not part of main work",
+    "Notes": "Publication contains additional textual content such as interview, feature article, essay, bibliography, quiz/test, other background material or text that is not included in a primary or ‘unenhanced’ version"
+  },
+  {
+    "Value": "41",
+    "Description": "Additional eye-readable links to external content",
+    "Notes": "Publication contains a significant number of web links (printed URLs, QR codes etc). For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "17",
+    "Description": "Promotional text for other book product",
+    "Notes": "eg Teaser chapter"
+  },
+  {
+    "Value": "11",
+    "Description": "Musical notation",
+    "Notes": ""
+  },
+  {
+    "Value": "07",
+    "Description": "Still images / graphics",
+    "Notes": "Use only when no more detailed specification is provided"
+  },
+  {
+    "Value": "18",
+    "Description": "Photographs",
+    "Notes": "Whether in a plate section / insert, or not"
+  },
+  {
+    "Value": "19",
+    "Description": "Figures, diagrams, charts, graphs",
+    "Notes": "Including other ‘mechanical’ (ie non-photographic) illustrations"
+  },
+  {
+    "Value": "20",
+    "Description": "Additional images / graphics not part of main work",
+    "Notes": "Publication is enhanced with additional images or graphical content such as supplementary photographs that are not included in a primary or ‘unenhanced’ version"
+  },
+  {
+    "Value": "12",
+    "Description": "Maps and/or other cartographic content",
+    "Notes": ""
+  },
+  {
+    "Value": "42",
+    "Description": "Assessment material",
+    "Notes": "eg Questions or student exercises, problems, quizzes or tests (as an integral part of the work). For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "01",
+    "Description": "Audiobook",
+    "Notes": "Audio recording of a reading of a book or other text"
+  },
+  {
+    "Value": "02",
+    "Description": "Performance – spoken word",
+    "Notes": "Audio recording of a drama or other spoken word performance"
+  },
+  {
+    "Value": "13",
+    "Description": "Other speech content",
+    "Notes": "eg an interview, speech, lecture or commentary / discussion, not a ‘reading’ or ‘performance’)"
+  },
+  {
+    "Value": "03",
+    "Description": "Music recording",
+    "Notes": "Audio recording of a music performance, including musical drama and opera"
+  },
+  {
+    "Value": "04",
+    "Description": "Other audio",
+    "Notes": "Audio recording of other sound, eg birdsong"
+  },
+  {
+    "Value": "21",
+    "Description": "Partial performance – spoken word",
+    "Notes": "Audio recording of a reading, performance or dramatization of part of the work"
+  },
+  {
+    "Value": "22",
+    "Description": "Additional audio content not part of main work",
+    "Notes": "Product is enhanced with audio recording of full or partial reading, performance, dramatization, interview, background documentary or other audio content not included in the primary or ‘unenhanced’ version"
+  },
+  {
+    "Value": "23",
+    "Description": "Promotional audio for other book product",
+    "Notes": "eg Reading of teaser chapter"
+  },
+  {
+    "Value": "06",
+    "Description": "Video",
+    "Notes": "Includes Film, video, animation etc. Use only when no more detailed specification is provided. Formerly ‘Moving images’"
+  },
+  {
+    "Value": "26",
+    "Description": "Video recording of a reading",
+    "Notes": ""
+  },
+  {
+    "Value": "27",
+    "Description": "Performance – visual",
+    "Notes": "Video recording of a drama or other performance, including musical performance"
+  },
+  {
+    "Value": "24",
+    "Description": "Animated / interactive illustrations",
+    "Notes": "eg animated diagrams, charts, graphs or other illustrations"
+  },
+  {
+    "Value": "25",
+    "Description": "Narrative animation",
+    "Notes": "eg cartoon, animatic or CGI animation"
+  },
+  {
+    "Value": "28",
+    "Description": "Other video",
+    "Notes": "Other video content eg interview, not a reading or performance"
+  },
+  {
+    "Value": "29",
+    "Description": "Partial performance – video",
+    "Notes": "Video recording of a reading, performance or dramatization of part of the work"
+  },
+  {
+    "Value": "30",
+    "Description": "Additional video content not part of main work",
+    "Notes": "E-publication is enhanced with video recording of full or partial reading, performance, dramatization, interview, background documentary or other content not included in the primary or ‘unenhanced’ version"
+  },
+  {
+    "Value": "31",
+    "Description": "Promotional video for other book product",
+    "Notes": "eg Book trailer"
+  },
+  {
+    "Value": "05",
+    "Description": "Game / Puzzle",
+    "Notes": "No multi-user functionality. Formerly just ‘Game’"
+  },
+  {
+    "Value": "32",
+    "Description": "Contest",
+    "Notes": "Includes some degree of multi-user functionality"
+  },
+  {
+    "Value": "08",
+    "Description": "Software",
+    "Notes": "Largely ‘content free’"
+  },
+  {
+    "Value": "09",
+    "Description": "Data",
+    "Notes": "Data files"
+  },
+  {
+    "Value": "33",
+    "Description": "Data set plus software",
+    "Notes": ""
+  },
+  {
+    "Value": "34",
+    "Description": "Blank pages or spaces",
+    "Notes": "Entire pages or blank spaces, forms, boxes etc, intended to be filled in by the reader"
+  },
+  {
+    "Value": "35",
+    "Description": "Advertising content",
+    "Notes": "Use only where type of advertising content is not stated"
+  },
+  {
+    "Value": "37",
+    "Description": "Advertising – first party",
+    "Notes": "‘Back ads’ – promotional pages for other books (that do not include sample content, cf codes 17, 23)"
+  },
+  {
+    "Value": "36",
+    "Description": "Advertising – coupons",
+    "Notes": "Eg to obtain discounts on other products"
+  },
+  {
+    "Value": "38",
+    "Description": "Advertising – third party display",
+    "Notes": ""
+  },
+  {
+    "Value": "39",
+    "Description": "Advertising – third party textual",
+    "Notes": ""
+  },
+  {
+    "Value": "40",
+    "Description": "Scripting",
+    "Notes": "E-publication contains microprograms written (eg) in Javascript and executed within the reading system. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "43",
+    "Description": "Scripted pop-ups",
+    "Notes": "E-publication contains pop-ups or other functionality offering (eg) term definitions, cross-links or glossary entries [Note this should not include (eg) dictionary funcionality that is part of the reading system.] For use in ONIX 3.0 only"
+  }
+]

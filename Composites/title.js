@@ -1,4 +1,7 @@
-const title = ({ Collection, TitleDetail }) => {
+const title = ({
+  Collection,
+  titledetail: TitleDetail
+}) => {
   if (Collection || Array.isArray(TitleDetail)) {
 
     for (let i = 0; i < TitleDetail.length; i++) {
@@ -13,37 +16,50 @@ const title = ({ Collection, TitleDetail }) => {
     }
   }
 
-  if (parseInt(TitleDetail.TitleType.$t) === 1) {
+  const {
+    b202: TitleType,
+    titleelement: TitleElement
+  } = TitleDetail
+
+  if (parseInt(TitleType.$t) === 1) {
     return {
-      TitleText: handleTitle(TitleDetail.TitleElement),
-      Subtitle: handleSubTitle(TitleDetail.TitleElement)
+      TitleText: handleTitle(TitleElement),
+      Subtitle: handleSubTitle(TitleElement)
     }
   }
 }
 
 const handleTitle = titleElement => {
+  const {
+    b203: TitlePrefix,
+    b031: TitleWithoutPrefix,
+    b203: TitleText
+  } = titleElement
+
   let title = ''
 
-  if (titleElement.TitlePrefix) {
-    title += titleElement.TitlePrefix.$t + ' '
+  if (TitlePrefix) {
+    title += TitlePrefix.$t + ' '
   }
 
-  if (titleElement.TitleWithoutPrefix) {
-    title += titleElement.TitleWithoutPrefix.$t
+  if (TitleWithoutPrefix) {
+    title += TitleWithoutPrefix.$t
   }
 
-  if (titleElement.TitleText) {
-    title = titleElement.TitleText.$t
+  if (TitleText) {
+    title = TitleText.$t
   }
 
   return title.trim()
 }
 
 const handleSubTitle = titleElement => {
+  const { b029: Subtitle } = titleElement
+
   let subtitle = ''
 
-  if (titleElement.Subtitle) {
-    subtitle = titleElement.Subtitle.$t
+  if (Subtitle) {
+    subtitle = Subtitle.$t
   }
 
   return subtitle.trim()

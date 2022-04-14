@@ -1,0 +1,242 @@
+[
+  {
+    "Value": "01",
+    "Description": "Front cover",
+    "Notes": "2D"
+  },
+  {
+    "Value": "02",
+    "Description": "Back cover",
+    "Notes": "2D"
+  },
+  {
+    "Value": "03",
+    "Description": "Cover / pack",
+    "Notes": "Not limited to front or back, including 3D perspective"
+  },
+  {
+    "Value": "04",
+    "Description": "Contributor picture",
+    "Notes": "Photograph or portrait of contributor(s)"
+  },
+  {
+    "Value": "05",
+    "Description": "Series image / artwork",
+    "Notes": ""
+  },
+  {
+    "Value": "06",
+    "Description": "Series logo",
+    "Notes": ""
+  },
+  {
+    "Value": "07",
+    "Description": "Product image / artwork",
+    "Notes": "For example, an isolated image from the front cover (without text), image of a completed jigsaw"
+  },
+  {
+    "Value": "08",
+    "Description": "Product logo",
+    "Notes": ""
+  },
+  {
+    "Value": "09",
+    "Description": "Publisher logo",
+    "Notes": ""
+  },
+  {
+    "Value": "10",
+    "Description": "Imprint logo",
+    "Notes": ""
+  },
+  {
+    "Value": "11",
+    "Description": "Contributor interview",
+    "Notes": ""
+  },
+  {
+    "Value": "12",
+    "Description": "Contributor presentation",
+    "Notes": "Contributor presentation and/or commentary"
+  },
+  {
+    "Value": "13",
+    "Description": "Contributor reading",
+    "Notes": ""
+  },
+  {
+    "Value": "14",
+    "Description": "Contributor event schedule",
+    "Notes": "Link to a schedule in iCalendar format"
+  },
+  {
+    "Value": "15",
+    "Description": "Sample content",
+    "Notes": "For example: a short excerpt, sample text or a complete sample chapter, page images, screenshots etc"
+  },
+  {
+    "Value": "16",
+    "Description": "Widget",
+    "Notes": "A ‘look inside’ feature presented as a small embeddable application"
+  },
+  {
+    "Value": "17",
+    "Description": "Review",
+    "Notes": "Review text held in a separate downloadable file, not in the ONIX record. Equivalent of code 06 in List 153. Use the <TextContent> composite for review quotes carried in the ONIX record. Use the <CitedContent> composite for a third-party review which is referenced from the ONIX record. Use <SupportingResource> for review text offered as a separate file resource for reproduction as part of promotional material for the product"
+  },
+  {
+    "Value": "18",
+    "Description": "Commentary / discussion",
+    "Notes": "For example a publisher’s podcast episode, social media message, newsletter issue, other commentary"
+  },
+  {
+    "Value": "19",
+    "Description": "Reading group guide",
+    "Notes": ""
+  },
+  {
+    "Value": "20",
+    "Description": "Teacher’s guide",
+    "Notes": "Incuding associated teacher / instructor resources"
+  },
+  {
+    "Value": "21",
+    "Description": "Feature article",
+    "Notes": "Feature article provided by publisher"
+  },
+  {
+    "Value": "22",
+    "Description": "Character ‘interview’",
+    "Notes": "Fictional character ‘interview’"
+  },
+  {
+    "Value": "23",
+    "Description": "Wallpaper / screensaver",
+    "Notes": ""
+  },
+  {
+    "Value": "24",
+    "Description": "Press release",
+    "Notes": ""
+  },
+  {
+    "Value": "25",
+    "Description": "Table of contents",
+    "Notes": "A table of contents held in a separate downloadable file, not in the ONIX record. Equivalent of code 04 in List 153. Use the <TextContent> composite for a table of contents carried in the ONIX record. Use <Supporting Resource> for text offered as a separate file resource"
+  },
+  {
+    "Value": "26",
+    "Description": "Trailer",
+    "Notes": "A promotional video (or audio), similar to a movie trailer (sometimes referred to as a ‘book trailer’)"
+  },
+  {
+    "Value": "27",
+    "Description": "Cover thumbnail",
+    "Notes": "Intended ONLY for transitional use, where ONIX 2.1 records referencing existing thumbnail assets of unknown pixel size are being re-expressed in ONIX 3.0. Use code 01 for all new cover assets, and where the pixel size of older assets is known"
+  },
+  {
+    "Value": "28",
+    "Description": "Full content",
+    "Notes": "The full content of the product (or the product itself), supplied for example to support full-text search or indexing"
+  },
+  {
+    "Value": "29",
+    "Description": "Full cover",
+    "Notes": "Includes cover, back cover, spine and – where appropriate – any flaps"
+  },
+  {
+    "Value": "30",
+    "Description": "Master brand logo",
+    "Notes": ""
+  },
+  {
+    "Value": "31",
+    "Description": "Description",
+    "Notes": "Descriptive text in a separate downloadable file, not in the ONIX record. Equivalent of code 03 in List 153. Use the <TextContent> composite for descriptions carried in the ONIX record. Use <Supporting Resource> for text offered as a separate file resource for reproduction as part of promotional material for the product"
+  },
+  {
+    "Value": "32",
+    "Description": "Index",
+    "Notes": "Index text held in a separate downloadable file, not in the ONIX record. Equivalent of code 15 in List 153. Use the <TextContent> composite for index text carried in the ONIX record. Use <Supporting Resource> for an index offered as a separate file resource"
+  },
+  {
+    "Value": "33",
+    "Description": "Student’s guide",
+    "Notes": "Including associated student / learner resources"
+  },
+  {
+    "Value": "34",
+    "Description": "Publisher’s catalogue",
+    "Notes": "For example a PDF or other digital representation of a publisher’s ‘new titles’ or range catalogue"
+  },
+  {
+    "Value": "35",
+    "Description": "Online advertisement panel",
+    "Notes": "For example a banner ad for the product. Pixel dimensions should typically be included in <ResourceVersionFeature>"
+  },
+  {
+    "Value": "36",
+    "Description": "Online advertisement page",
+    "Notes": "German ‘Búhnenbild’"
+  },
+  {
+    "Value": "37",
+    "Description": "Promotional event material",
+    "Notes": "For example, posters, logos, banners, advertising templates for use in connection with a promotional event"
+  },
+  {
+    "Value": "38",
+    "Description": "Digital review copy",
+    "Notes": "Availability of a digital review or digital proof copy, may be limited to authorised users or account holders"
+  },
+  {
+    "Value": "39",
+    "Description": "Instructional material",
+    "Notes": "For example, video showing how to use the product"
+  },
+  {
+    "Value": "40",
+    "Description": "Errata",
+    "Notes": ""
+  },
+  {
+    "Value": "41",
+    "Description": "Introduction",
+    "Notes": "Introduction, preface or other preliminary material in a separate resource file"
+  },
+  {
+    "Value": "42",
+    "Description": "Collection description",
+    "Notes": "Descriptive material in a separate resource file, not in the ONIX record. Equivalent of code 17 in List 153. Use the <TextContent> composite for collection descriptions carried in the ONIX record. Use <Supporting Resource> for material (which need not be solely only) offered as a separate file resource for reproduction as part of promotional material for the product and collection"
+  },
+  {
+    "Value": "43",
+    "Description": "Bibliography",
+    "Notes": "Complete list of books by the author(s), supplied as a separate resource file"
+  },
+  {
+    "Value": "44",
+    "Description": "Abstract",
+    "Notes": "Formal summary of content (normally used with academic and scholarly content only)"
+  },
+  {
+    "Value": "45",
+    "Description": "Cover holding image",
+    "Notes": "Image that may be used for promotional purposes in place of a front cover, ONLY where the front cover itself cannot be provided or used for any reason. Typically, holding images may comprise logos, artwork or an unfinished front cover image. Senders should ensure removal of the holding image from the record as soon as a cover image is available. Recipients must ensure replacement of the holding image with the cover image when it is supplied"
+  },
+  {
+    "Value": "46",
+    "Description": "Rules or instructions",
+    "Notes": "Eg for a game, kit"
+  },
+  {
+    "Value": "47",
+    "Description": "Transcript",
+    "Notes": "Full transcript of audio or video content of the product"
+  },
+  {
+    "Value": "99",
+    "Description": "License",
+    "Notes": "Link to a license covering permitted usage of the product content. Deprecated in favor of <EpubLicense>. This was a temporary workaround in ONIX 3.0, and use of <EpubLicense> is strongly preferred"
+  }
+]

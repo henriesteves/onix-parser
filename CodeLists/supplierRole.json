@@ -1,0 +1,82 @@
+[
+  {
+    "Value": "00",
+    "Description": "Unspecified",
+    "Notes": "Default"
+  },
+  {
+    "Value": "01",
+    "Description": "Publisher to retailers",
+    "Notes": "Publisher as supplier to retail trade outlets"
+  },
+  {
+    "Value": "02",
+    "Description": "Publisher’s exclusive distributor to retailers",
+    "Notes": ""
+  },
+  {
+    "Value": "03",
+    "Description": "Publisher’s non-exclusive distributor to retailers",
+    "Notes": ""
+  },
+  {
+    "Value": "04",
+    "Description": "Wholesaler",
+    "Notes": "Wholesaler supplying retail trade outlets"
+  },
+  {
+    "Value": "05",
+    "Description": "Sales agent",
+    "Notes": "DEPRECATED – use <MarketRepresentation> (ONIX 2.1) or <MarketPublishingDetail> (ONIX 3.0) to specify a sales agent"
+  },
+  {
+    "Value": "06",
+    "Description": "Publisher’s distributor to retailers",
+    "Notes": "In a specified supply territory. Use only where exclusive/non-exclusive status is not known. Prefer 02 or 03 as appropriate, where possible"
+  },
+  {
+    "Value": "07",
+    "Description": "POD supplier",
+    "Notes": "Where a POD product is supplied to retailers and/or consumers direct from a POD source"
+  },
+  {
+    "Value": "08",
+    "Description": "Retailer",
+    "Notes": ""
+  },
+  {
+    "Value": "09",
+    "Description": "Publisher to end-customers",
+    "Notes": "Publisher as supplier direct to consumers and/or institutional customers"
+  },
+  {
+    "Value": "10",
+    "Description": "Exclusive distributor to end-customers",
+    "Notes": "Intermediary as exclusive distributor direct to consumers and/or institutional customers"
+  },
+  {
+    "Value": "11",
+    "Description": "Non-exclusive distributor to end-customers",
+    "Notes": "Intermediary as non-exclusive distributor direct to consumers and/or institutional customers"
+  },
+  {
+    "Value": "12",
+    "Description": "Distributor to end-customers",
+    "Notes": "Use only where exclusive/non-exclusive status is not known. Prefer 10 or 11 as appropriate, where possible"
+  },
+  {
+    "Value": "13",
+    "Description": "Exclusive distributor to retailers and end-customers",
+    "Notes": "Intermediary as exclusive distributor to retailers and direct to consumers and/or institutional customers. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "14",
+    "Description": "Non-exclusive distributor to retailers and end-customers",
+    "Notes": "Intermediary as non-exclusive distributor to retailers and direct to consumers and/or institutional customers. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "15",
+    "Description": "Distributor to retailers and end-customers",
+    "Notes": "Use only where exclusive/non-exclusive status is not known. Prefer codes 13 or 14 as appropriate whenever possible. For use in ONIX 3.0 only"
+  }
+]

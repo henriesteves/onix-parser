@@ -2,30 +2,31 @@ const { getJSONfromFile, getByValue } = require('../lib/utils')
 
 const priceTypeList = getJSONfromFile('CodeLists/priceType.json')
 
-const price = ({ SupplyDetail }) => {
+const price = ({
+  supplydetail: SupplyDetail
+}) => {
+  const {
+    price: Price
+  } = SupplyDetail
+
   const priceList = []
 
-  if (Array.isArray(SupplyDetail.Price)) {
-    for (let i = 0; i < SupplyDetail.Price.length; i++) {
-      const element = SupplyDetail.Price[i];
+  for (let i = 0; i < Price.length; i++) {
+    const element = Price[i];
 
-      priceList.push({
-        priceType: element.PriceType.$t,
-        PriceTypeDescription: getByValue(priceTypeList, 'Value', element.PriceType.$t, 'Description'),
-        currencyCode: element.CurrencyCode.$t,
-        priceAmount: element.PriceAmount.$t
-      })
-    }
+    const {
+      x462: PriceType,
+      j151: PriceAmount,
+      j152: CurrencyCode
+    } = element
 
-    return priceList
+    priceList.push({
+      priceTypeCode: PriceType.$t,
+      PriceTypeDescription: getByValue(priceTypeList, 'Value', PriceType.$t, 'Description'),
+      currencyCode: CurrencyCode.$t,
+      priceAmount: PriceAmount.$t
+    })
   }
-
-  priceList.push({
-    priceType: SupplyDetail.Price.PriceType.$t,
-    PriceTypeDescription: getByValue(priceTypeList, 'Value', SupplyDetail.Price.PriceType.$t, 'Description'),
-    currencyCode: SupplyDetail.Price.CurrencyCode.$t,
-    priceAmount: SupplyDetail.Price.PriceAmount.$t
-  })
 
   return priceList
 }

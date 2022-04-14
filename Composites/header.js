@@ -1,4 +1,6 @@
-const header = ({ SentDateTime }) => {
+const header = ({
+  x307: SentDateTime
+}) => {
   return {
     SentDateTime: SentDateTime.$t
   }

@@ -1,28 +1,35 @@
 const XMLMapping = require('xml-mapping')
 
-const details = ({ TextContent }) => {
+const details = ({
+  textcontent: TextContent
+}) => {
   const result = {}
 
   for (let i = 0; i < TextContent.length; i++) {
     const element = TextContent[i];
 
+    const {
+      x426: TextType,
+      d104: Text
+    } = element
+
     // descrição curta
-    if (parseInt(element.TextType.$t, 10) === 2) { // 02 - Short description/annotation
-      result.shortDescription = element.Text.$t || handleContent(element.Text)
+    if (parseInt(TextType.$t, 10) === 2) { // 02 - Short description/annotation
+      result.shortDescription = Text.$t || handleContent(Text)
 
       continue
     }
 
     // descrição
-    if (parseInt(element.TextType.$t, 10) === 3) { // 03 - Description
-      result.description = element.Text.$t || handleContent(element.Text)
+    if (parseInt(TextType.$t, 10) === 3) { // 03 - Description
+      result.description = Text.$t || handleContent(Text)
 
       continue
     }
 
     // tabela de conteudo
-    if (parseInt(element.TextType.$t, 10) === 4) { // 04 - Table of contents
-      result.toc = element.Text.$t || handleContent(element.Text)
+    if (parseInt(TextType.$t, 10) === 4) { // 04 - Table of contents
+      result.toc = Text.$t || handleContent(Text)
 
       continue
     }

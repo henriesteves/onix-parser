@@ -1,36 +1,64 @@
 const { contributors } = require('./contributors')
 const { price } = require('./price')
 const { details } = require('./details')
-const { publisher } = require('./publisher')
+const { publishing } = require('./publishing')
 const { title } = require('./title')
+const { identifier } = require('./identifier')
+const { resource } = require('./resource')
+const { extent } = require('./extent')
 
 const { getJSONfromFile, getByValue } = require('../lib/utils')
 
-const notificationType = getJSONfromFile('CodeLists/notificationType.json')
+const NotificationTypeList = getJSONfromFile('CodeLists/notificationType.json')
+const EPublicationTechnicalProtectionList = getJSONfromFile('CodeLists/ePublicationTechnicalProtection.json')
+const ProductContentTypeList = getJSONfromFile('CodeLists/productContentType.json')
+const ProductFormDetailList = getJSONfromFile('CodeLists/productFormDetail.json')
 
 const product = ({
-  RecordReference,
-  NotificationType,
-  DescriptiveDetail,
-  CollateralDetail,
-  PublishingDetail,
-  ProductSupply
+  a001: RecordReference,
+  a002: NotificationType,
+  descriptivedetail: DescriptiveDetail,
+  collateraldetail: CollateralDetail,
+  publishingdetail: PublishingDetail,
+  productsupply: ProductSupply,
+  productidentifier: ProductIdentifier,
 }) => {
+  const {
+    b333: ProductFormDetail,
+    x416: PrimaryContentType,
+    x317: EpubTechnicalProtection
+  } = DescriptiveDetail
+
   return {
-    ISBN: RecordReference.$t,
+    RecordReference: RecordReference.$t,
 
     NotificationType: NotificationType.$t,
-    Notification: getByValue(notificationType, 'Value', NotificationType.$t, 'Description'),
+    Notification: getByValue(NotificationTypeList, 'Value', NotificationType.$t, 'Description'),
+
+    ProductFormDetailCode: ProductFormDetail.$t,
+    ProductFormDetail: getByValue(ProductFormDetailList, 'Value', ProductFormDetail.$t, 'Description'),
+
+    PrimaryContentTypeCode: PrimaryContentType.$t,
+    PrimaryContentType: getByValue(ProductContentTypeList, 'Value', PrimaryContentType.$t, 'Description'),
+
+    EpubTechnicalProtectionCode: EpubTechnicalProtection.$t,
+    EpubTechnicalProtection: getByValue(EPublicationTechnicalProtectionList, 'Value', EpubTechnicalProtection.$t, 'Description'),
+
+    identifier: identifier(ProductIdentifier),
 
     title: title(DescriptiveDetail),
 
     details: details(CollateralDetail),
 
-    publisher: publisher(PublishingDetail),
+    publishing: publishing(PublishingDetail),
 
     contributors: contributors(DescriptiveDetail),
 
-    price: price(ProductSupply)
+    price: price(ProductSupply),
+
+    resource: resource(CollateralDetail),
+
+    extent: extent(DescriptiveDetail)
   }
 }
 

@@ -1,0 +1,42 @@
+[
+  {
+    "Value": "00",
+    "Description": "None",
+    "Notes": "Has no technical protection"
+  },
+  {
+    "Value": "01",
+    "Description": "DRM",
+    "Notes": "Has DRM protection"
+  },
+  {
+    "Value": "02",
+    "Description": "Digital watermarking",
+    "Notes": "Has digital watermarking"
+  },
+  {
+    "Value": "03",
+    "Description": "Adobe DRM",
+    "Notes": "Has DRM protection applied by the Adobe CS4 Content Server Package or by the Adobe ADEPT hosted service"
+  },
+  {
+    "Value": "04",
+    "Description": "Apple DRM",
+    "Notes": "Has FairPlay DRM protection applied via Apple proprietary online store"
+  },
+  {
+    "Value": "05",
+    "Description": "OMA DRM",
+    "Notes": "Has OMA v2 DRM protection applied, as used to protect some mobile phone content"
+  },
+  {
+    "Value": "06",
+    "Description": "Readium LCP DRM",
+    "Notes": "Has Licensed Content Protection DRM applied by a Readium License Server"
+  },
+  {
+    "Value": "07",
+    "Description": "Sony DRM",
+    "Notes": "Has Sony DADC User Rights Management (URMS) DRM protection applied"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Value": "00",
+    "Description": "Sales rights unknown or unstated for any reason",
+    "Notes": "May only be used with the ONIX 3 <ROWSalesRightsType> element"
+  },
+  {
+    "Value": "01",
+    "Description": "For sale with exclusive rights in the specified countries or territories",
+    "Notes": ""
+  },
+  {
+    "Value": "02",
+    "Description": "For sale with non-exclusive rights in the specified countries or territories",
+    "Notes": ""
+  },
+  {
+    "Value": "03",
+    "Description": "Not for sale in the specified countries or territories (reason unspecified)",
+    "Notes": ""
+  },
+  {
+    "Value": "04",
+    "Description": "Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)",
+    "Notes": ""
+  },
+  {
+    "Value": "05",
+    "Description": "Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)",
+    "Notes": ""
+  },
+  {
+    "Value": "06",
+    "Description": "Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)",
+    "Notes": ""
+  },
+  {
+    "Value": "07",
+    "Description": "For sale with exclusive rights in the specified countries or territories (sales restriction applies)",
+    "Notes": "Only for use with ONIX 3. Deprecated"
+  },
+  {
+    "Value": "08",
+    "Description": "For sale with non-exclusive rights in the specified countries or territories (sales restriction applies)",
+    "Notes": "Only for use with ONIX 3. Deprecated"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Value": "01",
+    "Description": "Application",
+    "Notes": "An executable together with data on which it operates"
+  },
+  {
+    "Value": "02",
+    "Description": "Audio",
+    "Notes": "A sound recording"
+  },
+  {
+    "Value": "03",
+    "Description": "Image",
+    "Notes": "A still image"
+  },
+  {
+    "Value": "04",
+    "Description": "Text",
+    "Notes": "Readable text, with or without associated images etc"
+  },
+  {
+    "Value": "05",
+    "Description": "Video",
+    "Notes": "Moving images, with or without accompanying sound"
+  },
+  {
+    "Value": "06",
+    "Description": "Multi-mode",
+    "Notes": "A website or other supporting resource delivering content in a variety of modes"
+  }
+]

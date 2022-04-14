@@ -1,0 +1,77 @@
+[
+  {
+    "Value": "00",
+    "Description": "Physical pieces",
+    "Notes": "For example a count of the individual number of cards in a pack. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "01",
+    "Description": "Characters",
+    "Notes": "Approximate number of characters (including spaces) of natural language text. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "02",
+    "Description": "Words",
+    "Notes": "Approximate number of words of natural language text"
+  },
+  {
+    "Value": "03",
+    "Description": "Pages",
+    "Notes": ""
+  },
+  {
+    "Value": "04",
+    "Description": "Hours (integer and decimals)",
+    "Notes": ""
+  },
+  {
+    "Value": "05",
+    "Description": "Minutes (integer and decimals)",
+    "Notes": ""
+  },
+  {
+    "Value": "06",
+    "Description": "Seconds (integer only)",
+    "Notes": ""
+  },
+  {
+    "Value": "11",
+    "Description": "Tracks",
+    "Notes": "Of an audiobook on CD (or a similarly divided selection of audio files). Conventionally, each track is 3–6 minutes of running time, and track counts are misleading and inappropriate if the average track duration is significantly more or less than this. Note that track breaks are not necessarily aligned with structural breaks in the text (eg chapter breaks)"
+  },
+  {
+    "Value": "12",
+    "Description": "Discs",
+    "Notes": "Of an audiobook on multiple Red Book audio CDs. Conventionally, each disc is 60–70 minutes of running time, and disc counts are misleading and inappropriate if the average disc duration is significantly more or less than this (for example if the discs are Yellow Book CDs containing mp3 files). Note that disc breaks are not necessarily aligned with structural breaks in the text (eg chapter breaks). For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "14",
+    "Description": "Hours HHH",
+    "Notes": "Fill with leading zeroes if any elements are missing"
+  },
+  {
+    "Value": "15",
+    "Description": "Hours and minutes HHHMM",
+    "Notes": "Fill with leading zeroes if any elements are missing"
+  },
+  {
+    "Value": "16",
+    "Description": "Hours minutes seconds HHHMMSS",
+    "Notes": "Fill with leading zeroes if any elements are missing. If centisecond precision is required, use HHHMMSScc (in ONIX 3.0 only)"
+  },
+  {
+    "Value": "17",
+    "Description": "Bytes",
+    "Notes": ""
+  },
+  {
+    "Value": "18",
+    "Description": "Kbytes",
+    "Notes": ""
+  },
+  {
+    "Value": "19",
+    "Description": "Mbytes",
+    "Notes": ""
+  }
+]
