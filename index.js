@@ -13,10 +13,11 @@ var json = XMLMapping.load(content, {
   '/ONIXmessage/product/collateraldetail/textcontent',
   '/ONIXmessage/product/collateraldetail/supportingresource',
   '/ONIXmessage/product/collateraldetail/supportingresource/resourceversion/resourceversionfeature',
+  '/ONIXmessage/product/descriptivedetail/contributor',
+  '/ONIXmessage/product/descriptivedetail/extent',
   '/ONIXmessage/product/productsupply/supplydetail/price',
   '/ONIXmessage/product/publishingdetail/publishingdate',
   '/ONIXmessage/product/publishingdetail/salesrights/territory',
-  '/ONIXmessage/product/descriptivedetail/extent',
  ]
 })
 // var xml = XMLMapping.dump(json);

@@ -44,7 +44,7 @@ const product = ({
     EpubTechnicalProtectionCode: EpubTechnicalProtection.$t,
     EpubTechnicalProtection: getByValue(EPublicationTechnicalProtectionList, 'Value', EpubTechnicalProtection.$t, 'Description'),
 
-    identifier: identifier(ProductIdentifier),
+    identifiers: identifier(ProductIdentifier),
 
     title: title(DescriptiveDetail),
 
@@ -56,7 +56,7 @@ const product = ({
 
     price: price(ProductSupply),
 
-    resource: resource(CollateralDetail),
+    resources: resource(CollateralDetail),
 
     extent: extent(DescriptiveDetail)
   }

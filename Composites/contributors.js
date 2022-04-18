@@ -5,37 +5,21 @@ const contributorRoleList = getJSONfromFile('CodeLists/contributorRole.json')
 const contributors = ({ contributor: Contributor }) => {
   const contributorsList = []
 
-  if (Array.isArray(Contributor)) {
-    for (let i = 0; i < Contributor.length; i++) {
-      const contributor = Contributor[i];
+  for (let i = 0; i < Contributor.length; i++) {
+    const contributor = Contributor[i];
 
-      const {
-        b034: SequenceNumber,
-        b035: ContributorRole,
-      } = contributor
+    const {
+      b034: SequenceNumber,
+      b035: ContributorRole,
+    } = contributor
 
-      contributorsList.push({
-        sequence: parseInt(SequenceNumber.$t, 10),
-        contributorRoleCode: ContributorRole.$t,
-        contributorRole: getByValue(contributorRoleList, 'Value', ContributorRole.$t, 'Description'),
-        personName: handleName(contributor)
-      })
-    }
-
-    return contributorsList
+    contributorsList.push({
+      sequence: parseInt(SequenceNumber.$t, 10),
+      contributorRoleCode: ContributorRole.$t,
+      contributorRole: getByValue(contributorRoleList, 'Value', ContributorRole.$t, 'Description'),
+      personName: handleName(contributor)
+    })
   }
-
-  const {
-    b034: SequenceNumber,
-    b035: ContributorRole,
-  } = Contributor
-
-  contributorsList.push({
-    sequence: parseInt(SequenceNumber.$t, 10),
-    contributorRoleCode: ContributorRole.$t,
-    contributorRole: getByValue(contributorRoleList, 'Value', ContributorRole.$t, 'Description'),
-    personName: handleName(Contributor)
-  })
 
   return contributorsList
 }
