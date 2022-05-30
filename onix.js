@@ -5,28 +5,32 @@ const { header } = require('./Composites/header')
 const { product } = require('./Composites/product')
 
 const onix = onixPath => {
-  const { ONIXmessage } = fs.readFileSync(onixPath).toString()
+  const onixContent = fs.readFileSync(onixPath).toString()
 
-  const { release, header: Header, product: Product } = XMLMapping.load(ONIXmessage, {
-  nested: true,
-  arrays: [
-  '/ONIXmessage/product',
-  '/ONIXmessage/product/collateraldetail/textcontent',
-  '/ONIXmessage/product/collateraldetail/supportingresource',
-  '/ONIXmessage/product/collateraldetail/supportingresource/resourceversion/resourceversionfeature',
-  '/ONIXmessage/product/contentdetail/contentitem',
-  '/ONIXmessage/product/contentdetail/contentitem/supportingresource',
-  '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourcefeature',
-  '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion',
-  '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion/resourceversionfeature',
-  '/ONIXmessage/product/descriptivedetail/contributor',
-  '/ONIXmessage/product/descriptivedetail/extent',
-  '/ONIXmessage/product/descriptivedetail/subject',
-  '/ONIXmessage/product/productsupply/supplydetail/price',
-  '/ONIXmessage/product/publishingdetail/publishingdate',
-  '/ONIXmessage/product/publishingdetail/salesrights/territory',
- ]
-})
+  console.log(onixContent)
+
+  const onixJSON = XMLMapping.load(onixContent, {
+    nested: true,
+    arrays: [
+      '/ONIXmessage/product',
+      '/ONIXmessage/product/collateraldetail/textcontent',
+      '/ONIXmessage/product/collateraldetail/supportingresource',
+      '/ONIXmessage/product/collateraldetail/supportingresource/resourceversion/resourceversionfeature',
+      '/ONIXmessage/product/contentdetail/contentitem',
+      '/ONIXmessage/product/contentdetail/contentitem/supportingresource',
+      '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourcefeature',
+      '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion',
+      '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion/resourceversionfeature',
+      '/ONIXmessage/product/descriptivedetail/contributor',
+      '/ONIXmessage/product/descriptivedetail/extent',
+      '/ONIXmessage/product/descriptivedetail/subject',
+      '/ONIXmessage/product/productsupply/supplydetail/price',
+      '/ONIXmessage/product/publishingdetail/publishingdate',
+      '/ONIXmessage/product/publishingdetail/salesrights/territory',
+    ]
+  })
+
+  const { release, header: Header, product: Product } = onixJSON.ONIXmessage
 
   if (!release || release !== '3.0') {
     return {
