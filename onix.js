@@ -7,8 +7,6 @@ const { product } = require('./Composites/product')
 const onix = onixPath => {
   const onixContent = fs.readFileSync(onixPath).toString()
 
-  console.log(onixContent)
-
   const onixJSON = XMLMapping.load(onixContent, {
     nested: true,
     arrays: [
