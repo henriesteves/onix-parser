@@ -5,9 +5,9 @@ const { header } = require('./Composites/header')
 const { product } = require('./Composites/product')
 
 const onix = onixPath => {
-  const onixContent = fs.readFileSync(onixPath).toString()
+  const { ONIXmessage } = fs.readFileSync(onixPath).toString()
 
-  const { release, header: Header, product: Product } = XMLMapping.load(onixContent, {
+  const { release, header: Header, product: Product } = XMLMapping.load(ONIXmessage, {
   nested: true,
   arrays: [
   '/ONIXmessage/product',
