@@ -6,6 +6,8 @@ const { title } = require('./title')
 const { identifier } = require('./identifier')
 const { resource } = require('./resource')
 const { extent } = require('./extent')
+const { keywords } = require('./keywords')
+const { chapters } = require('./chapters')
 
 const { getJSONfromFile, getByValue } = require('../lib/utils')
 
@@ -19,10 +21,11 @@ const product = ({
   a002: NotificationType,
   descriptivedetail: DescriptiveDetail,
   collateraldetail: CollateralDetail,
+  contentdetail: Contentdetail,
   publishingdetail: PublishingDetail,
   productsupply: ProductSupply,
   productidentifier: ProductIdentifier,
-}) => {
+}, ProductForm) => {
   const {
     b333: ProductFormDetail,
     x416: PrimaryContentType,
@@ -58,7 +61,11 @@ const product = ({
 
     resources: resource(CollateralDetail),
 
-    extent: extent(DescriptiveDetail)
+    extent: extent(DescriptiveDetail),
+
+    keywords: keywords(DescriptiveDetail),
+
+    chapters: chapters(Contentdetail || [])
   }
 }
 

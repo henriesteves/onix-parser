@@ -7,6 +7,10 @@ const ResourceFormList = getJSONfromFile('CodeLists/resourceForm.json')
 const resource = ({
   supportingresource: SupportingResource
 }) => {
+  if (!SupportingResource) {
+    return []
+  }
+
   const supportingResourceList = []
 
   for (let i = 0; i < SupportingResource.length; i++) {

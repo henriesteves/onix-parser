@@ -19,5 +19,9 @@
   "homepage": "https://github.com/henriesteves/onix-parser#readme",
   "dependencies": {
     "xml-mapping": "^1.7.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

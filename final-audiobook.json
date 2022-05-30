@@ -1,0 +1,374 @@
+{
+  "SentDateTime": "20220520T1241Z",
+  "RecordReference": "9786559880164",
+  "NotificationType": "03",
+  "Notification": "Notification confirmed on publication",
+  "ProductFormDetailCode": "A103",
+  "ProductFormDetail": "MP3 format",
+  "PrimaryContentTypeCode": "01",
+  "PrimaryContentType": "Audiobook",
+  "EpubTechnicalProtectionCode": "00",
+  "EpubTechnicalProtection": "None",
+  "identifiers": [
+    {
+      "ProductIDTypeCode": "15",
+      "ProductIDType": "ISBN-13",
+      "IDValue": "9786559880164"
+    },
+    {
+      "ProductIDTypeCode": "01",
+      "ProductIDType": "Proprietary",
+      "IDValue": "31501"
+    }
+  ],
+  "title": {
+    "TitleText": "O enredo da salvação",
+    "Subtitle": "Presença divina, vocação humana e redenção cósmica"
+  },
+  "details": {
+    "description": "<p>A leitura individualista e fragmentada do texto bíblico tem impedido aos cristãos uma compreensão mais abrangente de sua fé e de seu papel como cidadãos do reino. Além disso, reduzir a experiência religiosa a um mero carimbo no passaporte para o céu desvia o foco do fato de que o interesse de Deus não se resume apenas ao indivíduo, mas abrange toda a criação.</p><p>Nesse sentido, Bernardo Cho convida o leitor e a leitora a refletirem sobre o <i>todo</i> das Escrituras, a fim de perceberem a unidade presente no enredo da salvação. À medida que a grande história é contada, uma visão mais completa e ainda mais magnífica do Criador é revelada, com implicações imediatas sobre nossa vocação e nosso envolvimento no mundo.</p><p> </p><p>Um excelente exemplo de como os pastores podem ajudar as pessoas a compreender o enredo da Bíblia. Estou empolgado com este livro, com seu conteúdo, com o conceito por trás dele, e com o modelo que ele providencia para seus leitores.</p><p>Christopher J. H. Wright</p><p> </p><p>Bernardo Cho nos oferece a compreensão da &quot;grande história&quot;, do enredo bíblico da salvação e de suas implicações para o povo de Deus, e o faz de forma brilhante, combinando sólido conhecimento bíblico-teológico com uma perspectiva marcantemente pastoral.</p><p>Estevan F. Kirschner</p><p> </p><p>Deus, o criador, virá e viverá conosco, transformando a criação por meio da obra de Jesus e do poder do Espírito. O presente livro delineia essa mensagem bíblica central de modo cativante e acessível, com potencial para revolucionar nossas esperanças, nossas orações e nossa atuação no mundo de Deus.</p><p>N. T. Wright</p>"
+  },
+  "publishing": {
+    "PublishingRoleCode": "01",
+    "PublishingRole": "Publisher",
+    "PublisherName": "Editora Mundo Cristão",
+    "PublishingStatusCode": "04",
+    "PublishingStatus": "Active",
+    "PublishingDate": [
+      {
+        "publishingDateRoleCode": "01",
+        "publishingDateRole": "Publication date",
+        "publishingDate": "2022-05-20"
+      },
+      {
+        "publishingDateRoleCode": "02",
+        "publishingDateRole": "Sales embargo date",
+        "publishingDate": "2022-05-20"
+      },
+      {
+        "publishingDateRoleCode": "19",
+        "publishingDateRole": "Publication date of print counterpart",
+        "publishingDate": "2021-04-26"
+      }
+    ],
+    "SalesRightsTypeCode": "02",
+    "SalesRightsType": "For sale with non-exclusive rights in the specified countries or territories",
+    "Territory": [
+      {
+        "CountriesIncluded": "BR"
+      }
+    ]
+  },
+  "contributors": [
+    {
+      "sequence": 1,
+      "contributorRoleCode": "A07",
+      "contributorRole": "By (artist)",
+      "personName": "Bernardo Cho"
+    },
+    {
+      "sequence": 2,
+      "contributorRoleCode": "A01",
+      "contributorRole": "By (author)",
+      "personName": "Bernardo Cho"
+    },
+    {
+      "sequence": 3,
+      "contributorRoleCode": "E07",
+      "contributorRole": "Read by",
+      "personName": "Rafael Pucca"
+    }
+  ],
+  "price": [
+    {
+      "priceTypeCode": "42",
+      "PriceTypeDescription": "Publishers retail price including tax",
+      "currencyCode": "BRL",
+      "priceAmount": "44.9"
+    }
+  ],
+  "resources": [
+    {
+      "ResourceContentTypeCode": "01",
+      "ResourceContentType": "Front cover",
+      "ResourceModeCode": "03",
+      "ResourceMode": "Image",
+      "ResourceFormCode": "02",
+      "ResourceForm": "Downloadable file",
+      "ResourceLink": "9786559880164.jpg"
+    }
+  ],
+  "extent": [
+    {
+      "ExtentTypeCode": "09",
+      "ExtentType": "Duration",
+      "ExtentValue": "27900",
+      "ExtentUnitCode": "06",
+      "ExtentUnit": "Seconds (integer only)"
+    },
+    {
+      "ExtentTypeCode": "09",
+      "ExtentType": "Duration",
+      "ExtentValue": "24",
+      "ExtentUnitCode": "11",
+      "ExtentUnit": "Tracks"
+    }
+  ],
+  "keywords": [
+    "estrutura teológica",
+    "plano da salvação",
+    "N. T. Wright",
+    "história bíblica",
+    "cura do mundo",
+    "Nova Jerusalém",
+    "Novos céus",
+    "nova terra",
+    "igreja",
+    "povo escolhido",
+    "Christopher Wright",
+    "soteriologia",
+    "escatologia"
+  ],
+  "chapters": [
+    {
+      "index": "1",
+      "title": "Apresentação e prefácio",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "6",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_1_DEWM50582116.mp3"
+    },
+    {
+      "index": "2",
+      "title": "Agradecimentos",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "2",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_2_DEWM50582117.mp3"
+    },
+    {
+      "index": "3",
+      "title": "Introdução: Antes de tudo, ajustemos os ponteiros",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "14",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_3_DEWM50582118.mp3"
+    },
+    {
+      "index": "4",
+      "title": "Parte I: Da criação a Israel – 1. No princípio, Deus formou e preencheu: A criação como espaço sagrado",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "19",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_4_DEWM50582119.mp3"
+    },
+    {
+      "index": "5",
+      "title": "2. Desconfiança, ruptura e morte: A instalação do caos na queda",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "21",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_5_DEWM50582120.mp3"
+    },
+    {
+      "index": "6",
+      "title": "3. Uma família, bênção para todos os povos: A promessa de Deus a Abraão",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "18",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_6_DEWM50582121.mp3"
+    },
+    {
+      "index": "7",
+      "title": "4. Livres para um recomeço: O êxodo como o início de uma nova criação",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "23",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_7_DEWM50582122.mp3"
+    },
+    {
+      "index": "8",
+      "title": "5. Tal pai, tal filho: O chamado de Israel",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "21",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_8_DEWM50582123.mp3"
+    },
+    {
+      "index": "9",
+      "title": "Parte II: Do Sinai ao exílio – 6. O caos no coração: O episódio do bezerro de ouro",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "24",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_9_DEWM50582124.mp3"
+    },
+    {
+      "index": "10",
+      "title": "7. Aos trancos e barrancos: O tempo dos juízes",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "20",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_10_DEWM50582125.mp3"
+    },
+    {
+      "index": "11",
+      "title": "8. Uma nação, um culto: O reinado de Davi",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "22",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_11_DEWM50582126.mp3"
+    },
+    {
+      "index": "12",
+      "title": "9. Aquele descendente (não tão) sábio: A queda de Salomão",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "20",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_12_DEWM50582127.mp3"
+    },
+    {
+      "index": "13",
+      "title": "10. Podem os mortos voltar a viver? O exílio e os profetas",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "27",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_13_DEWM50582128.mp3"
+    },
+    {
+      "index": "14",
+      "title": "Parte III: Do nascimento à ressurreição de Jesus – 11. A chegada do salvador: O descendente de Davi e de Abraão",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "25",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_14_DEWM50582129.mp3"
+    },
+    {
+      "index": "15",
+      "title": "12. A restauração da imagem de Deus: O reino de Deus é chegado",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "17",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_15_DEWM50582130.mp3"
+    },
+    {
+      "index": "16",
+      "title": "13. Cura leprosos, perdoa pecados e cala a tempestade? A autoridade divina do Messias",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "21",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_16_DEWM50582131.mp3"
+    },
+    {
+      "index": "17",
+      "title": "14. A morte da morte: O adversário final do Messias",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "25",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_17_DEWM50582132.mp3"
+    },
+    {
+      "index": "18",
+      "title": "15. A manhã decisiva: A ressurreição de Jesus",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "20",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_18_DEWM50582133.mp3"
+    },
+    {
+      "index": "19",
+      "title": "Parte IV: Do sepulcro vazio à Nova Jerusalém – 16. Adoradores de todas as nações: A missão do povo messiânico",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "15",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_19_DEWM50582134.mp3"
+    },
+    {
+      "index": "20",
+      "title": "17. Babel do avesso: A presença do Espírito Santo na Igreja",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "19",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_20_DEWM50582135.mp3"
+    },
+    {
+      "index": "21",
+      "title": "18. Não mais condenados, mas agora filhos e herdeiros: A adoção pelo Espírito Santo",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "28",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_21_DEWM50582136.mp3"
+    },
+    {
+      "index": "22",
+      "title": "19. Amostras de um mundo alternativo: O povo da reconciliação",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "23",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_22_DEWM50582137.mp3"
+    },
+    {
+      "index": "23",
+      "title": "20. No fim, Deus habitará conosco: A Nova Jerusalém e a esperança cristã",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "21",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_23_DEWM50582138.mp3"
+    },
+    {
+      "index": "24",
+      "title": "Conclusão: A história continua",
+      "resourceFeatureTypeCode": "04",
+      "resourceFeatureType": "Length in minutes",
+      "featureValue": "13",
+      "resourceFormCode": "02",
+      "resourceForm": "Downloadable file",
+      "resourceLink": "9786559880164_24_DEWM50582139.mp3"
+    }
+  ]
+}
