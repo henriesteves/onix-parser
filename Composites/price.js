@@ -9,6 +9,8 @@ const price = ({
     price: Price
   } = SupplyDetail
 
+  if (!Price) return []
+
   const priceList = []
 
   for (let i = 0; i < Price.length; i++) {

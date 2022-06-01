@@ -32,7 +32,8 @@ const onix = onixPath => {
 
   if (!release || release !== '3.0') {
     return {
-      status: 'Versão onix incompatível'
+      status: false,
+      message: ['Versão onix incompatível']
     }
   }
 
@@ -48,7 +49,7 @@ const onix = onixPath => {
         element.descriptivedetail.b012 === 'EA' ||  // EA Digital (delivered electronically)
         element.descriptivedetail.b012 === 'ED' ||  // ED Digital download
         element.descriptivedetail.b012 === 'AJ'     // AJ = Downloadable audio file
-      ) { // b012 ProductForm
+    ) { // b012 ProductForm
       digitalIndex = i
       productForm = element.descriptivedetail.b012
 
@@ -56,9 +57,35 @@ const onix = onixPath => {
     }
   }
 
-  return {
+  const productJSON = {
     ...header(Header),
-    ...product(Product[digitalIndex], productForm || Product[digitalIndex].descriptivedetail.b012),
+    ...product(Product[digitalIndex])
+  }
+
+  console.log(productJSON.resources)
+
+  const errors = []
+
+  if (productForm === 'AJ') {
+    if (!productJSON.chapters || productJSON.chapters.length === 0) {
+      errors.push('No chapters found')
+    }
+  }
+
+  if (!productJSON.resources || productJSON.resources.length === 0) {
+    errors.push('No resources found')
+  }
+
+  if (errors.length > 0) {
+    return {
+      status: false,
+      message: errors
+    }
+  }
+
+  return {
+    status: true,
+    data: productJSON
   }
 }
 

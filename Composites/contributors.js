@@ -3,6 +3,8 @@ const { getJSONfromFile, getByValue } = require('../lib/utils')
 const contributorRoleList = getJSONfromFile('CodeLists/contributorRole.json')
 
 const contributors = ({ contributor: Contributor }) => {
+  if (!Contributor) return []
+
   const contributorsList = []
 
   for (let i = 0; i < Contributor.length; i++) {

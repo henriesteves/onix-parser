@@ -25,7 +25,7 @@ const product = ({
   publishingdetail: PublishingDetail,
   productsupply: ProductSupply,
   productidentifier: ProductIdentifier,
-}, ProductForm) => {
+}) => {
   const {
     b333: ProductFormDetail,
     x416: PrimaryContentType,
