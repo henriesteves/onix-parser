@@ -79,8 +79,6 @@ const chapters = ({ contentitem: Contentitem }) => {
     })
   }
 
-  console.log('seconds', totalTimeSeconds * 60)
-
   return chaptersList
 }
 
