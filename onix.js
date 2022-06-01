@@ -22,6 +22,7 @@ const onix = onixPath => {
       '/ONIXmessage/product/descriptivedetail/contributor',
       '/ONIXmessage/product/descriptivedetail/extent',
       '/ONIXmessage/product/descriptivedetail/subject',
+      '/ONIXmessage/product/productidentifier',
       '/ONIXmessage/product/productsupply/supplydetail/price',
       '/ONIXmessage/product/publishingdetail/publishingdate',
       '/ONIXmessage/product/publishingdetail/salesrights/territory',
@@ -46,14 +47,21 @@ const onix = onixPath => {
     const element = Product[i];
 
     if (
-        element.descriptivedetail.b012 === 'EA' ||  // EA Digital (delivered electronically)
-        element.descriptivedetail.b012 === 'ED' ||  // ED Digital download
-        element.descriptivedetail.b012 === 'AJ'     // AJ = Downloadable audio file
+      element.descriptivedetail.b012.$t === 'EA' ||  // EA Digital (delivered electronically)
+      element.descriptivedetail.b012.$t === 'ED' ||  // ED Digital download
+      element.descriptivedetail.b012.$t === 'AJ'     // AJ = Downloadable audio file
     ) { // b012 ProductForm
       digitalIndex = i
-      productForm = element.descriptivedetail.b012
+      productForm = element.descriptivedetail.b012.$t
 
       break
+    }
+  }
+
+  if (productForm !== 'EA' && productForm !== 'ED' && productForm !== 'AJ') {
+    return {
+      status: false,
+      message: ['Formato do produto desconhecido']
     }
   }
 
@@ -62,18 +70,44 @@ const onix = onixPath => {
     ...product(Product[digitalIndex])
   }
 
-  console.log(productJSON.resources)
-
   const errors = []
+
+  if (!productJSON.identifiers || productJSON.identifiers.length === 0) {
+    errors.push('No identifier found')
+  }
+
+  if (productJSON.identifiers && productJSON.identifiers.length >= 1) {
+    if (productJSON.identifiers.filter(identifier => identifier.ProductIDTypeCode === '15').length === 0) {
+      errors.push('No ISBN-13 found')
+    }
+  }
+
+  if (!productJSON.title || productJSON.title.TitleText === '') {
+    errors.push('No title found')
+  }
+
+  if (!productJSON.contributors || productJSON.contributors.length === 0) {
+    errors.push('No contributor found')
+  }
+
+  if (!productJSON.price || productJSON.price.length === 0) {
+    errors.push('No price found')
+  }
+
+  if (productJSON.price && productJSON.price.length >= 1) {
+    if (productJSON.price.filter(price => price.currencyCode === 'BRL').length === 0) {
+      errors.push('No BRL price found')
+    }
+  }
+
+  if (!productJSON.resources || productJSON.resources.length === 0) {
+    errors.push('No resource found')
+  }
 
   if (productForm === 'AJ') {
     if (!productJSON.chapters || productJSON.chapters.length === 0) {
       errors.push('No chapters found')
     }
-  }
-
-  if (!productJSON.resources || productJSON.resources.length === 0) {
-    errors.push('No resources found')
   }
 
   if (errors.length > 0) {

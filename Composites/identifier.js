@@ -3,6 +3,8 @@ const { getJSONfromFile, getByValue } = require('../lib/utils')
 const ProductIdentifierTypeList = getJSONfromFile('CodeLists/productIdentifierType.json')
 
 const identifier = ProductIdentifier => {
+  if (!ProductIdentifier) return []
+
   const identifierList = []
 
   for (let i = 0; i < ProductIdentifier.length; i++) {
