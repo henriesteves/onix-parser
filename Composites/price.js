@@ -24,7 +24,7 @@ const price = ({
 
     priceList.push({
       priceTypeCode: PriceType.$t,
-      PriceTypeDescription: getByValue(priceTypeList, 'Value', PriceType.$t, 'Description'),
+      priceTypeDescription: getByValue(priceTypeList, 'Value', PriceType.$t, 'Description'),
       currencyCode: CurrencyCode.$t,
       priceAmount: PriceAmount.$t
     })

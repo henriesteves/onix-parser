@@ -23,8 +23,8 @@ const title = ({
 
   if (parseInt(TitleType.$t) === 1) {
     return {
-      TitleText: handleTitle(TitleElement),
-      Subtitle: handleSubTitle(TitleElement)
+      titleText: handleTitle(TitleElement),
+      subtitle: handleSubTitle(TitleElement)
     }
   }
 }

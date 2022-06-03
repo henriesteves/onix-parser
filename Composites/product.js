@@ -33,21 +33,23 @@ const product = ({
   } = DescriptiveDetail
 
   return {
-    RecordReference: RecordReference.$t,
+    recordReference: RecordReference.$t,
 
-    NotificationType: NotificationType.$t,
-    Notification: getByValue(NotificationTypeList, 'Value', NotificationType.$t, 'Description'),
+    notificationType: NotificationType.$t,
+    notification: getByValue(NotificationTypeList, 'Value', NotificationType.$t, 'Description'),
 
-    ProductFormDetailCode: ProductFormDetail.$t,
-    ProductFormDetail: getByValue(ProductFormDetailList, 'Value', ProductFormDetail.$t, 'Description'),
+    productFormDetailCode: ProductFormDetail.$t,
+    productFormDetail: getByValue(ProductFormDetailList, 'Value', ProductFormDetail.$t, 'Description'),
 
-    PrimaryContentTypeCode: PrimaryContentType.$t,
-    PrimaryContentType: getByValue(ProductContentTypeList, 'Value', PrimaryContentType.$t, 'Description'),
+    primaryContentTypeCode: PrimaryContentType.$t,
+    primaryContentType: getByValue(ProductContentTypeList, 'Value', PrimaryContentType.$t, 'Description'),
 
-    EpubTechnicalProtectionCode: EpubTechnicalProtection.$t,
-    EpubTechnicalProtection: getByValue(EPublicationTechnicalProtectionList, 'Value', EpubTechnicalProtection.$t, 'Description'),
+    epubTechnicalProtectionCode: EpubTechnicalProtection.$t,
+    epubTechnicalProtection: getByValue(EPublicationTechnicalProtectionList, 'Value', EpubTechnicalProtection.$t, 'Description'),
 
     identifiers: identifier(ProductIdentifier),
+
+    iSNB13: identifier(ProductIdentifier).filter(identifier => identifier.productIDTypeCode === '15')[0].iDValue,
 
     title: title(DescriptiveDetail),
 
@@ -58,6 +60,8 @@ const product = ({
     contributors: contributors(DescriptiveDetail),
 
     price: price(ProductSupply),
+
+    priceBRL: price(ProductSupply).filter(price => price.currencyCode === 'BRL')[0].priceAmount,
 
     resources: resource(CollateralDetail),
 

@@ -14,9 +14,9 @@ const identifier = ProductIdentifier => {
     } = ProductIdentifier[i];
 
     identifierList.push({
-      ProductIDTypeCode: ProductIDType.$t,
-      ProductIDType: getByValue(ProductIdentifierTypeList, 'Value', ProductIDType.$t, 'Description'),
-      IDValue: IDValue.$t
+      productIDTypeCode: ProductIDType.$t,
+      productIDType: getByValue(ProductIdentifierTypeList, 'Value', ProductIDType.$t, 'Description'),
+      iDValue: IDValue.$t
     })
   }
 

@@ -53,20 +53,20 @@ const publishing = ({
   }
 
   return {
-    PublishingRoleCode: PublishingRole.$t,
-    PublishingRole: getByValue(PublishingRoleList, 'Value', PublishingRole.$t, 'Description'),
+    publishingRoleCode: PublishingRole.$t,
+    publishingRole: getByValue(PublishingRoleList, 'Value', PublishingRole.$t, 'Description'),
 
-    PublisherName: PublisherName.$t,
+    publisherName: PublisherName.$t,
 
-    PublishingStatusCode: PublishingStatus ? PublishingStatus.$t : '',
-    PublishingStatus: PublishingStatus ? getByValue(PublishingStatusList, 'Value', PublishingStatus.$t, 'Description') : '',
+    publishingStatusCode: PublishingStatus ? PublishingStatus.$t : '',
+    publishingStatus: PublishingStatus ? getByValue(PublishingStatusList, 'Value', PublishingStatus.$t, 'Description') : '',
 
-    PublishingDate: publishingDateList,
+    publishingDate: publishingDateList,
 
-    SalesRightsTypeCode: SalesRightsType.$t,
-    SalesRightsType: getByValue(SalesRightsTypeList, 'Value', SalesRightsType.$t, 'Description'),
+    salesRightsTypeCode: SalesRightsType.$t,
+    salesRightsType: getByValue(SalesRightsTypeList, 'Value', SalesRightsType.$t, 'Description'),
 
-    Territory: territoryList
+    territory: territoryList
   }
 }
 

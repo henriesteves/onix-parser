@@ -18,11 +18,11 @@ const extent = ({
     } = element
 
     extentList.push({
-      ExtentTypeCode: ExtentType.$t,
-      ExtentType: getByValue(ExtentTypeList, 'Value', ExtentType.$t, 'Description'),
-      ExtentValue: ExtentValue.$t,
-      ExtentUnitCode: ExtentUnit.$t,
-      ExtentUnit: getByValue(ExtentUnitList, 'Value', ExtentUnit.$t, 'Description')
+      extentTypeCode: ExtentType.$t,
+      extentType: getByValue(ExtentTypeList, 'Value', ExtentType.$t, 'Description'),
+      extentValue: ExtentValue.$t,
+      extentUnitCode: ExtentUnit.$t,
+      extentUnit: getByValue(ExtentUnitList, 'Value', ExtentUnit.$t, 'Description')
     })
   }
 

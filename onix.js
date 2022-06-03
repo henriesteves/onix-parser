@@ -82,13 +82,17 @@ const onix = onixPath => {
     }
 
     if (productJSON.identifiers && productJSON.identifiers.length >= 1) {
-      if (productJSON.identifiers.filter(identifier => identifier.ProductIDTypeCode === '15').length === 0) {
-        errors.push('No ISBN-13 found')
+      if (productJSON.identifiers.filter(identifier => identifier.productIDTypeCode === '15').length === 0) {
+        errors.push('No ISBN-13 identifier found')
       }
     }
 
-    if (!productJSON.title || productJSON.title.TitleText === '') {
+    if (!productJSON.title || !productJSON.title.titleText || productJSON.title.titleText === '') {
       errors.push('No title found')
+    }
+
+    if (!productJSON.details || !productJSON.details.description || productJSON.details.description === '') {
+      errors.push('No de found')
     }
 
     if (!productJSON.contributors || productJSON.contributors.length === 0) {
@@ -109,9 +113,10 @@ const onix = onixPath => {
       errors.push('No resource found')
     }
 
+    // audiobook
     if (productForm === 'AJ') {
       if (!productJSON.chapters || productJSON.chapters.length === 0) {
-        errors.push('No chapters found')
+        errors.push('No chapter found')
       }
     }
 

@@ -26,16 +26,16 @@ const resource = ({
     } = ResourceVersion
 
     supportingResourceList.push({
-      ResourceContentTypeCode: ResourceContentType.$t,
-      ResourceContentType: getByValue(ResourceContentTypeList, 'Value', ResourceContentType.$t, 'Description'),
+      resourceContentTypeCode: ResourceContentType.$t,
+      resourceContentType: getByValue(ResourceContentTypeList, 'Value', ResourceContentType.$t, 'Description'),
 
-      ResourceModeCode: ResourceMode.$t,
-      ResourceMode: getByValue(ResourceModeList, 'Value', ResourceMode.$t, 'Description'),
+      resourceModeCode: ResourceMode.$t,
+      resourceMode: getByValue(ResourceModeList, 'Value', ResourceMode.$t, 'Description'),
 
-      ResourceFormCode: ResourceForm.$t,
-      ResourceForm: getByValue(ResourceFormList, 'Value', ResourceForm.$t, 'Description'),
+      resourceFormCode: ResourceForm.$t,
+      resourceForm: getByValue(ResourceFormList, 'Value', ResourceForm.$t, 'Description'),
 
-      ResourceLink: ResourceLink.$t
+      resourceLink: ResourceLink.$t
     })
   }
 

@@ -3,7 +3,11 @@ const XMLMapping = require('xml-mapping')
 const details = ({
   textcontent: TextContent
 }) => {
-  const result = {}
+  const result = {
+    shortDescription: '',
+    description: '',
+    toc: ''
+  }
 
   for (let i = 0; i < TextContent.length; i++) {
     const element = TextContent[i];
