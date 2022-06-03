@@ -1,8 +1,12 @@
+const { formatDateISO } = require('../lib/utils')
+
 const header = ({
-  x307: SentDateTime
+  x307: SentDateTime,
+  sender: Sender
 }) => {
   return {
-    SentDateTime: SentDateTime.$t
+    sentDateTime: formatDateISO(SentDateTime.$t),
+    senderName: Sender.x298.$t
   }
 }
 
