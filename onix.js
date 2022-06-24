@@ -110,7 +110,7 @@ const onix = onixPath => {
     }
 
     if (!productJSON.resources || productJSON.resources.length === 0) {
-      errors.push('No resource found')
+      // errors.push('No resource found')
     }
 
     // audiobook

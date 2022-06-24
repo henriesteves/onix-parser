@@ -8,6 +8,7 @@ const { resource } = require('./resource')
 const { extent } = require('./extent')
 const { keywords } = require('./keywords')
 const { chapters } = require('./chapters')
+const { categories } = require('./categories')
 
 const { getJSONfromFile, getByValue } = require('../lib/utils')
 
@@ -69,7 +70,9 @@ const product = ({
 
     keywords: keywords(DescriptiveDetail),
 
-    chapters: chapters(Contentdetail || [])
+    chapters: chapters(Contentdetail || []),
+
+    categories: categories(DescriptiveDetail)
   }
 }
 
