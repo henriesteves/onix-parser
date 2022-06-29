@@ -9,6 +9,8 @@ const { extent } = require('./extent')
 const { keywords } = require('./keywords')
 const { chapters } = require('./chapters')
 const { categories } = require('./categories')
+const { related } = require('./related')
+const { collection } = require('./collection')
 
 const { getJSONfromFile, getByValue } = require('../lib/utils')
 
@@ -26,6 +28,7 @@ const product = ({
   publishingdetail: PublishingDetail,
   productsupply: ProductSupply,
   productidentifier: ProductIdentifier,
+  relatedmaterial: RelatedMaterial,
 }) => {
   const {
     b333: ProductFormDetail,
@@ -72,7 +75,11 @@ const product = ({
 
     chapters: chapters(Contentdetail || []),
 
-    categories: categories(DescriptiveDetail)
+    categories: categories(DescriptiveDetail),
+
+    // related: related(RelatedMaterial),
+
+    // collection: collection(DescriptiveDetail)
   }
 }
 

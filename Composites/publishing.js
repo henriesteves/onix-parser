@@ -44,11 +44,17 @@ const publishing = ({
     const element = Territory[i];
 
     const {
-      x449: CountriesIncluded
+      x449: CountriesIncluded,
+      x450: RegionsIncluded,
+      x451: CountriesExcluded,
+      x452: RegionsExcluded
     } = element
 
     territoryList.push({
-      CountriesIncluded: CountriesIncluded.$t,
+      CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
+      RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
+      CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
+      RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
     })
   }
 

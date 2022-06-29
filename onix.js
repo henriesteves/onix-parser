@@ -25,12 +25,15 @@ const onix = onixPath => {
         '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion',
         '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion/resourceversionfeature',
         '/ONIXmessage/product/descriptivedetail/contributor',
+        '/ONIXmessage/product/descriptivedetail/collection',
+        '/ONIXmessage/product/descriptivedetail/collection/titledetail/titleelement',
         '/ONIXmessage/product/descriptivedetail/extent',
         '/ONIXmessage/product/descriptivedetail/subject',
         '/ONIXmessage/product/productidentifier',
         '/ONIXmessage/product/productsupply/supplydetail/price',
         '/ONIXmessage/product/publishingdetail/publishingdate',
         '/ONIXmessage/product/publishingdetail/salesrights/territory',
+        '/ONIXmessage/product/relatedmaterial/relatedproduct',
       ]
     })
 
