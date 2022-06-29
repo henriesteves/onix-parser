@@ -9,6 +9,7 @@ const { extent } = require('./extent')
 const { keywords } = require('./keywords')
 const { chapters } = require('./chapters')
 const { categories } = require('./categories')
+const { formDetail } = require('./formDetail')
 const { related } = require('./related')
 const { collection } = require('./collection')
 
@@ -42,8 +43,12 @@ const product = ({
     notificationType: NotificationType.$t,
     notification: getByValue(NotificationTypeList, 'Value', NotificationType.$t, 'Description'),
 
-    productFormDetailCode: ProductFormDetail.$t,
-    productFormDetail: getByValue(ProductFormDetailList, 'Value', ProductFormDetail.$t, 'Description'),
+
+    productFormDetail: formDetail(ProductFormDetail),
+
+    // productForm: ProductFormDetail.$t,
+    // productFormDetailCode: ProductFormDetail.$t,
+    // productFormDetail: getByValue(ProductFormDetailList, 'Value', ProductFormDetail.$t, 'Description'),
 
     primaryContentTypeCode: PrimaryContentType.$t,
     primaryContentType: getByValue(ProductContentTypeList, 'Value', PrimaryContentType.$t, 'Description'),
