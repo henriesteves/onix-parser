@@ -4,6 +4,7 @@ const PublishingRoleList = getJSONfromFile('CodeLists/publishingRole.json')
 const PublishingDateRoleList = getJSONfromFile('CodeLists/publishingDateRole.json')
 const PublishingStatusList = getJSONfromFile('CodeLists/publishingStatus.json')
 const SalesRightsTypeList = getJSONfromFile('CodeLists/salesRightsType.json')
+const SalesRestrictionTypeList = getJSONfromFile('CodeLists/salesRestrictionType.json')
 
 const publishing = ({
   publisher: Publisher,
@@ -16,11 +17,7 @@ const publishing = ({
     b081: PublisherName
   } = Publisher
 
-  const {
-    b089: SalesRightsType,
-    territory: Territory
-  } = SalesRights
-
+  // PublisherDate
   const publishingDateList = []
 
   for (let i = 0; i < PublishingDate.length; i++) {
@@ -38,25 +35,68 @@ const publishing = ({
     })
   }
 
-  const territoryList = []
+  // SalesRights
+  const salesRightsList = []
 
-  for (let i = 0; i < Territory.length; i++) {
-    const element = Territory[i];
+  for (let i = 0; i < SalesRights.length; i++) {
+    const element = SalesRights[i];
 
     const {
-      x449: CountriesIncluded,
-      x450: RegionsIncluded,
-      x451: CountriesExcluded,
-      x452: RegionsExcluded
+      b089: SalesRightsType,
+      territory: Territory,
+      salesrestriction: SalesRestriction
     } = element
 
-    territoryList.push({
-      CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
-      RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
-      CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
-      RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
+    // Territory
+    const territoryList = []
+
+    for (let j = 0; j < Territory.length; j++) {
+      const element = Territory[j];
+
+      const {
+        x449: CountriesIncluded,
+        x450: RegionsIncluded,
+        x451: CountriesExcluded,
+        x452: RegionsExcluded
+      } = element
+
+      territoryList.push({
+        CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
+        RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
+        CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
+        RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
+      })
+    }
+
+    // SalesRestriction
+    const SalesRestrictionList = []
+
+    if (SalesRestriction && SalesRestriction.length > 0) {
+      for (let j = 0; j < SalesRestriction.length; j++) {
+        const element = SalesRestriction[j];
+
+        const {
+          b381: SalesRestrictionType,
+          x453: SalesRestrictionNote
+        } = element
+
+        SalesRestrictionList.push({
+          salesRestrictionTypeCode: SalesRestrictionType.$t,
+          salesRestrictionType: getByValue(SalesRestrictionTypeList, 'Value', SalesRestrictionType.$t, 'Description'),
+          salesRestrictionNote: SalesRestrictionNote ? SalesRestrictionNote.$t : ''
+        })
+      }
+    }
+
+    salesRightsList.push({
+      salesRightsTypeCode: SalesRightsType.$t,
+      salesRightsType: getByValue(SalesRightsTypeList, 'Value', SalesRightsType.$t, 'Description'),
+      territory: territoryList,
+      salesRestriction: SalesRestrictionList
     })
   }
+
+
 
   return {
     publishingRoleCode: PublishingRole.$t,
@@ -69,10 +109,7 @@ const publishing = ({
 
     publishingDate: publishingDateList,
 
-    salesRightsTypeCode: SalesRightsType.$t,
-    salesRightsType: getByValue(SalesRightsTypeList, 'Value', SalesRightsType.$t, 'Description'),
-
-    territory: territoryList
+    salesRights: salesRightsList
   }
 }
 

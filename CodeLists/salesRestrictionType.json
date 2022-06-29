@@ -1,0 +1,107 @@
+[
+  {
+    "Value": "00",
+    "Description": "Unspecified – see text",
+    "Notes": "Restriction must be described in <SalesRestrictionDetail> (ONIX 2.1) or <SalesRestrictionNote> (ONIX 3.0)"
+  },
+  {
+    "Value": "01",
+    "Description": "Retailer exclusive / own brand",
+    "Notes": "Sales rights (or market distribution rights) apply to sales through designated retailer(s), which must be identified or named in an instance of the <SalesOutlet> composite. Use only when it is not possible to assign the more explicit codes 04 or 05"
+  },
+  {
+    "Value": "02",
+    "Description": "Through office supplies outlets only",
+    "Notes": "Sales rights (or market distribution rights) apply to sales though office supplies channels. Specific outlet(s) may be identified or named in an instance of the <SalesOutlet> composite"
+  },
+  {
+    "Value": "03",
+    "Description": "Internal publisher use only: do not list",
+    "Notes": "For an ISBN that is assigned for a publisher’s internal purposes"
+  },
+  {
+    "Value": "04",
+    "Description": "Retailer exclusive",
+    "Notes": "Sales rights (or market distribution rights) apply to sales (under the publisher’s brand / imprint) through the designated retailer(s), which must be identified or named in an instance of the <SalesOutlet> composite"
+  },
+  {
+    "Value": "05",
+    "Description": "Retailer own brand",
+    "Notes": "Sales rights (or market distribution rights) apply to sales (under the retailer’s own brand / imprint) through the designated retailer(s), which must be identified or named in an instance of the <SalesOutlet> composite"
+  },
+  {
+    "Value": "06",
+    "Description": "To libraries only",
+    "Notes": "Sales rights (or market distribution rights) apply to supplies to libraries"
+  },
+  {
+    "Value": "07",
+    "Description": "To schools only",
+    "Notes": "Sales rights (or market distribution rights) apply to supplies to schools"
+  },
+  {
+    "Value": "08",
+    "Description": "Indiziert",
+    "Notes": "Indexed for the German market – in Deutschland indiziert"
+  },
+  {
+    "Value": "09",
+    "Description": "Except to libraries",
+    "Notes": "Sales rights (or market distribution rights) apply to supplies other than to libraries"
+  },
+  {
+    "Value": "10",
+    "Description": "Through news outlets only",
+    "Notes": "Sales rights (or market distribution rights) apply to sales though news outlet channels (newsstands / newsagents)"
+  },
+  {
+    "Value": "11",
+    "Description": "Retailer exception",
+    "Notes": "Sales rights (or market distribution rights) apply to sales other than through designated retailer(s), which must be identified or named in the <SalesOutlet> composite"
+  },
+  {
+    "Value": "12",
+    "Description": "Except to subscription services",
+    "Notes": "Sales rights (or market distribution rights) apply to supplies other than to organisations or services offering consumers subscription access to a catalog of books"
+  },
+  {
+    "Value": "13",
+    "Description": "To subscription services only",
+    "Notes": "Sales rights (or market distribution rights) apply to supplies to organisations or services offering consumers subscription access to a catalog of books"
+  },
+  {
+    "Value": "14",
+    "Description": "Except through online retail",
+    "Notes": "Sales rights (or market distribution rights) apply to sales other than through online retail channels"
+  },
+  {
+    "Value": "15",
+    "Description": "Through online retail only",
+    "Notes": "Sales rights (or market distribution rights) apply to sales through online retail channels"
+  },
+  {
+    "Value": "16",
+    "Description": "Except to schools",
+    "Notes": "Sales rights (or market distribution rights) apply to supplies other than to schools. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "17",
+    "Description": "Through Inventoryless POD",
+    "Notes": "POD copies may be manufactured at any time, either to fulfill a customer order immediately or to replace a minimal stockholding (ie near-inventoryless). Only valid in ONIX 3.0"
+  },
+  {
+    "Value": "18",
+    "Description": "Through Stock Protection POD",
+    "Notes": "POD copies may be manfactured only to fulfill a customer order immediately while out of stock and awaiting delivery of further stock from the supplier. Only valid in ONIX 3.0"
+  },
+  {
+    "Value": "19",
+    "Description": "Except through POD",
+    "Notes": "Not eligible for POD. Only valid in ONIX 3.0"
+  },
+  {
+    "Value": "99",
+    "Description": "No restrictions on sales",
+    "Notes": "Positive indication that no sales restrictions apply, for example to indicate the product may be sold both online and in bricks-and mortar retail, or to subscription services and non-subscription customers. For use in ONIX 3.0 only"
+  }
+]

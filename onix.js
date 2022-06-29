@@ -32,7 +32,9 @@ const onix = onixPath => {
         '/ONIXmessage/product/productidentifier',
         '/ONIXmessage/product/productsupply/supplydetail/price',
         '/ONIXmessage/product/publishingdetail/publishingdate',
+        '/ONIXmessage/product/publishingdetail/salesrights',
         '/ONIXmessage/product/publishingdetail/salesrights/territory',
+        '/ONIXmessage/product/publishingdetail/salesrights/salesrestriction',
         '/ONIXmessage/product/relatedmaterial/relatedproduct',
       ]
     })
