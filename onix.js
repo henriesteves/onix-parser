@@ -76,17 +76,15 @@ const onix = onixPath => {
       })
     }
 
-    for (let i = 0; i < Product[digitalIndex].descriptivedetail.b333.length; i++) {
-      const element = Product[digitalIndex].descriptivedetail.b333[i];
+    // A103 >	MP3 format
+    // E101	> EPUB
+    const ProductFormDetailValids = Product[digitalIndex].descriptivedetail.b333.filter(e => e.$t === 'A103' || e.$t === 'E101')
 
-      // A103 >	MP3 format
-      // E101	> EPUB
-      if (element.$t !== 'A103' && element.$t !== 'E101') {
-        resolve({
-          status: false,
-          message: ['ProductFormDetail unknown']
-        })
-      }
+    if (ProductFormDetailValids.length === 0) {
+      resolve({
+        status: false,
+        message: ['ProductFormDetail unknown']
+      })
     }
 
     const productJSON = {
