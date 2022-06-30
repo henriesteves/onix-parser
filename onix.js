@@ -45,7 +45,7 @@ const onix = onixPath => {
     if (!release || release !== '3.0') {
       resolve({
         status: false,
-        message: ['Versão onix incompatível']
+        message: ['Invalid ONIX version']
       })
     }
 
@@ -72,8 +72,19 @@ const onix = onixPath => {
     if (productForm !== 'EA' && productForm !== 'ED' && productForm !== 'AJ') {
       resolve({
         status: false,
-        message: ['Formato do produto desconhecido']
+        message: ['ProductForm unknown']
       })
+    }
+
+    for (let i = 0; i < Product[digitalIndex].descriptivedetail.b333.length; i++) {
+      const element = Product[digitalIndex].descriptivedetail.b333[i];
+
+      if (element.$t !== 'E201' && element.$t !== 'E101') {
+        resolve({
+          status: false,
+          message: ['ProductFormDetail unknown']
+        })
+      }
     }
 
     const productJSON = {
