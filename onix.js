@@ -28,6 +28,7 @@ const onix = onixPath => {
         '/ONIXmessage/product/descriptivedetail/collection',
         '/ONIXmessage/product/descriptivedetail/collection/titledetail/titleelement',
         '/ONIXmessage/product/descriptivedetail/extent',
+        '/ONIXmessage/product/descriptivedetail/language',
         '/ONIXmessage/product/descriptivedetail/subject',
         '/ONIXmessage/product/descriptivedetail/b333', // ProductFormDetail
         '/ONIXmessage/product/productidentifier',
@@ -121,7 +122,7 @@ const onix = onixPath => {
     }
 
     if (productJSON.price && productJSON.price.length >= 1) {
-      if (productJSON.price.filter(price => price.currencyCode === 'BRL').length === 0) {
+      if (productJSON.price.filter(price => price.currencyCode === 'BRL' && price.countriesIncluded.includes('BR')).length === 0) {
         errors.push('No BRL price found')
       }
     }

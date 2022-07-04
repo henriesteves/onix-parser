@@ -19,15 +19,21 @@ const price = ({
     const {
       x462: PriceType,
       j151: PriceAmount,
-      j152: CurrencyCode
+      j152: CurrencyCode,
+      territory: Territory
     } = element
 
-    priceList.push({
-      priceTypeCode: PriceType.$t,
-      priceTypeDescription: getByValue(priceTypeList, 'Value', PriceType.$t, 'Description'),
-      currencyCode: CurrencyCode.$t,
-      priceAmount: PriceAmount.$t
-    })
+    const countriesIncluded = Territory.x449.$t.split(' ')
+
+    if (countriesIncluded.includes('BR')) {
+      priceList.push({
+        priceTypeCode: PriceType.$t,
+        priceTypeDescription: getByValue(priceTypeList, 'Value', PriceType.$t, 'Description'),
+        currencyCode: CurrencyCode.$t,
+        priceAmount: PriceAmount.$t,
+        countriesIncluded
+      })
+    }
   }
 
   return priceList

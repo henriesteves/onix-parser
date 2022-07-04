@@ -10,6 +10,7 @@ const { keywords } = require('./keywords')
 const { chapters } = require('./chapters')
 const { categories } = require('./categories')
 const { formDetail } = require('./formDetail')
+const { language } = require('./language')
 const { related } = require('./related')
 const { collection } = require('./collection')
 
@@ -43,12 +44,7 @@ const product = ({
     notificationType: NotificationType.$t,
     notification: getByValue(NotificationTypeList, 'Value', NotificationType.$t, 'Description'),
 
-
     productFormDetail: formDetail(ProductFormDetail),
-
-    // productForm: ProductFormDetail.$t,
-    // productFormDetailCode: ProductFormDetail.$t,
-    // productFormDetail: getByValue(ProductFormDetailList, 'Value', ProductFormDetail.$t, 'Description'),
 
     primaryContentTypeCode: PrimaryContentType.$t,
     primaryContentType: getByValue(ProductContentTypeList, 'Value', PrimaryContentType.$t, 'Description'),
@@ -70,7 +66,7 @@ const product = ({
 
     price: price(ProductSupply),
 
-    priceBRL: price(ProductSupply).filter(price => price.currencyCode === 'BRL')[0].priceAmount,
+    priceBRL: price(ProductSupply).filter(price => price.currencyCode === 'BRL' && price.countriesIncluded.includes('BR'))[0].priceAmount,
 
     resources: resource(CollateralDetail),
 
@@ -81,6 +77,8 @@ const product = ({
     chapters: chapters(Contentdetail || []),
 
     categories: categories(DescriptiveDetail),
+
+    language: language(DescriptiveDetail),
 
     // related: related(RelatedMaterial),
 

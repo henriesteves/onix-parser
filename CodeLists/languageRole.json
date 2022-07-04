@@ -1,0 +1,52 @@
+[
+  {
+    "Value": "01",
+    "Description": "Language of text",
+    "Notes": ""
+  },
+  {
+    "Value": "02",
+    "Description": "Original language of a translated text",
+    "Notes": "Where the text in the original language is NOT part of the current product"
+  },
+  {
+    "Value": "03",
+    "Description": "Language of abstracts",
+    "Notes": "Where different from language of text: used mainly for serials"
+  },
+  {
+    "Value": "06",
+    "Description": "Original language in a multilingual edition",
+    "Notes": "Where the text in the original language is part of a bilingual or multilingual product"
+  },
+  {
+    "Value": "07",
+    "Description": "Translated language in a multilingual edition",
+    "Notes": "Where the text in a translated language is part of a bilingual or multilingual product"
+  },
+  {
+    "Value": "08",
+    "Description": "Language of audio track",
+    "Notes": "For example, on an audiobook or video product. Use for the only available audio track, or where there are multiple tracks (eg on a DVD), for an alternate language audio track that is NOT the original. (In the latter case, use code 11 for the original language audio if it is included in the product, or code 10 to identify an original language that is not present in the product)"
+  },
+  {
+    "Value": "09",
+    "Description": "Language of subtitles",
+    "Notes": "For example, on a DVD"
+  },
+  {
+    "Value": "10",
+    "Description": "Language of original audio track",
+    "Notes": "Where the audio in the original language is NOT part of the current product"
+  },
+  {
+    "Value": "11",
+    "Description": "Original language audio track in a multilingual product",
+    "Notes": "Where the audio in the original language is part of a multilingual product with multiple audio tracks"
+  },
+  {
+    "Value": "12",
+    "Description": "Language of notes",
+    "Notes": "Use for the language of footnotes, endnotes, annotations or commentary, etc, where it is different from the language of the main text"
+  }
+]

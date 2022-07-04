@@ -60,13 +60,20 @@ const publishing = ({
         x452: RegionsExcluded
       } = element
 
-      territoryList.push({
-        CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
-        RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
-        CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
-        RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
-      })
+      if (
+        (CountriesIncluded && CountriesIncluded.$t === 'BR') ||
+        (RegionsIncluded && RegionsIncluded.$t === 'WORLD')
+      ) {
+        territoryList.push({
+          CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
+          RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
+          CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
+          RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
+        })
+      }
     }
+
+    if (territoryList.length === 0) continue
 
     // SalesRestriction
     const SalesRestrictionList = []

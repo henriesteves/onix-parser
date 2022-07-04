@@ -1,0 +1,2622 @@
+[
+  {
+    "Value": "aar",
+    "Description": "Afar",
+    "Notes": ""
+  },
+  {
+    "Value": "abk",
+    "Description": "Abkhazian",
+    "Notes": ""
+  },
+  {
+    "Value": "ace",
+    "Description": "Achinese",
+    "Notes": ""
+  },
+  {
+    "Value": "ach",
+    "Description": "Acoli",
+    "Notes": ""
+  },
+  {
+    "Value": "ada",
+    "Description": "Adangme",
+    "Notes": ""
+  },
+  {
+    "Value": "ady",
+    "Description": "Adygei; Adyghe",
+    "Notes": "(West Circassian)"
+  },
+  {
+    "Value": "afa",
+    "Description": "Afro-Asiatic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "afh",
+    "Description": "Afrihili",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "afr",
+    "Description": "Afrikaans",
+    "Notes": ""
+  },
+  {
+    "Value": "ain",
+    "Description": "Ainu",
+    "Notes": ""
+  },
+  {
+    "Value": "aka",
+    "Description": "Akan",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "akk",
+    "Description": "Akkadian",
+    "Notes": ""
+  },
+  {
+    "Value": "alb",
+    "Description": "Albanian",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "ale",
+    "Description": "Aleut",
+    "Notes": ""
+  },
+  {
+    "Value": "alg",
+    "Description": "Algonquian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "alt",
+    "Description": "Southern Altai",
+    "Notes": ""
+  },
+  {
+    "Value": "amh",
+    "Description": "Amharic",
+    "Notes": ""
+  },
+  {
+    "Value": "ang",
+    "Description": "English, Old (ca. 450-1100)",
+    "Notes": ""
+  },
+  {
+    "Value": "anp",
+    "Description": "Angika",
+    "Notes": ""
+  },
+  {
+    "Value": "apa",
+    "Description": "Apache languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "ara",
+    "Description": "Arabic",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "arc",
+    "Description": "Official Aramaic; Imperial Aramaic (700-300 BCE)",
+    "Notes": ""
+  },
+  {
+    "Value": "arg",
+    "Description": "Aragonese",
+    "Notes": ""
+  },
+  {
+    "Value": "arm",
+    "Description": "Armenian",
+    "Notes": ""
+  },
+  {
+    "Value": "arn",
+    "Description": "Mapudungun; Mapuche",
+    "Notes": ""
+  },
+  {
+    "Value": "arp",
+    "Description": "Arapaho",
+    "Notes": ""
+  },
+  {
+    "Value": "art",
+    "Description": "Artificial languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "arw",
+    "Description": "Arawak",
+    "Notes": ""
+  },
+  {
+    "Value": "asm",
+    "Description": "Assamese",
+    "Notes": ""
+  },
+  {
+    "Value": "ast",
+    "Description": "Asturian; Bable; Leonese; Asturleonese",
+    "Notes": ""
+  },
+  {
+    "Value": "ath",
+    "Description": "Athapascan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "aus",
+    "Description": "Australian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "ava",
+    "Description": "Avaric",
+    "Notes": ""
+  },
+  {
+    "Value": "ave",
+    "Description": "Avestan",
+    "Notes": ""
+  },
+  {
+    "Value": "awa",
+    "Description": "Awadhi",
+    "Notes": ""
+  },
+  {
+    "Value": "aym",
+    "Description": "Aymara",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "aze",
+    "Description": "Azerbaijani",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "bad",
+    "Description": "Banda languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bai",
+    "Description": "Bamileke languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bak",
+    "Description": "Bashkir",
+    "Notes": ""
+  },
+  {
+    "Value": "bal",
+    "Description": "Baluchi",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "bam",
+    "Description": "Bambara",
+    "Notes": ""
+  },
+  {
+    "Value": "ban",
+    "Description": "Balinese",
+    "Notes": ""
+  },
+  {
+    "Value": "baq",
+    "Description": "Basque",
+    "Notes": ""
+  },
+  {
+    "Value": "bas",
+    "Description": "Basa",
+    "Notes": ""
+  },
+  {
+    "Value": "bat",
+    "Description": "Baltic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bej",
+    "Description": "Beja; Bedawiyet",
+    "Notes": ""
+  },
+  {
+    "Value": "bel",
+    "Description": "Belarusian",
+    "Notes": ""
+  },
+  {
+    "Value": "bem",
+    "Description": "Bemba",
+    "Notes": ""
+  },
+  {
+    "Value": "ben",
+    "Description": "Bengali",
+    "Notes": ""
+  },
+  {
+    "Value": "ber",
+    "Description": "Berber languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bho",
+    "Description": "Bhojpuri",
+    "Notes": ""
+  },
+  {
+    "Value": "bih",
+    "Description": "Bihari languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bik",
+    "Description": "Bikol",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "bin",
+    "Description": "Bini; Edo",
+    "Notes": ""
+  },
+  {
+    "Value": "bis",
+    "Description": "Bislama",
+    "Notes": ""
+  },
+  {
+    "Value": "bla",
+    "Description": "Siksika",
+    "Notes": ""
+  },
+  {
+    "Value": "bnt",
+    "Description": "Bantu languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bos",
+    "Description": "Bosnian",
+    "Notes": ""
+  },
+  {
+    "Value": "bra",
+    "Description": "Braj",
+    "Notes": ""
+  },
+  {
+    "Value": "bre",
+    "Description": "Breton",
+    "Notes": ""
+  },
+  {
+    "Value": "btk",
+    "Description": "Batak languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "bua",
+    "Description": "Buriat",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "bug",
+    "Description": "Buginese",
+    "Notes": ""
+  },
+  {
+    "Value": "bul",
+    "Description": "Bulgarian",
+    "Notes": ""
+  },
+  {
+    "Value": "bur",
+    "Description": "Burmese",
+    "Notes": ""
+  },
+  {
+    "Value": "byn",
+    "Description": "Blin; Bilin",
+    "Notes": ""
+  },
+  {
+    "Value": "cad",
+    "Description": "Caddo",
+    "Notes": ""
+  },
+  {
+    "Value": "cai",
+    "Description": "Central American Indian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "car",
+    "Description": "Galibi Carib",
+    "Notes": ""
+  },
+  {
+    "Value": "cat",
+    "Description": "Catalan",
+    "Notes": ""
+  },
+  {
+    "Value": "cau",
+    "Description": "Caucasian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "ceb",
+    "Description": "Cebuano",
+    "Notes": ""
+  },
+  {
+    "Value": "cel",
+    "Description": "Celtic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "cha",
+    "Description": "Chamorro",
+    "Notes": ""
+  },
+  {
+    "Value": "chb",
+    "Description": "Chibcha",
+    "Notes": ""
+  },
+  {
+    "Value": "che",
+    "Description": "Chechen",
+    "Notes": ""
+  },
+  {
+    "Value": "chg",
+    "Description": "Chagatai",
+    "Notes": ""
+  },
+  {
+    "Value": "chi",
+    "Description": "Chinese",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "chk",
+    "Description": "Chuukese (Truk)",
+    "Notes": ""
+  },
+  {
+    "Value": "chm",
+    "Description": "Mari",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "chn",
+    "Description": "Chinook jargon",
+    "Notes": ""
+  },
+  {
+    "Value": "cho",
+    "Description": "Choctaw",
+    "Notes": ""
+  },
+  {
+    "Value": "chp",
+    "Description": "Chipewyan; Dene Suline",
+    "Notes": ""
+  },
+  {
+    "Value": "chr",
+    "Description": "Cherokee",
+    "Notes": ""
+  },
+  {
+    "Value": "chu",
+    "Description": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic",
+    "Notes": ""
+  },
+  {
+    "Value": "chv",
+    "Description": "Chuvash",
+    "Notes": ""
+  },
+  {
+    "Value": "chy",
+    "Description": "Cheyenne",
+    "Notes": ""
+  },
+  {
+    "Value": "ckb",
+    "Description": "Central Kurdish (Sorani)",
+    "Notes": "ONIX local code, equivalent to ckb in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "cmc",
+    "Description": "Chamic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "cmn",
+    "Description": "Mandarin",
+    "Notes": "ONIX local code, equivalent to cmn in ISO 639-3"
+  },
+  {
+    "Value": "cnr",
+    "Description": "Montenegrin",
+    "Notes": "For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "cop",
+    "Description": "Coptic",
+    "Notes": ""
+  },
+  {
+    "Value": "cor",
+    "Description": "Cornish",
+    "Notes": ""
+  },
+  {
+    "Value": "cos",
+    "Description": "Corsican",
+    "Notes": ""
+  },
+  {
+    "Value": "cpe",
+    "Description": "Creoles and pidgins, English-based",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "cpf",
+    "Description": "Creoles and pidgins, French-based",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "cpp",
+    "Description": "Creoles and pidgins, Portuguese-based",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "cre",
+    "Description": "Cree",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "crh",
+    "Description": "Crimean Turkish; Crimean Tatar",
+    "Notes": ""
+  },
+  {
+    "Value": "crp",
+    "Description": "Creoles and pidgins",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "csb",
+    "Description": "Kashubian",
+    "Notes": ""
+  },
+  {
+    "Value": "cus",
+    "Description": "Cushitic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "cze",
+    "Description": "Czech",
+    "Notes": ""
+  },
+  {
+    "Value": "dak",
+    "Description": "Dakota",
+    "Notes": ""
+  },
+  {
+    "Value": "dan",
+    "Description": "Danish",
+    "Notes": ""
+  },
+  {
+    "Value": "dar",
+    "Description": "Dargwa",
+    "Notes": ""
+  },
+  {
+    "Value": "day",
+    "Description": "Land Dayak languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "del",
+    "Description": "Delaware",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "den",
+    "Description": "Slave (Athapascan)",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "dgr",
+    "Description": "Dogrib",
+    "Notes": ""
+  },
+  {
+    "Value": "din",
+    "Description": "Dinka",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "div",
+    "Description": "Divehi; Dhivehi; Maldivian",
+    "Notes": ""
+  },
+  {
+    "Value": "doi",
+    "Description": "Dogri",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "dra",
+    "Description": "Dravidian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "dsb",
+    "Description": "Lower Sorbian",
+    "Notes": ""
+  },
+  {
+    "Value": "dua",
+    "Description": "Duala",
+    "Notes": ""
+  },
+  {
+    "Value": "dum",
+    "Description": "Dutch, Middle (ca. 1050-1350)",
+    "Notes": ""
+  },
+  {
+    "Value": "dut",
+    "Description": "Dutch; Flemish",
+    "Notes": ""
+  },
+  {
+    "Value": "dyu",
+    "Description": "Dyula",
+    "Notes": ""
+  },
+  {
+    "Value": "dzo",
+    "Description": "Dzongkha",
+    "Notes": ""
+  },
+  {
+    "Value": "efi",
+    "Description": "Efik",
+    "Notes": ""
+  },
+  {
+    "Value": "egl",
+    "Description": "Emilian",
+    "Notes": "ONIX local code for Italian dialect, equivalent to egl in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "egy",
+    "Description": "Egyptian (Ancient)",
+    "Notes": ""
+  },
+  {
+    "Value": "eka",
+    "Description": "Ekajuk",
+    "Notes": ""
+  },
+  {
+    "Value": "elx",
+    "Description": "Elamite",
+    "Notes": ""
+  },
+  {
+    "Value": "eng",
+    "Description": "English",
+    "Notes": ""
+  },
+  {
+    "Value": "enm",
+    "Description": "English, Middle (1100-1500)",
+    "Notes": ""
+  },
+  {
+    "Value": "epo",
+    "Description": "Esperanto",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "est",
+    "Description": "Estonian",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "ewe",
+    "Description": "Ewe",
+    "Notes": ""
+  },
+  {
+    "Value": "ewo",
+    "Description": "Ewondo",
+    "Notes": ""
+  },
+  {
+    "Value": "fan",
+    "Description": "Fang",
+    "Notes": ""
+  },
+  {
+    "Value": "fao",
+    "Description": "Faroese",
+    "Notes": ""
+  },
+  {
+    "Value": "fat",
+    "Description": "Fanti",
+    "Notes": ""
+  },
+  {
+    "Value": "fij",
+    "Description": "Fijian",
+    "Notes": ""
+  },
+  {
+    "Value": "fil",
+    "Description": "Filipino; Pilipino",
+    "Notes": ""
+  },
+  {
+    "Value": "fin",
+    "Description": "Finnish",
+    "Notes": ""
+  },
+  {
+    "Value": "fit",
+    "Description": "Meänkieli / Tornedalen Finnish",
+    "Notes": "ONIX local code, equivalent to fit in ISO 639-3"
+  },
+  {
+    "Value": "fiu",
+    "Description": "Finno-Ugrian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "fkv",
+    "Description": "Kvensk",
+    "Notes": "ONIX local code, equivalent to fkv in ISO 639-3"
+  },
+  {
+    "Value": "fon",
+    "Description": "Fon",
+    "Notes": ""
+  },
+  {
+    "Value": "fre",
+    "Description": "French",
+    "Notes": ""
+  },
+  {
+    "Value": "frm",
+    "Description": "French, Middle (ca. 1400-1600)",
+    "Notes": ""
+  },
+  {
+    "Value": "fro",
+    "Description": "French, Old (ca. 842-1400)",
+    "Notes": ""
+  },
+  {
+    "Value": "frr",
+    "Description": "Northern Frisian",
+    "Notes": ""
+  },
+  {
+    "Value": "frs",
+    "Description": "Eastern Frisian",
+    "Notes": ""
+  },
+  {
+    "Value": "fry",
+    "Description": "Western Frisian",
+    "Notes": ""
+  },
+  {
+    "Value": "ful",
+    "Description": "Fulah",
+    "Notes": ""
+  },
+  {
+    "Value": "fur",
+    "Description": "Friulian",
+    "Notes": ""
+  },
+  {
+    "Value": "gaa",
+    "Description": "Gã",
+    "Notes": ""
+  },
+  {
+    "Value": "gay",
+    "Description": "Gayo",
+    "Notes": ""
+  },
+  {
+    "Value": "gba",
+    "Description": "Gbaya",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "gem",
+    "Description": "Germanic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "geo",
+    "Description": "Georgian",
+    "Notes": ""
+  },
+  {
+    "Value": "ger",
+    "Description": "German",
+    "Notes": ""
+  },
+  {
+    "Value": "gez",
+    "Description": "Ethiopic (Ge’ez)",
+    "Notes": ""
+  },
+  {
+    "Value": "gil",
+    "Description": "Gilbertese",
+    "Notes": ""
+  },
+  {
+    "Value": "gla",
+    "Description": "Scottish Gaelic",
+    "Notes": ""
+  },
+  {
+    "Value": "gle",
+    "Description": "Irish",
+    "Notes": ""
+  },
+  {
+    "Value": "glg",
+    "Description": "Galician",
+    "Notes": ""
+  },
+  {
+    "Value": "glv",
+    "Description": "Manx",
+    "Notes": ""
+  },
+  {
+    "Value": "gmh",
+    "Description": "German, Middle High (ca. 1050-1500)",
+    "Notes": ""
+  },
+  {
+    "Value": "goh",
+    "Description": "German, Old High (ca. 750-1050)",
+    "Notes": ""
+  },
+  {
+    "Value": "gon",
+    "Description": "Gondi",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "gor",
+    "Description": "Gorontalo",
+    "Notes": ""
+  },
+  {
+    "Value": "got",
+    "Description": "Gothic",
+    "Notes": ""
+  },
+  {
+    "Value": "grb",
+    "Description": "Grebo",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "grc",
+    "Description": "Greek, Ancient (to 1453)",
+    "Notes": ""
+  },
+  {
+    "Value": "gre",
+    "Description": "Greek, Modern (1453-)",
+    "Notes": ""
+  },
+  {
+    "Value": "grn",
+    "Description": "Guarani",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "grt",
+    "Description": "Garo",
+    "Notes": "ONIX local code, equivalent to grt in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "gsw",
+    "Description": "Swiss German; Alemannic; Alsatian",
+    "Notes": ""
+  },
+  {
+    "Value": "guj",
+    "Description": "Gujarati",
+    "Notes": ""
+  },
+  {
+    "Value": "gwi",
+    "Description": "Gwich’in",
+    "Notes": ""
+  },
+  {
+    "Value": "hai",
+    "Description": "Haida",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "hat",
+    "Description": "Haitian; Haitian Creole",
+    "Notes": ""
+  },
+  {
+    "Value": "hau",
+    "Description": "Hausa",
+    "Notes": ""
+  },
+  {
+    "Value": "haw",
+    "Description": "Hawaiian",
+    "Notes": ""
+  },
+  {
+    "Value": "heb",
+    "Description": "Hebrew",
+    "Notes": ""
+  },
+  {
+    "Value": "her",
+    "Description": "Herero",
+    "Notes": ""
+  },
+  {
+    "Value": "hil",
+    "Description": "Hiligaynon",
+    "Notes": ""
+  },
+  {
+    "Value": "him",
+    "Description": "Himachali languages; Western Pahari languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "hin",
+    "Description": "Hindi",
+    "Notes": ""
+  },
+  {
+    "Value": "hit",
+    "Description": "Hittite",
+    "Notes": ""
+  },
+  {
+    "Value": "hmn",
+    "Description": "Hmong; Mong",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "hmo",
+    "Description": "Hiri Motu",
+    "Notes": ""
+  },
+  {
+    "Value": "hrv",
+    "Description": "Croatian",
+    "Notes": ""
+  },
+  {
+    "Value": "hsb",
+    "Description": "Upper Sorbian",
+    "Notes": ""
+  },
+  {
+    "Value": "hun",
+    "Description": "Hungarian",
+    "Notes": ""
+  },
+  {
+    "Value": "hup",
+    "Description": "Hupa",
+    "Notes": ""
+  },
+  {
+    "Value": "iba",
+    "Description": "Iban",
+    "Notes": ""
+  },
+  {
+    "Value": "ibo",
+    "Description": "Igbo",
+    "Notes": ""
+  },
+  {
+    "Value": "ice",
+    "Description": "Icelandic",
+    "Notes": ""
+  },
+  {
+    "Value": "ido",
+    "Description": "Ido",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "iii",
+    "Description": "Sichuan Yi; Nuosu",
+    "Notes": ""
+  },
+  {
+    "Value": "ijo",
+    "Description": "Ijo languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "iku",
+    "Description": "Inuktitut",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "ile",
+    "Description": "Interlingue; Occidental",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "ilo",
+    "Description": "Iloko",
+    "Notes": ""
+  },
+  {
+    "Value": "ina",
+    "Description": "Interlingua (International Auxiliary Language Association)",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "inc",
+    "Description": "Indic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "ind",
+    "Description": "Indonesian",
+    "Notes": ""
+  },
+  {
+    "Value": "ine",
+    "Description": "Indo-European languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "inh",
+    "Description": "Ingush",
+    "Notes": ""
+  },
+  {
+    "Value": "ipk",
+    "Description": "Inupiaq",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "ira",
+    "Description": "Iranian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "iro",
+    "Description": "Iroquoian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "ita",
+    "Description": "Italian",
+    "Notes": ""
+  },
+  {
+    "Value": "jav",
+    "Description": "Javanese",
+    "Notes": ""
+  },
+  {
+    "Value": "jbo",
+    "Description": "Lojban",
+    "Notes": ""
+  },
+  {
+    "Value": "jow",
+    "Description": "Jowulu",
+    "Notes": "ONIX local code, equivalent to jow in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "jpn",
+    "Description": "Japanese",
+    "Notes": ""
+  },
+  {
+    "Value": "jpr",
+    "Description": "Judeo-Persian",
+    "Notes": ""
+  },
+  {
+    "Value": "jrb",
+    "Description": "Judeo-Arabic",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "kaa",
+    "Description": "Kara-Kalpak",
+    "Notes": ""
+  },
+  {
+    "Value": "kab",
+    "Description": "Kabyle",
+    "Notes": ""
+  },
+  {
+    "Value": "kac",
+    "Description": "Kachin; Jingpho",
+    "Notes": ""
+  },
+  {
+    "Value": "kal",
+    "Description": "Kalâtdlisut; Greenlandic",
+    "Notes": ""
+  },
+  {
+    "Value": "kam",
+    "Description": "Kamba",
+    "Notes": ""
+  },
+  {
+    "Value": "kan",
+    "Description": "Kannada",
+    "Notes": ""
+  },
+  {
+    "Value": "kar",
+    "Description": "Karen languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "kas",
+    "Description": "Kashmiri",
+    "Notes": ""
+  },
+  {
+    "Value": "kau",
+    "Description": "Kanuri",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "kaw",
+    "Description": "Kawi",
+    "Notes": ""
+  },
+  {
+    "Value": "kaz",
+    "Description": "Kazakh",
+    "Notes": ""
+  },
+  {
+    "Value": "kbd",
+    "Description": "Kabardian",
+    "Notes": "(East Circassian)"
+  },
+  {
+    "Value": "kdr",
+    "Description": "Karaim",
+    "Notes": "ONIX local code, equivalent to kdr in ISO 639-3"
+  },
+  {
+    "Value": "kha",
+    "Description": "Khasi",
+    "Notes": ""
+  },
+  {
+    "Value": "khi",
+    "Description": "Khoisan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "khm",
+    "Description": "Central Khmer",
+    "Notes": ""
+  },
+  {
+    "Value": "kho",
+    "Description": "Khotanese; Sakan",
+    "Notes": ""
+  },
+  {
+    "Value": "kik",
+    "Description": "Kikuyu; Gikuyu",
+    "Notes": ""
+  },
+  {
+    "Value": "kin",
+    "Description": "Kinyarwanda",
+    "Notes": ""
+  },
+  {
+    "Value": "kir",
+    "Description": "Kirghiz; Kyrgyz",
+    "Notes": ""
+  },
+  {
+    "Value": "kmb",
+    "Description": "Kimbundu",
+    "Notes": ""
+  },
+  {
+    "Value": "kok",
+    "Description": "Konkani",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "kom",
+    "Description": "Komi",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "kon",
+    "Description": "Kongo",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "kor",
+    "Description": "Korean",
+    "Notes": ""
+  },
+  {
+    "Value": "kos",
+    "Description": "Kusaiean (Caroline Islands)",
+    "Notes": ""
+  },
+  {
+    "Value": "kpe",
+    "Description": "Kpelle",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "krc",
+    "Description": "Karachay-Balkar",
+    "Notes": ""
+  },
+  {
+    "Value": "krl",
+    "Description": "Karelian",
+    "Notes": ""
+  },
+  {
+    "Value": "kro",
+    "Description": "Kru languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "kru",
+    "Description": "Kurukh",
+    "Notes": ""
+  },
+  {
+    "Value": "kua",
+    "Description": "Kuanyama; Kwanyama",
+    "Notes": ""
+  },
+  {
+    "Value": "kum",
+    "Description": "Kumyk",
+    "Notes": ""
+  },
+  {
+    "Value": "kur",
+    "Description": "Kurdish",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "kut",
+    "Description": "Kutenai",
+    "Notes": ""
+  },
+  {
+    "Value": "lad",
+    "Description": "Ladino",
+    "Notes": ""
+  },
+  {
+    "Value": "lah",
+    "Description": "Lahnda",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "lam",
+    "Description": "Lamba",
+    "Notes": ""
+  },
+  {
+    "Value": "lao",
+    "Description": "Lao",
+    "Notes": ""
+  },
+  {
+    "Value": "lat",
+    "Description": "Latin",
+    "Notes": ""
+  },
+  {
+    "Value": "lav",
+    "Description": "Latvian",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "lez",
+    "Description": "Lezgian",
+    "Notes": ""
+  },
+  {
+    "Value": "lij",
+    "Description": "Ligurian",
+    "Notes": "ONIX local code for Italian dialect, equivalent to lij in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "lim",
+    "Description": "Limbergan; Limburger; Limburgish",
+    "Notes": ""
+  },
+  {
+    "Value": "lin",
+    "Description": "Lingala",
+    "Notes": ""
+  },
+  {
+    "Value": "lit",
+    "Description": "Lithuanian",
+    "Notes": ""
+  },
+  {
+    "Value": "lmo",
+    "Description": "Lombard",
+    "Notes": "ONIX local code for Italian dialect, equivalent to lmo in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "lol",
+    "Description": "Mongo-Nkundu",
+    "Notes": ""
+  },
+  {
+    "Value": "loz",
+    "Description": "Lozi",
+    "Notes": ""
+  },
+  {
+    "Value": "ltz",
+    "Description": "Luxembourgish; Letzeburgesch",
+    "Notes": ""
+  },
+  {
+    "Value": "lua",
+    "Description": "Luba-Lulua",
+    "Notes": ""
+  },
+  {
+    "Value": "lub",
+    "Description": "Luba-Katanga",
+    "Notes": ""
+  },
+  {
+    "Value": "lug",
+    "Description": "Ganda",
+    "Notes": ""
+  },
+  {
+    "Value": "lui",
+    "Description": "Luiseño",
+    "Notes": ""
+  },
+  {
+    "Value": "lun",
+    "Description": "Lunda",
+    "Notes": ""
+  },
+  {
+    "Value": "luo",
+    "Description": "Luo (Kenya and Tanzania)",
+    "Notes": ""
+  },
+  {
+    "Value": "lus",
+    "Description": "Lushai",
+    "Notes": ""
+  },
+  {
+    "Value": "mac",
+    "Description": "Macedonian",
+    "Notes": ""
+  },
+  {
+    "Value": "mad",
+    "Description": "Madurese",
+    "Notes": ""
+  },
+  {
+    "Value": "mag",
+    "Description": "Magahi",
+    "Notes": ""
+  },
+  {
+    "Value": "mah",
+    "Description": "Marshallese",
+    "Notes": ""
+  },
+  {
+    "Value": "mai",
+    "Description": "Maithili",
+    "Notes": ""
+  },
+  {
+    "Value": "mak",
+    "Description": "Makasar",
+    "Notes": ""
+  },
+  {
+    "Value": "mal",
+    "Description": "Malayalam",
+    "Notes": ""
+  },
+  {
+    "Value": "man",
+    "Description": "Mandingo",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "mao",
+    "Description": "Maori",
+    "Notes": ""
+  },
+  {
+    "Value": "map",
+    "Description": "Austronesian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "mar",
+    "Description": "Marathi",
+    "Notes": ""
+  },
+  {
+    "Value": "mas",
+    "Description": "Masai",
+    "Notes": ""
+  },
+  {
+    "Value": "may",
+    "Description": "Malay",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "mdf",
+    "Description": "Moksha",
+    "Notes": ""
+  },
+  {
+    "Value": "mdr",
+    "Description": "Mandar",
+    "Notes": ""
+  },
+  {
+    "Value": "men",
+    "Description": "Mende",
+    "Notes": ""
+  },
+  {
+    "Value": "mga",
+    "Description": "Irish, Middle (ca. 1100-1550)",
+    "Notes": ""
+  },
+  {
+    "Value": "mic",
+    "Description": "Mi’kmaq; Micmac",
+    "Notes": ""
+  },
+  {
+    "Value": "min",
+    "Description": "Minangkabau",
+    "Notes": ""
+  },
+  {
+    "Value": "mis",
+    "Description": "Uncoded languages",
+    "Notes": "Use where no suitable code is available"
+  },
+  {
+    "Value": "mkh",
+    "Description": "Mon-Khmer languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "mlg",
+    "Description": "Malagasy",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "mlt",
+    "Description": "Maltese",
+    "Notes": ""
+  },
+  {
+    "Value": "mnc",
+    "Description": "Manchu",
+    "Notes": ""
+  },
+  {
+    "Value": "mni",
+    "Description": "Manipuri",
+    "Notes": ""
+  },
+  {
+    "Value": "mno",
+    "Description": "Manobo languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "moh",
+    "Description": "Mohawk",
+    "Notes": ""
+  },
+  {
+    "Value": "mol",
+    "Description": "Moldavian; Moldovan",
+    "Notes": "DEPRECATED – use rum"
+  },
+  {
+    "Value": "mon",
+    "Description": "Mongolian",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "mos",
+    "Description": "Mooré; Mossi",
+    "Notes": ""
+  },
+  {
+    "Value": "mul",
+    "Description": "Multiple languages",
+    "Notes": ""
+  },
+  {
+    "Value": "mun",
+    "Description": "Munda languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "mus",
+    "Description": "Creek",
+    "Notes": ""
+  },
+  {
+    "Value": "mwf",
+    "Description": "Murrinh-Patha",
+    "Notes": "ONIX local code, equivalent to mwf in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "mwl",
+    "Description": "Mirandese",
+    "Notes": ""
+  },
+  {
+    "Value": "mwr",
+    "Description": "Marwari",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "myn",
+    "Description": "Mayan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "myv",
+    "Description": "Erzya",
+    "Notes": ""
+  },
+  {
+    "Value": "nah",
+    "Description": "Nahuatl languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "nai",
+    "Description": "North American Indian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "nap",
+    "Description": "Neapolitan",
+    "Notes": ""
+  },
+  {
+    "Value": "nau",
+    "Description": "Nauruan",
+    "Notes": ""
+  },
+  {
+    "Value": "nav",
+    "Description": "Navajo; Navaho",
+    "Notes": ""
+  },
+  {
+    "Value": "nbl",
+    "Description": "Ndebele, South",
+    "Notes": ""
+  },
+  {
+    "Value": "nde",
+    "Description": "Ndebele, North",
+    "Notes": ""
+  },
+  {
+    "Value": "ndo",
+    "Description": "Ndonga",
+    "Notes": ""
+  },
+  {
+    "Value": "nds",
+    "Description": "Low German; Low Saxon",
+    "Notes": ""
+  },
+  {
+    "Value": "nep",
+    "Description": "Nepali",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "new",
+    "Description": "Newari; Nepal Bhasa",
+    "Notes": ""
+  },
+  {
+    "Value": "nia",
+    "Description": "Nias",
+    "Notes": ""
+  },
+  {
+    "Value": "nic",
+    "Description": "Niger-Kordofanian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "niu",
+    "Description": "Niuean",
+    "Notes": ""
+  },
+  {
+    "Value": "nno",
+    "Description": "Norwegian Nynorsk",
+    "Notes": ""
+  },
+  {
+    "Value": "nob",
+    "Description": "Norwegian Bokmål",
+    "Notes": ""
+  },
+  {
+    "Value": "nog",
+    "Description": "Nogai",
+    "Notes": ""
+  },
+  {
+    "Value": "non",
+    "Description": "Old Norse",
+    "Notes": ""
+  },
+  {
+    "Value": "nor",
+    "Description": "Norwegian",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "nqo",
+    "Description": "N’Ko",
+    "Notes": ""
+  },
+  {
+    "Value": "nrf",
+    "Description": "Guernésiais, Jèrriais",
+    "Notes": "ONIX local code, equivalent to nrf in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "nso",
+    "Description": "Pedi; Sepedi; Northern Sotho",
+    "Notes": ""
+  },
+  {
+    "Value": "nub",
+    "Description": "Nubian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "nwc",
+    "Description": "Classical Newari; Old Newari; Classical Nepal Bhasa",
+    "Notes": ""
+  },
+  {
+    "Value": "nya",
+    "Description": "Chichewa; Chewa; Nyanja",
+    "Notes": ""
+  },
+  {
+    "Value": "nym",
+    "Description": "Nyamwezi",
+    "Notes": ""
+  },
+  {
+    "Value": "nyn",
+    "Description": "Nyankole",
+    "Notes": ""
+  },
+  {
+    "Value": "nyo",
+    "Description": "Nyoro",
+    "Notes": ""
+  },
+  {
+    "Value": "nzi",
+    "Description": "Nzima",
+    "Notes": ""
+  },
+  {
+    "Value": "oci",
+    "Description": "Occitan (post 1500)",
+    "Notes": ""
+  },
+  {
+    "Value": "odt",
+    "Description": "Old Dutch / Old Low Franconian (ca. 400–1050)",
+    "Notes": "ONIX local code, equivalent to odt in ISO 639-3"
+  },
+  {
+    "Value": "oji",
+    "Description": "Ojibwa",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "omq",
+    "Description": "Oto-Manguean languages",
+    "Notes": "ONIX local code, equivalent to omq in ISO 639-5. Collective name"
+  },
+  {
+    "Value": "ori",
+    "Description": "Oriya",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "orm",
+    "Description": "Oromo",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "osa",
+    "Description": "Osage",
+    "Notes": ""
+  },
+  {
+    "Value": "oss",
+    "Description": "Ossetian; Ossetic",
+    "Notes": ""
+  },
+  {
+    "Value": "ota",
+    "Description": "Turkish, Ottoman",
+    "Notes": ""
+  },
+  {
+    "Value": "oto",
+    "Description": "Otomian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "paa",
+    "Description": "Papuan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "pag",
+    "Description": "Pangasinan",
+    "Notes": ""
+  },
+  {
+    "Value": "pal",
+    "Description": "Pahlavi",
+    "Notes": ""
+  },
+  {
+    "Value": "pam",
+    "Description": "Pampanga; Kapampangan",
+    "Notes": ""
+  },
+  {
+    "Value": "pan",
+    "Description": "Panjabi",
+    "Notes": ""
+  },
+  {
+    "Value": "pap",
+    "Description": "Papiamento",
+    "Notes": ""
+  },
+  {
+    "Value": "pau",
+    "Description": "Palauan",
+    "Notes": ""
+  },
+  {
+    "Value": "peo",
+    "Description": "Old Persian (ca. 600-400 B.C.)",
+    "Notes": ""
+  },
+  {
+    "Value": "per",
+    "Description": "Persian; Farsi",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "pes",
+    "Description": "Iranian Persian; Parsi",
+    "Notes": "ONIX local code, equivalent to pes in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "phi",
+    "Description": "Philippine languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "phn",
+    "Description": "Phoenician",
+    "Notes": ""
+  },
+  {
+    "Value": "pli",
+    "Description": "Pali",
+    "Notes": ""
+  },
+  {
+    "Value": "pms",
+    "Description": "Piedmontese",
+    "Notes": "ONIX local code for Italian dialect, equivalent to pms in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "pol",
+    "Description": "Polish",
+    "Notes": ""
+  },
+  {
+    "Value": "pon",
+    "Description": "Ponapeian",
+    "Notes": ""
+  },
+  {
+    "Value": "por",
+    "Description": "Portuguese",
+    "Notes": ""
+  },
+  {
+    "Value": "pra",
+    "Description": "Prakrit languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "pro",
+    "Description": "Provençal, Old (to 1500); Occitan, Old (to 1500)",
+    "Notes": ""
+  },
+  {
+    "Value": "prs",
+    "Description": "Dari; Afghan Persian",
+    "Notes": "ONIX local code, equivalent to prs in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "pus",
+    "Description": "Pushto; Pashto",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "qar",
+    "Description": "Aranés",
+    "Notes": "ONIX local code, distinct dialect of Occitan (not distinguished from oci by ISO 639-3)"
+  },
+  {
+    "Value": "qav",
+    "Description": "Valencian",
+    "Notes": "ONIX local code, distinct dialect of Catalan (not distinguished from cat by ISO 639-3)"
+  },
+  {
+    "Value": "qgl",
+    "Description": "Gallo",
+    "Notes": "ONIX local code, distinct variant of langue d’oïl (old northern French) (not distinguished from fro, or from frm, fre, nrf by ISO 639-3). For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "qlk",
+    "Description": "Lemko",
+    "Notes": "ONIX local code, distinct dialect of of Rusyn (not distinguished from rue by ISO 639-3). For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "qls",
+    "Description": "Neutral Latin American Spanish",
+    "Notes": "ONIX local code, distinct and exclusively spoken variation of Spanish, not distinguished from spa (Spanish, Castilian) by ISO 639-3. Neutral Latin American Spanish should be considered a ‘shorthand’ for spa plus a ‘country code’ for Latin America – but prefer spa plus the relevant country code for specifically Mexican Spanish, Argentine (Rioplatense) Spanish, Puerto Rican Spanish etc. Neutral Latin American Spanish must only be used with audio material (including the audio tracks of TV, video and film) to indicate use of accent, vocabulary and construction suitable for broad use across Latin America. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "que",
+    "Description": "Quechua",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "raj",
+    "Description": "Rajasthani",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "rap",
+    "Description": "Rapanui",
+    "Notes": ""
+  },
+  {
+    "Value": "rar",
+    "Description": "Rarotongan; Cook Islands Maori",
+    "Notes": ""
+  },
+  {
+    "Value": "rcf",
+    "Description": "Réunion Creole French",
+    "Notes": "ONIX local code, equivalent to rcf in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "rgn",
+    "Description": "Romagnol",
+    "Notes": "ONIX local code for Italian dialect, equivalent to rgl in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "roa",
+    "Description": "Romance languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "roh",
+    "Description": "Romansh",
+    "Notes": ""
+  },
+  {
+    "Value": "rom",
+    "Description": "Romany",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "rum",
+    "Description": "Romanian",
+    "Notes": ""
+  },
+  {
+    "Value": "run",
+    "Description": "Rundi",
+    "Notes": ""
+  },
+  {
+    "Value": "rup",
+    "Description": "Aromanian; Arumanian; Macedo-Romanian",
+    "Notes": ""
+  },
+  {
+    "Value": "rus",
+    "Description": "Russian",
+    "Notes": ""
+  },
+  {
+    "Value": "sad",
+    "Description": "Sandawe",
+    "Notes": ""
+  },
+  {
+    "Value": "sag",
+    "Description": "Sango",
+    "Notes": ""
+  },
+  {
+    "Value": "sah",
+    "Description": "Yakut",
+    "Notes": ""
+  },
+  {
+    "Value": "sai",
+    "Description": "South American Indian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "sal",
+    "Description": "Salishan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "sam",
+    "Description": "Samaritan Aramaic",
+    "Notes": ""
+  },
+  {
+    "Value": "san",
+    "Description": "Sanskrit",
+    "Notes": ""
+  },
+  {
+    "Value": "sas",
+    "Description": "Sasak",
+    "Notes": ""
+  },
+  {
+    "Value": "sat",
+    "Description": "Santali",
+    "Notes": ""
+  },
+  {
+    "Value": "scc",
+    "Description": "Serbian",
+    "Notes": "DEPRECATED – use srp"
+  },
+  {
+    "Value": "scn",
+    "Description": "Sicilian",
+    "Notes": ""
+  },
+  {
+    "Value": "sco",
+    "Description": "Scots",
+    "Notes": ""
+  },
+  {
+    "Value": "scr",
+    "Description": "Croatian",
+    "Notes": "DEPRECATED – use hrv"
+  },
+  {
+    "Value": "sdc",
+    "Description": "Sassarese",
+    "Notes": "ONIX local code for Sardinian dialect, equivalent to sdc in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "sdn",
+    "Description": "Gallurese",
+    "Notes": "ONIX local code for Sardinian dialect, equivalent to sdn in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "sel",
+    "Description": "Selkup",
+    "Notes": ""
+  },
+  {
+    "Value": "sem",
+    "Description": "Semitic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "sga",
+    "Description": "Irish, Old (to 1100)",
+    "Notes": ""
+  },
+  {
+    "Value": "sgn",
+    "Description": "Sign languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "shi",
+    "Description": "Tashelhit; Shilha",
+    "Notes": "ONIX local code, equivalent to shi in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "shn",
+    "Description": "Shan",
+    "Notes": ""
+  },
+  {
+    "Value": "sid",
+    "Description": "Sidamo",
+    "Notes": ""
+  },
+  {
+    "Value": "sin",
+    "Description": "Sinhala; Sinhalese",
+    "Notes": ""
+  },
+  {
+    "Value": "sio",
+    "Description": "Siouan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "sit",
+    "Description": "Sino-Tibetan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "sla",
+    "Description": "Slavic languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "slo",
+    "Description": "Slovak",
+    "Notes": ""
+  },
+  {
+    "Value": "slv",
+    "Description": "Slovenian",
+    "Notes": ""
+  },
+  {
+    "Value": "sma",
+    "Description": "Southern Sami",
+    "Notes": ""
+  },
+  {
+    "Value": "sme",
+    "Description": "Northern Sami",
+    "Notes": ""
+  },
+  {
+    "Value": "smi",
+    "Description": "Sami languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "smj",
+    "Description": "Lule Sami",
+    "Notes": ""
+  },
+  {
+    "Value": "smn",
+    "Description": "Inari Sami",
+    "Notes": ""
+  },
+  {
+    "Value": "smo",
+    "Description": "Samoan",
+    "Notes": ""
+  },
+  {
+    "Value": "sms",
+    "Description": "Skolt Sami",
+    "Notes": ""
+  },
+  {
+    "Value": "sna",
+    "Description": "Shona",
+    "Notes": ""
+  },
+  {
+    "Value": "snd",
+    "Description": "Sindhi",
+    "Notes": ""
+  },
+  {
+    "Value": "snk",
+    "Description": "Soninke",
+    "Notes": ""
+  },
+  {
+    "Value": "sog",
+    "Description": "Sogdian",
+    "Notes": ""
+  },
+  {
+    "Value": "som",
+    "Description": "Somali",
+    "Notes": ""
+  },
+  {
+    "Value": "son",
+    "Description": "Songhai languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "sot",
+    "Description": "Sotho; Sesotho",
+    "Notes": ""
+  },
+  {
+    "Value": "spa",
+    "Description": "Spanish",
+    "Notes": ""
+  },
+  {
+    "Value": "srd",
+    "Description": "Sardinian",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "srm",
+    "Description": "Saramaccan",
+    "Notes": "ONIX local code for Saramaccan language, equivalent to srm in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "srn",
+    "Description": "Sranan Tongo",
+    "Notes": ""
+  },
+  {
+    "Value": "sro",
+    "Description": "Campidanese",
+    "Notes": "ONIX local code for Sardinian dialect, equivalent to sro in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "srp",
+    "Description": "Serbian",
+    "Notes": ""
+  },
+  {
+    "Value": "srr",
+    "Description": "Serer",
+    "Notes": ""
+  },
+  {
+    "Value": "ssa",
+    "Description": "Nilo-Saharan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "ssw",
+    "Description": "Swazi; Swati",
+    "Notes": ""
+  },
+  {
+    "Value": "suk",
+    "Description": "Sukuma",
+    "Notes": ""
+  },
+  {
+    "Value": "sun",
+    "Description": "Sundanese",
+    "Notes": ""
+  },
+  {
+    "Value": "sus",
+    "Description": "Susu",
+    "Notes": ""
+  },
+  {
+    "Value": "sux",
+    "Description": "Sumerian",
+    "Notes": ""
+  },
+  {
+    "Value": "swa",
+    "Description": "Swahili",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "swe",
+    "Description": "Swedish",
+    "Notes": ""
+  },
+  {
+    "Value": "syc",
+    "Description": "Classical Syriac",
+    "Notes": ""
+  },
+  {
+    "Value": "syr",
+    "Description": "Syriac",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "tah",
+    "Description": "Tahitian",
+    "Notes": ""
+  },
+  {
+    "Value": "tai",
+    "Description": "Tai languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "tam",
+    "Description": "Tamil",
+    "Notes": ""
+  },
+  {
+    "Value": "tat",
+    "Description": "Tatar",
+    "Notes": ""
+  },
+  {
+    "Value": "tel",
+    "Description": "Telugu",
+    "Notes": ""
+  },
+  {
+    "Value": "tem",
+    "Description": "Temne; Time",
+    "Notes": ""
+  },
+  {
+    "Value": "ter",
+    "Description": "Terena",
+    "Notes": ""
+  },
+  {
+    "Value": "tet",
+    "Description": "Tetum",
+    "Notes": ""
+  },
+  {
+    "Value": "tgk",
+    "Description": "Tajik; Tajiki Persian",
+    "Notes": ""
+  },
+  {
+    "Value": "tgl",
+    "Description": "Tagalog",
+    "Notes": ""
+  },
+  {
+    "Value": "tha",
+    "Description": "Thai",
+    "Notes": ""
+  },
+  {
+    "Value": "tib",
+    "Description": "Tibetan",
+    "Notes": ""
+  },
+  {
+    "Value": "tig",
+    "Description": "Tigré",
+    "Notes": ""
+  },
+  {
+    "Value": "tir",
+    "Description": "Tigrinya",
+    "Notes": ""
+  },
+  {
+    "Value": "tiv",
+    "Description": "Tiv",
+    "Notes": ""
+  },
+  {
+    "Value": "tkl",
+    "Description": "Tokelauan",
+    "Notes": ""
+  },
+  {
+    "Value": "tlh",
+    "Description": "Klingon; tlhIngan-Hol",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "tli",
+    "Description": "Tlingit",
+    "Notes": ""
+  },
+  {
+    "Value": "tmh",
+    "Description": "Tamashek",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "tog",
+    "Description": "Tonga (Nyasa)",
+    "Notes": ""
+  },
+  {
+    "Value": "ton",
+    "Description": "Tongan",
+    "Notes": ""
+  },
+  {
+    "Value": "tpi",
+    "Description": "Tok Pisin",
+    "Notes": ""
+  },
+  {
+    "Value": "tsi",
+    "Description": "Tsimshian",
+    "Notes": ""
+  },
+  {
+    "Value": "tsn",
+    "Description": "Tswana",
+    "Notes": "AKA Setswana"
+  },
+  {
+    "Value": "tso",
+    "Description": "Tsonga",
+    "Notes": ""
+  },
+  {
+    "Value": "tuk",
+    "Description": "Turkmen",
+    "Notes": ""
+  },
+  {
+    "Value": "tum",
+    "Description": "Tumbuka",
+    "Notes": ""
+  },
+  {
+    "Value": "tup",
+    "Description": "Tupi languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "tur",
+    "Description": "Turkish",
+    "Notes": ""
+  },
+  {
+    "Value": "tut",
+    "Description": "Altaic languages",
+    "Notes": ""
+  },
+  {
+    "Value": "tvl",
+    "Description": "Tuvaluan",
+    "Notes": ""
+  },
+  {
+    "Value": "twi",
+    "Description": "Twi",
+    "Notes": ""
+  },
+  {
+    "Value": "tyv",
+    "Description": "Tuvinian",
+    "Notes": ""
+  },
+  {
+    "Value": "tzm",
+    "Description": "Central Atlas Tamazight",
+    "Notes": "ONIX local code, equivalent to tzm in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "tzo",
+    "Description": "Tzotzil",
+    "Notes": "ONIX local code, equivalent to tzo in ISO 639-3"
+  },
+  {
+    "Value": "udm",
+    "Description": "Udmurt",
+    "Notes": ""
+  },
+  {
+    "Value": "uga",
+    "Description": "Ugaritic",
+    "Notes": ""
+  },
+  {
+    "Value": "uig",
+    "Description": "Uighur; Uyghur",
+    "Notes": ""
+  },
+  {
+    "Value": "ukr",
+    "Description": "Ukrainian",
+    "Notes": ""
+  },
+  {
+    "Value": "umb",
+    "Description": "Umbundu",
+    "Notes": ""
+  },
+  {
+    "Value": "und",
+    "Description": "Undetermined language",
+    "Notes": ""
+  },
+  {
+    "Value": "urd",
+    "Description": "Urdu",
+    "Notes": ""
+  },
+  {
+    "Value": "uzb",
+    "Description": "Uzbek",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "vai",
+    "Description": "Vai",
+    "Notes": ""
+  },
+  {
+    "Value": "vec",
+    "Description": "Venetian/Venetan",
+    "Notes": "ONIX local code for Italian dialect, equivalent to vec in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "ven",
+    "Description": "Venda",
+    "Notes": ""
+  },
+  {
+    "Value": "vie",
+    "Description": "Vietnamese",
+    "Notes": ""
+  },
+  {
+    "Value": "vol",
+    "Description": "Volapük",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "vot",
+    "Description": "Votic",
+    "Notes": ""
+  },
+  {
+    "Value": "wak",
+    "Description": "Wakashan languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "wal",
+    "Description": "Wolaitta; Wolaytta",
+    "Notes": ""
+  },
+  {
+    "Value": "war",
+    "Description": "Waray",
+    "Notes": ""
+  },
+  {
+    "Value": "was",
+    "Description": "Washo",
+    "Notes": ""
+  },
+  {
+    "Value": "wel",
+    "Description": "Welsh",
+    "Notes": ""
+  },
+  {
+    "Value": "wen",
+    "Description": "Sorbian languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "wln",
+    "Description": "Walloon",
+    "Notes": ""
+  },
+  {
+    "Value": "wol",
+    "Description": "Wolof",
+    "Notes": ""
+  },
+  {
+    "Value": "wym",
+    "Description": "Wymysorys",
+    "Notes": "Vilamovian. ONIX local code, equivalent to wym in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "xal",
+    "Description": "Kalmyk; Oirat",
+    "Notes": ""
+  },
+  {
+    "Value": "xho",
+    "Description": "Xhosa",
+    "Notes": ""
+  },
+  {
+    "Value": "xuu",
+    "Description": "Khwedam, Kxoe",
+    "Notes": "ONIX local code, equivalent to xuu in ISO 639-3. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "yao",
+    "Description": "Yao",
+    "Notes": ""
+  },
+  {
+    "Value": "yap",
+    "Description": "Yapese",
+    "Notes": ""
+  },
+  {
+    "Value": "yid",
+    "Description": "Yiddish",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "yor",
+    "Description": "Yoruba",
+    "Notes": ""
+  },
+  {
+    "Value": "ypk",
+    "Description": "Yupik languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "yue",
+    "Description": "Cantonese",
+    "Notes": "ONIX local code, equivalent to yue in ISO 639-3"
+  },
+  {
+    "Value": "zap",
+    "Description": "Zapotec",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "zbl",
+    "Description": "Blissymbols; Blissymbolics; Bliss",
+    "Notes": "Artificial language"
+  },
+  {
+    "Value": "zen",
+    "Description": "Zenaga",
+    "Notes": ""
+  },
+  {
+    "Value": "zgh",
+    "Description": "Standard Moroccan Tamazight",
+    "Notes": ""
+  },
+  {
+    "Value": "zha",
+    "Description": "Zhuang; Chuang",
+    "Notes": "Macrolanguage"
+  },
+  {
+    "Value": "znd",
+    "Description": "Zande languages",
+    "Notes": "Collective name"
+  },
+  {
+    "Value": "zul",
+    "Description": "Zulu",
+    "Notes": ""
+  },
+  {
+    "Value": "zun",
+    "Description": "Zuni",
+    "Notes": ""
+  },
+  {
+    "Value": "zxx",
+    "Description": "No linguistic content",
+    "Notes": ""
+  },
+  {
+    "Value": "zza",
+    "Description": "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki",
+    "Notes": "Macrolanguage"
+  }
+]
