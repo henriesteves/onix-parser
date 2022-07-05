@@ -13,6 +13,7 @@ const { formDetail } = require('./formDetail')
 const { language } = require('./language')
 const { related } = require('./related')
 const { collection } = require('./collection')
+const { audienceRange } = require('./audienceRange')
 
 const { getJSONfromFile, getByValue } = require('../lib/utils')
 
@@ -82,7 +83,9 @@ const product = ({
 
     // related: related(RelatedMaterial),
 
-    // collection: collection(DescriptiveDetail)
+    // collection: collection(DescriptiveDetail),
+
+    audienceRange: audienceRange(DescriptiveDetail)
   }
 }
 

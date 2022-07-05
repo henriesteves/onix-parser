@@ -29,6 +29,9 @@ const onix = onixPath => {
         '/ONIXmessage/product/descriptivedetail/collection/titledetail/titleelement',
         '/ONIXmessage/product/descriptivedetail/extent',
         '/ONIXmessage/product/descriptivedetail/language',
+        '/ONIXmessage/product/descriptivedetail/audiencerange',
+        '/ONIXmessage/product/descriptivedetail/audiencerange/b075',
+        '/ONIXmessage/product/descriptivedetail/audiencerange/b076',
         '/ONIXmessage/product/descriptivedetail/subject',
         '/ONIXmessage/product/descriptivedetail/b333', // ProductFormDetail
         '/ONIXmessage/product/productidentifier',

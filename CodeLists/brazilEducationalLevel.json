@@ -1,0 +1,107 @@
+[
+  {
+    "Value": "K",
+    "Description": "Educação Infantil",
+    "Notes": "Preschool and kindergarten"
+  },
+  {
+    "Value": "1",
+    "Description": "Fundamental I 1º ano",
+    "Notes": "Elementary school"
+  },
+  {
+    "Value": "2",
+    "Description": "Fundamental I 2º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "3",
+    "Description": "Fundamental I 3º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "4",
+    "Description": "Fundamental I 4º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "5",
+    "Description": "Fundamental I 5º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "6",
+    "Description": "Fundamental II 6º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "7",
+    "Description": "Fundamental II 7º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "8",
+    "Description": "Fundamental II 8º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "9",
+    "Description": "Fundamental II 9º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "10",
+    "Description": "Ensino Médio 1º ano",
+    "Notes": "High school"
+  },
+  {
+    "Value": "11",
+    "Description": "Ensino Médio 2º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "12",
+    "Description": "Ensino Médio 3º ano",
+    "Notes": ""
+  },
+  {
+    "Value": "13",
+    "Description": "Ensino Técnico Integrado",
+    "Notes": "Technical study at High school, alongside 2nd and 3rd year"
+  },
+  {
+    "Value": "14",
+    "Description": "Ensino Técnico Concomitante",
+    "Notes": "Technical study at separate institution in parallel with 2nd and 3rd year High school study"
+  },
+  {
+    "Value": "15",
+    "Description": "Ensino Técnico Subsequente",
+    "Notes": "Technical study after completion of High school"
+  },
+  {
+    "Value": "P",
+    "Description": "Ensino pré-vestibular",
+    "Notes": "University entrance"
+  },
+  {
+    "Value": "A",
+    "Description": "Ensino Superior Graduação Licenciatura/ Bacharelado",
+    "Notes": "Undergraduate degree level"
+  },
+  {
+    "Value": "B",
+    "Description": "Ensino Superior Graduação Tecnologia",
+    "Notes": ""
+  },
+  {
+    "Value": "D",
+    "Description": "Ensino Superior Pós-graduação Stricto sensu",
+    "Notes": "Masters and Doctoral degree level"
+  },
+  {
+    "Value": "F",
+    "Description": "Ensino Superior Pós-graduação Lato sensu",
+    "Notes": "Professional qualifications"
+  }
+]

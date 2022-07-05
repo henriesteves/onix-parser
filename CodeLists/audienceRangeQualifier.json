@@ -1,0 +1,112 @@
+[
+  {
+    "Value": "11",
+    "Description": "US school grade range",
+    "Notes": "Values for <AudienceRangeValue> are specified in List 77"
+  },
+  {
+    "Value": "12",
+    "Description": "UK school grade",
+    "Notes": "Values are defined by BIC for England and Wales, Scotland and N Ireland"
+  },
+  {
+    "Value": "15",
+    "Description": "Reading speed, words per minute",
+    "Notes": "Values in <AudienceRangeValue> must be integers"
+  },
+  {
+    "Value": "16",
+    "Description": "Interest age, months",
+    "Notes": "For use up to 36 months only, or up to 42 months in Audience range value (2) only: values in <AudienceRangeValue> must be integers"
+  },
+  {
+    "Value": "17",
+    "Description": "Interest age, years",
+    "Notes": "Values in <AudienceRangeValue> must be integers"
+  },
+  {
+    "Value": "18",
+    "Description": "Reading age, years",
+    "Notes": "Values in <AudienceRangeValue> must be integers"
+  },
+  {
+    "Value": "19",
+    "Description": "Spanish school grade",
+    "Notes": "Spain: combined grade and region code, maintained by the Ministerio de Educación"
+  },
+  {
+    "Value": "20",
+    "Description": "Skoletrinn",
+    "Notes": "Norwegian educational level for primary and secondary education"
+  },
+  {
+    "Value": "21",
+    "Description": "Nivå",
+    "Notes": "Swedish educational qualifier (code)"
+  },
+  {
+    "Value": "22",
+    "Description": "Italian school grade",
+    "Notes": ""
+  },
+  {
+    "Value": "23",
+    "Description": "Schulform",
+    "Notes": "DEPRECATED – assigned in error: see List 29"
+  },
+  {
+    "Value": "24",
+    "Description": "Bundesland",
+    "Notes": "DEPRECATED – assigned in error: see List 29"
+  },
+  {
+    "Value": "25",
+    "Description": "Ausbildungsberuf",
+    "Notes": "DEPRECATED – assigned in error: see List 29"
+  },
+  {
+    "Value": "26",
+    "Description": "Canadian school grade range",
+    "Notes": "Values for <AudienceRangeValue> are specified in List 77"
+  },
+  {
+    "Value": "27",
+    "Description": "Finnish school grade range",
+    "Notes": ""
+  },
+  {
+    "Value": "28",
+    "Description": "Finnish Upper secondary school course",
+    "Notes": "Lukion kurssi"
+  },
+  {
+    "Value": "29",
+    "Description": "Chinese School Grade range",
+    "Notes": "Values are P, K, 1–17 (including college-level audiences), see List 227"
+  },
+  {
+    "Value": "30",
+    "Description": "French school cycles / classes",
+    "Notes": "Detailed French educational level classification. Values are defined by ScoLOMFR, see http://data.education.fr/voc/scolomfr/scolomfr-voc-022"
+  },
+  {
+    "Value": "31",
+    "Description": "Brazil Education level",
+    "Notes": "Nível de Educação do Brasil, see List 238. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "32",
+    "Description": "French educational levels",
+    "Notes": "Basic French educational level classification. Values are defined by ScoLOMFR. For use in ONIX 3.0 only. See http://data.education.fr/voc/scolomfr/scolomfr-voc-012"
+  },
+  {
+    "Value": "33",
+    "Description": "Finnish Upper secondary school course (2021+)",
+    "Notes": "For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "34",
+    "Description": "French educational school levels",
+    "Notes": "Values are defined by ScoLOMFR. For use in ONIX 3.0 only. See http://data.education.fr/voc/scolomfr/scolomfr-voc-022"
+  }
+]
