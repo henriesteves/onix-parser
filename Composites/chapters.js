@@ -9,8 +9,6 @@ const chapters = ({ contentitem: Contentitem }) => {
 
   const chaptersList = []
 
-  let totalTimeSeconds = 0
-
   for (let i = 0; i < Contentitem.length; i++) {
     const chapter = Contentitem[i];
 
@@ -28,40 +26,40 @@ const chapters = ({ contentitem: Contentitem }) => {
     let resourceForm = ''
     let resourceLink = ''
 
-    for (let j = 0; j < Supportingresource.length; j++) {
-      const supportingresource = Supportingresource[j]
-
-      const {
-        resourcefeature: Resourcefeature,
-        resourceversion: Resourceversion
-      } = supportingresource
-
-      for (let k = 0; k < Resourcefeature.length; k++) {
-        const resourcefeature = Resourcefeature[k]
+    if (Supportingresource) {
+      for (let j = 0; j < Supportingresource.length; j++) {
+        const supportingresource = Supportingresource[j]
 
         const {
-          x438: ResourceFeatureType,
-          x439: FeatureValue
-        } = resourcefeature
+          resourcefeature: Resourcefeature,
+          resourceversion: Resourceversion
+        } = supportingresource
 
-        totalTimeSeconds += parseInt(FeatureValue.$t, 10)
+        for (let k = 0; k < Resourcefeature.length; k++) {
+          const resourcefeature = Resourcefeature[k]
 
-        resourceFeatureTypeCode = ResourceFeatureType.$t
-        resourceFeatureType = getByValue(resourceFeatureTypeList, 'Value', ResourceFeatureType.$t, 'Description')
-        featureValue = FeatureValue.$t
-      }
+          const {
+            x438: ResourceFeatureType,
+            x439: FeatureValue
+          } = resourcefeature
 
-      for (let l = 0; l < Resourceversion.length; l++) {
-        const resourceversion = Resourceversion[l]
+          resourceFeatureTypeCode = ResourceFeatureType.$t
+          resourceFeatureType = getByValue(resourceFeatureTypeList, 'Value', ResourceFeatureType.$t, 'Description')
+          featureValue = FeatureValue.$t
+        }
 
-        const {
-          x441: ResourceForm,
-          x435: ResourceLink
-        } = resourceversion
+        for (let l = 0; l < Resourceversion.length; l++) {
+          const resourceversion = Resourceversion[l]
 
-        resourceFormCode = ResourceForm.$t
-        resourceForm = getByValue(resourceFormList, 'Value', ResourceForm.$t, 'Description')
-        resourceLink = ResourceLink.$t
+          const {
+            x441: ResourceForm,
+            x435: ResourceLink
+          } = resourceversion
+
+          resourceFormCode = ResourceForm.$t
+          resourceForm = getByValue(resourceFormList, 'Value', ResourceForm.$t, 'Description')
+          resourceLink = ResourceLink.$t
+        }
       }
     }
 
