@@ -55,7 +55,7 @@ const product = ({
 
     identifiers: identifier(ProductIdentifier),
 
-    iSNB13: identifier(ProductIdentifier).filter(identifier => identifier.productIDTypeCode === '15')[0].iDValue,
+    iSNB13: identifier(ProductIdentifier).filter(identifier => identifier.productIDTypeCode === '15' || identifier.productIDTypeCode === '03')[0].iDValue,
 
     title: title(DescriptiveDetail),
 

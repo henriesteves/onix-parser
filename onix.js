@@ -103,7 +103,7 @@ const onix = onixPath => {
     }
 
     if (productJSON.identifiers && productJSON.identifiers.length >= 1) {
-      if (productJSON.identifiers.filter(identifier => identifier.productIDTypeCode === '15').length === 0) {
+      if (productJSON.identifiers.filter(identifier => identifier.productIDTypeCode === '15' || identifier.productIDTypeCode === '03').length === 0) {
         errors.push('No ISBN-13 identifier found')
       }
     }
@@ -113,7 +113,7 @@ const onix = onixPath => {
     }
 
     if (!productJSON.details || !productJSON.details.description || productJSON.details.description === '') {
-      errors.push('No de found')
+      errors.push('No detail found')
     }
 
     if (!productJSON.contributors || productJSON.contributors.length === 0) {
