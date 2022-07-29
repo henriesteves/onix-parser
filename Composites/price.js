@@ -11,8 +11,6 @@ const price = ({
     j192: UnpricedItemType
   } = SupplyDetail
 
-  console.log(UnpricedItemType)
-
   if (!Price) {
     if (UnpricedItemType) {
       return [{
