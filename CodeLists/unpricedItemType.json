@@ -1,0 +1,42 @@
+[
+  {
+    "Value": "01",
+    "Description": "Free of charge",
+    "Notes": ""
+  },
+  {
+    "Value": "02",
+    "Description": "Price to be announced",
+    "Notes": ""
+  },
+  {
+    "Value": "03",
+    "Description": "Not sold separately",
+    "Notes": "Not sold separately at retail"
+  },
+  {
+    "Value": "04",
+    "Description": "Contact supplier",
+    "Notes": "May be used for books that do not carry a recommended retail price; when goods can only be ordered ‘in person’ from a sales representative; when an ONIX file is ‘broadcast’ rather than sent one-to-one to a single trading partner; or for digital products offered on subscription or with pricing which is too complex to specify in ONIX"
+  },
+  {
+    "Value": "05",
+    "Description": "Not sold as set",
+    "Notes": "When a collection that is not sold as a set nevertheless has its own ONIX record"
+  },
+  {
+    "Value": "06",
+    "Description": "Revenue share",
+    "Notes": "Unpriced, but available via a pre-determined revenue share agreement"
+  },
+  {
+    "Value": "07",
+    "Description": "Calculated from contents",
+    "Notes": "Price calculated as sum of individual prices of components listed as Product parts. For use in ONIX 3.0 only"
+  },
+  {
+    "Value": "08",
+    "Description": "Supplier does not supply",
+    "Notes": "The supplier does not operate, or does not offer this product, in this part of the market as indicated by <territory>?. Use when other prices apply in different parts of the market (eg when the market is global, but the particular supplier does not operate outside its domestic territory). Use code 04 when the supplier does supply but has not set a price for part of the market. For use in ONIX 3.0 only"
+  }
+]

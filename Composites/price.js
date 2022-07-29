@@ -1,15 +1,33 @@
 const { getJSONfromFile, getByValue } = require('../lib/utils')
 
 const priceTypeList = getJSONfromFile('CodeLists/priceType.json')
+const unpricedItemTypeList = getJSONfromFile('CodeLists/unpricedItemType.json')
 
 const price = ({
   supplydetail: SupplyDetail
 }) => {
   const {
-    price: Price
+    price: Price,
+    j192: UnpricedItemType
   } = SupplyDetail
 
-  if (!Price) return []
+  console.log(UnpricedItemType)
+
+  if (!Price) {
+    if (UnpricedItemType) {
+      return [{
+        priceTypeCode: UnpricedItemType.$t,
+        priceType: getByValue(unpricedItemTypeList, 'Value', UnpricedItemType.$t, 'Description'),
+        currencyCode: 'BRL',
+        priceAmount: "0",
+        countriesIncluded: [
+          "BR"
+        ]
+      }]
+    }
+
+    return []
+  }
 
   const priceList = []
 
