@@ -30,7 +30,9 @@ const handleName = ({
   b036: PersonName,
   b037: PersonNameInverted,
   b039: NamesBeforeKey,
-  b040: KeyNames
+  b040: KeyNames,
+  b047: CorporateName,
+  x443: CorporateNameInverted,
 }) => {
   let name = ''
 
@@ -40,6 +42,14 @@ const handleName = ({
 
   if (PersonNameInverted) {
     name = PersonNameInverted.$t.split(',').reverse().join(' ').trim()
+  }
+
+  if (CorporateName) {
+    name = CorporateName.$t
+  }
+
+  if (CorporateNameInverted) {
+    name = CorporateNameInverted.$t.split(',').reverse().join(' ').trim()
   }
 
   if (NamesBeforeKey) {
