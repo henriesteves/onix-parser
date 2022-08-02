@@ -1,0 +1,17 @@
+[
+  {
+    "Value": "14",
+    "Description": "From date",
+    "Notes": "Date on which a price becomes effective"
+  },
+  {
+    "Value": "15",
+    "Description": "Until date",
+    "Notes": "Date on which a price ceases to be effective"
+  },
+  {
+    "Value": "24",
+    "Description": "From… until date",
+    "Notes": "Combines From date and Until date to define a period (both dates are inclusive). Use with for example dateformat 06"
+  }
+]
