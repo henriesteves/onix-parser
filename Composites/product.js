@@ -67,7 +67,11 @@ const product = ({
 
     price: price(ProductSupply),
 
-    priceBRL: price(ProductSupply).filter(price => price.currencyCode === 'BRL' && price.countriesIncluded.includes('BR'))[0].priceAmount,
+    // priceBRL: price(ProductSupply).filter(price => price.currencyCode === 'BRL' && price.countriesIncluded.includes('BR'))[0].priceAmount,
+
+    priceAlt: price(ProductSupply, true),
+
+    priceBRL: price(ProductSupply, true).filter(price => price.currencyCode === 'BRL')[0].priceAmount,
 
     resources: resource(CollateralDetail),
 
