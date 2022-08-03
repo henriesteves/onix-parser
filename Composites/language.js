@@ -19,8 +19,8 @@ const language = ({
     languageList.push({
       languageRoleCode: LanguageRole,
       languageRole: getByValue(languageRoleList, 'Value', LanguageRole, 'Description'),
-      LanguageCodeCode: LanguageCode,
-      Language: getByValue(languageCodeList, 'Value', LanguageCode, 'Description')
+      languageCodeCode: LanguageCode,
+      language: getByValue(languageCodeList, 'Value', LanguageCode, 'Description')
     })
   }
 
