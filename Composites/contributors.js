@@ -1,4 +1,4 @@
-const { getJSONfromFile, getByValue } = require('../lib/utils')
+const { getJSONfromFile, getByValue, normalizeString } = require('../lib/utils')
 
 const contributorRoleList = getJSONfromFile('CodeLists/contributorRole.json')
 
@@ -60,7 +60,7 @@ const handleName = ({
     name += KeyNames.$t + ' '
   }
 
-  return name
+  return normalizeString(name)
 }
 
 module.exports = {

@@ -1,3 +1,5 @@
+const { normalizeString } = require('../lib/utils.js')
+
 const keywords = ({
   subject: Keywords
 }) => {
@@ -12,7 +14,7 @@ const keywords = ({
     } = element
 
     if (parseInt(SubjectSchemeIdentifier.$t) === 20) {
-      keywordsList.push(SubjectHeadingText.$t || '')
+      keywordsList.push(normalizeString(SubjectHeadingText.$t) || '')
     }
   }
 

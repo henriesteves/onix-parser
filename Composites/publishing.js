@@ -1,4 +1,4 @@
-const { getJSONfromFile, getByValue, formatDate } = require('../lib/utils')
+const { getJSONfromFile, getByValue, formatDate, normalizeString } = require('../lib/utils')
 
 const PublishingRoleList = getJSONfromFile('CodeLists/publishingRole.json')
 const PublishingDateRoleList = getJSONfromFile('CodeLists/publishingDateRole.json')
@@ -109,7 +109,7 @@ const publishing = ({
     publishingRoleCode: PublishingRole.$t,
     publishingRole: getByValue(PublishingRoleList, 'Value', PublishingRole.$t, 'Description'),
 
-    publisherName: PublisherName.$t,
+    publisherName: normalizeString(PublisherName.$t),
 
     publishingStatusCode: PublishingStatus ? PublishingStatus.$t : '',
     publishingStatus: PublishingStatus ? getByValue(PublishingStatusList, 'Value', PublishingStatus.$t, 'Description') : '',

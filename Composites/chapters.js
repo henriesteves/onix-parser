@@ -1,4 +1,4 @@
-const { getJSONfromFile, getByValue } = require('../lib/utils')
+const { getJSONfromFile, getByValue, normalizeString } = require('../lib/utils')
 
 const resourceFormList = getJSONfromFile('CodeLists/resourceForm.json')
 const resourceModeList = getJSONfromFile('CodeLists/resourceMode.json')
@@ -65,7 +65,7 @@ const chapters = ({ contentitem: Contentitem }) => {
 
     chaptersList.push({
       index: ComponentNumber.$t,
-      title: ComponentTypeName.$t,
+      title: normalizeString(ComponentTypeName.$t),
 
       resourceFeatureTypeCode,
       resourceFeatureType,

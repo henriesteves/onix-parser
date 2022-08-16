@@ -6,7 +6,7 @@ const priceDateRoleList = getJSONfromFile('CodeLists/priceDateRole.json')
 
 const price = ({
   supplydetail: SupplyDetail
-}, alt) => {
+}) => {
   const {
     price: Price,
     j192: UnpricedItemType
@@ -30,7 +30,6 @@ const price = ({
   }
 
   const priceList = []
-  const priceListAlt = []
 
   for (let i = 0; i < Price.length; i++) {
     const {
@@ -45,7 +44,6 @@ const price = ({
 
     if (countriesIncluded.includes('BR')) {
       const priceDateList = []
-      const priceDateListAlt = {}
 
       if (PriceDate) {
         for (let j = 0; j < PriceDate.length; j++) {
@@ -59,16 +57,7 @@ const price = ({
             priceDateRole: getByValue(priceDateRoleList, 'Value', PriceDateRole.$t, 'Description'),
             date: formatDate(PriceDateValue.$t)
           })
-
-          priceDateListAlt.currencyCode = CurrencyCode.$t,
-          priceDateListAlt.priceAmount = PriceAmount.$t,
-          priceDateListAlt.priceDateRoleCode = PriceDateRole.$t,
-          priceDateListAlt.priceDateRole = getByValue(priceDateRoleList, 'Value', PriceDateRole.$t, 'Description'),
-          priceDateListAlt.date = formatDate(PriceDateValue.$t)
         }
-      } else {
-        priceDateListAlt.currencyCode = CurrencyCode.$t,
-        priceDateListAlt.priceAmount = PriceAmount.$t
       }
 
       priceList.push({
@@ -79,14 +68,10 @@ const price = ({
         countriesIncluded,
         priceDate: priceDateList
       })
-
-      priceListAlt.push(priceDateListAlt)
     }
   }
 
-  priceListAlt.sort((a, b) => Date(a.date) > Date(b.date) ? 1 : -1) // sort by date desc
-
-  return alt ? priceListAlt : priceList
+  return priceList
 }
 
 module.exports = {
