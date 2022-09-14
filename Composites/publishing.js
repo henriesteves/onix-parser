@@ -38,69 +38,73 @@ const publishing = ({
   // SalesRights
   const salesRightsList = []
 
-  for (let i = 0; i < SalesRights.length; i++) {
-    const element = SalesRights[i];
-
-    const {
-      b089: SalesRightsType,
-      territory: Territory,
-      salesrestriction: SalesRestriction
-    } = element
-
-    // Territory
-    const territoryList = []
-
-    for (let j = 0; j < Territory.length; j++) {
-      const element = Territory[j];
+  if (SalesRights && SalesRights.length > 0) {
+    for (let i = 0; i < SalesRights.length; i++) {
+      const element = SalesRights[i];
 
       const {
-        x449: CountriesIncluded,
-        x450: RegionsIncluded,
-        x451: CountriesExcluded,
-        x452: RegionsExcluded
+        b089: SalesRightsType,
+        territory: Territory,
+        salesrestriction: SalesRestriction
       } = element
 
-      if (
-        (CountriesIncluded && CountriesIncluded.$t === 'BR') ||
-        (RegionsIncluded && RegionsIncluded.$t === 'WORLD')
-      ) {
-        territoryList.push({
-          CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
-          RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
-          CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
-          RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
-        })
+      // Territory
+      const territoryList = []
+
+      if (Territory && Territory.length > 0) {
+        for (let j = 0; j < Territory.length; j++) {
+          const element = Territory[j];
+
+          const {
+            x449: CountriesIncluded,
+            x450: RegionsIncluded,
+            x451: CountriesExcluded,
+            x452: RegionsExcluded
+          } = element
+
+          if (
+            (CountriesIncluded && CountriesIncluded.$t === 'BR') ||
+            (RegionsIncluded && RegionsIncluded.$t === 'WORLD')
+          ) {
+            territoryList.push({
+              CountriesIncluded: CountriesIncluded ? CountriesIncluded.$t : '',
+              RegionsIncluded: RegionsIncluded ? RegionsIncluded.$t : '',
+              CountriesExcluded: CountriesExcluded ? CountriesExcluded.$t : '',
+              RegionsExcluded: RegionsExcluded ? RegionsExcluded.$t : ''
+            })
+          }
+        }
       }
-    }
 
-    if (territoryList.length === 0) continue
+      if (territoryList.length === 0) continue
 
-    // SalesRestriction
-    const SalesRestrictionList = []
+      // SalesRestriction
+      const SalesRestrictionList = []
 
-    if (SalesRestriction && SalesRestriction.length > 0) {
-      for (let j = 0; j < SalesRestriction.length; j++) {
-        const element = SalesRestriction[j];
+      if (SalesRestriction && SalesRestriction.length > 0) {
+        for (let j = 0; j < SalesRestriction.length; j++) {
+          const element = SalesRestriction[j];
 
-        const {
-          b381: SalesRestrictionType,
-          x453: SalesRestrictionNote
-        } = element
+          const {
+            b381: SalesRestrictionType,
+            x453: SalesRestrictionNote
+          } = element
 
-        SalesRestrictionList.push({
-          salesRestrictionTypeCode: SalesRestrictionType.$t,
-          salesRestrictionType: getByValue(SalesRestrictionTypeList, 'Value', SalesRestrictionType.$t, 'Description'),
-          salesRestrictionNote: SalesRestrictionNote ? SalesRestrictionNote.$t : ''
-        })
+          SalesRestrictionList.push({
+            salesRestrictionTypeCode: SalesRestrictionType.$t,
+            salesRestrictionType: getByValue(SalesRestrictionTypeList, 'Value', SalesRestrictionType.$t, 'Description'),
+            salesRestrictionNote: SalesRestrictionNote ? SalesRestrictionNote.$t : ''
+          })
+        }
       }
-    }
 
-    salesRightsList.push({
-      salesRightsTypeCode: SalesRightsType.$t,
-      salesRightsType: getByValue(SalesRightsTypeList, 'Value', SalesRightsType.$t, 'Description'),
-      territory: territoryList,
-      salesRestriction: SalesRestrictionList
-    })
+      salesRightsList.push({
+        salesRightsTypeCode: SalesRightsType.$t,
+        salesRightsType: getByValue(SalesRightsTypeList, 'Value', SalesRightsType.$t, 'Description'),
+        territory: territoryList,
+        salesRestriction: SalesRestrictionList
+      })
+    }
   }
 
 
