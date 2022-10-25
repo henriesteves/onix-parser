@@ -36,22 +36,33 @@ const handleName = ({
 }) => {
   let name = ''
 
+  // Person Name
   if (PersonName) {
     name = PersonName.$t
+
+    return normalizeString(name)
   }
 
   if (PersonNameInverted) {
     name = PersonNameInverted.$t.split(',').reverse().join(' ').trim()
+
+    return normalizeString(name)
   }
 
+  // Corporate Name
   if (CorporateName) {
     name = CorporateName.$t
+
+    return normalizeString(name)
   }
 
   if (CorporateNameInverted) {
     name = CorporateNameInverted.$t.split(',').reverse().join(' ').trim()
+
+    return normalizeString(name)
   }
 
+  // Key name
   if (NamesBeforeKey) {
     name = NamesBeforeKey.$t + ' '
   }
