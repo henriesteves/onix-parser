@@ -6,13 +6,13 @@ const { product } = require('./Composites/product')
 
 const onix = onixPath => {
   return new Promise((resolve, reject) => {
-    const onixContent = fs.readFileSync(onixPath).toString()
+    const onixContentRaw = fs.readFileSync(onixPath).toString()
 
-    if (!onixContent) {
+    if (!onixContentRaw) {
       reject(new Error('No onix content'))
     }
 
-    const onixJSON = XMLMapping.load(onixContent, {
+    const onixJSON = XMLMapping.load(onixContentRaw, {
       nested: true,
       arrays: [
         '/ONIXmessage/product',
@@ -94,7 +94,7 @@ const onix = onixPath => {
 
     const productJSON = {
       ...header(Header),
-      ...product(Product[digitalIndex])
+      ...product(Product[digitalIndex], onixContentRaw)
     }
 
     const errors = []

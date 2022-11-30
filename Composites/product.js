@@ -31,8 +31,8 @@ const product = ({
   publishingdetail: PublishingDetail,
   productsupply: ProductSupply,
   productidentifier: ProductIdentifier,
-  relatedmaterial: RelatedMaterial,
-}) => {
+  relatedmaterial: RelatedMaterial
+}, onixContentRaw) => {
   const {
     b333: ProductFormDetail,
     x416: PrimaryContentType,
@@ -59,7 +59,7 @@ const product = ({
 
     title: title(DescriptiveDetail),
 
-    details: details(CollateralDetail),
+    details: details(CollateralDetail, onixContentRaw),
 
     publishing: publishing(PublishingDetail),
 
