@@ -1,5 +1,7 @@
 const XMLMapping = require('xml-mapping')
 
+const { normalizeString } = require('../lib/utils')
+
 const details = ({
   textcontent: TextContent,
 }, onixContentRaw) => {
@@ -19,21 +21,21 @@ const details = ({
 
     // descrição curta
     if (parseInt(TextType.$t, 10) === 2) { // 02 - Short description/annotation
-      result.shortDescription = Text.$t || handleXHTML(Text, '02', onixContentRaw) || handleContent(Text)
+      result.shortDescription = normalizeString(Text.$t || handleXHTML(Text, '02', onixContentRaw) || handleContent(Text))
 
       continue
     }
 
     // descrição
     if (parseInt(TextType.$t, 10) === 3) { // 03 - Description
-      result.description = Text.$t || handleXHTML(Text, '03', onixContentRaw) || handleContent(Text)
+      result.description = normalizeString(Text.$t || handleXHTML(Text, '03', onixContentRaw) || handleContent(Text))
 
       continue
     }
 
     // tabela de conteudo
     if (parseInt(TextType.$t, 10) === 4) { // 04 - Table of contents
-      result.toc = Text.$t || handleXHTML(Text, '04', onixContentRaw) || handleContent(Text)
+      result.toc = normalizeString(Text.$t || handleXHTML(Text, '04', onixContentRaw) || handleContent(Text))
 
       continue
     }
