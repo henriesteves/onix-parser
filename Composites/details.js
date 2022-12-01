@@ -72,8 +72,8 @@ const handleXHTML = (text, textType, onixContentRaw) => {
             if (textContent.includes(`<x426 refname="TextType">${textType}</x426>`)) { // 02 - 03 - 04
               const textTag = textContent.match(/<d104 refname="Text" textformat="05">[\s\S]*?<\/d104>/g)
 
-              if (textTag && textTag.length > 0) {
-                const textContent = textTag[0].replaceAll('<d104 refname="Text" textformat="05">', '').replaceAll('</d104>', '')
+              if (typeof textTag === 'object' && textTag.length > 0) {
+                const textContent = textTag[0].replace('<d104 refname="Text" textformat="05">', '').replace('</d104>', '')
 
                 textFromXHML = textContent.replace(/\s+/g, ' ').replace(/'/g, "''").trim();
               }
