@@ -9,7 +9,12 @@ const onix = onixPath => {
     const onixContentRaw = fs.readFileSync(onixPath).toString()
 
     if (!onixContentRaw) {
-      reject(new Error('No onix content'))
+      // reject(new Error('No onix content'))
+
+      resolve({
+        status: false,
+        message: ['No onix content']
+      })
     }
 
     const onixJSON = XMLMapping.load(onixContentRaw, {
