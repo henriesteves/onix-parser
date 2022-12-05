@@ -21,21 +21,21 @@ const details = ({
 
     // descrição curta
     if (parseInt(TextType.$t, 10) === 2) { // 02 - Short description/annotation
-      result.shortDescription = normalizeString(Text.$t || handleXHTML(Text, '02', onixContentRaw) || handleContent(Text))
+      result.shortDescription = normalizeString(handleText(Text.$t) || handleXHTML(Text, '02', onixContentRaw) || handleContent(Text))
 
       continue
     }
 
     // descrição
     if (parseInt(TextType.$t, 10) === 3) { // 03 - Description
-      result.description = normalizeString(Text.$t || handleXHTML(Text, '03', onixContentRaw) || handleContent(Text))
+      result.description = normalizeString(handleText(Text.$t) || handleXHTML(Text, '03', onixContentRaw) || handleContent(Text))
 
       continue
     }
 
     // tabela de conteudo
     if (parseInt(TextType.$t, 10) === 4) { // 04 - Table of contents
-      result.toc = normalizeString(Text.$t || handleXHTML(Text, '04', onixContentRaw) || handleContent(Text))
+      result.toc = normalizeString(handleText(Text.$t) || handleXHTML(Text, '04', onixContentRaw) || handleContent(Text))
 
       continue
     }
@@ -53,7 +53,11 @@ const handleContent = content => {
     }
   })
 
-  return XMLMapping.dump(content)
+  return XMLMapping.dump(content).replace(/\s+/g, ' ').replace(/'/g, "''").trim()
+}
+
+const handleText = (text) => {
+  return text ? text.replace(/\s+/g, ' ').replace(/'/g, "''").trim() : text
 }
 
 // função para tratar o conteúdo XHTML - textformat = 05
@@ -75,7 +79,7 @@ const handleXHTML = (text, textType, onixContentRaw) => {
               if (typeof textTag === 'object' && textTag.length > 0) {
                 const textContent = textTag[0].replace('<d104 refname="Text" textformat="05">', '').replace('</d104>', '')
 
-                textFromXHML = textContent.replace(/\s+/g, ' ').replace(/'/g, "''").trim();
+                textFromXHML = textContent.replace(/\s+/g, ' ').replace(/'/g, "''").trim()
               }
             }
           })
