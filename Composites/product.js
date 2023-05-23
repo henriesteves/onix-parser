@@ -81,7 +81,7 @@ const product = ({
 
     language: language(DescriptiveDetail),
 
-    // related: related(RelatedMaterial),
+    related: related(RelatedMaterial || []),
 
     // collection: collection(DescriptiveDetail),
 

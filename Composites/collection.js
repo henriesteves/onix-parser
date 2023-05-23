@@ -1,4 +1,4 @@
-const { getJSONfromFile, getByValue } = require('../lib/utils')
+const { getJSONfromFile, getByValue, normalizeString } = require('../lib/utils')
 
 const CollectionTypeList = getJSONfromFile('CodeLists/collectionType.json')
 const TitleTypeList = getJSONfromFile('CodeLists/titleType.json')
@@ -15,33 +15,78 @@ const collection = ({
 
     const {
       x329: CollectionType,
-      titledetails: TitleDetails
+      titledetail: TitleDetail
     } = element
 
-    const titleDetailsList = []
+    const titleDetailList = []
 
-    for (let j = 0; j < TitleDetails.length; j++) {
-      const element = TitleDetails[j]
+    for (let j = 0; j < TitleDetail.length; j++) {
+      const element = TitleDetail[j]
 
       const {
-        x409: TitleElementLevel,
-        b203: TitleText
+        b202: TitleType,
+        titleelement: TitleElement
       } = element
 
-      titleDetailsList.push({
-        titleElementLevel: TitleElementLevel.$t,
-        titleText: TitleText.$t,
-        titleDetails: titleDetailsList
+      const titleElementList = []
+
+      for (let k = 0; k < TitleElement.length; k++) {
+        const element = TitleElement[k]
+
+        const {
+          x409: TitleElementLevel,
+          x410: PartNumber,
+          b034: SequenceNumber,
+          b030: TitlePrefix,
+          b031: TitleWithoutPrefix,
+          b203: TitleText
+        } = element
+
+        titleElementList.push({
+          sequenceNumber: SequenceNumber ? parseInt(SequenceNumber.$t, 10) : '',
+          titleElementLevel: TitleElementLevel ? TitleElementLevel.$t : '',
+          partNumber: PartNumber ? PartNumber.$t : '',
+          titleText: handleTitle({
+            TitlePrefix,
+            TitleWithoutPrefix,
+            TitleText
+          })
+        })
+      }
+
+      titleDetailList.push({
+        titleTypeCode: TitleType.$t,
+        titleType: getByValue(TitleTypeList, 'Value', TitleType.$t, 'Description'),
+        titleElement: titleElementList
       })
     }
 
     collectionList.push({
       collectionTypeCode: CollectionType.$t,
       collectionTypeDescription: getByValue(CollectionTypeList, 'Value', CollectionType.$t, 'Description'),
+      titleDetail: titleDetailList
     })
   }
 
   return collectionList
+}
+
+const handleTitle = ({ TitlePrefix, TitleWithoutPrefix, TitleText }) => {
+  let title = ''
+
+  if (TitlePrefix) {
+    title += TitlePrefix.$t + ' '
+  }
+
+  if (TitleWithoutPrefix) {
+    title += TitleWithoutPrefix.$t
+  }
+
+  if (TitleText) {
+    title = TitleText.$t
+  }
+
+  return normalizeString(title.trim())
 }
 
 module.exports = {

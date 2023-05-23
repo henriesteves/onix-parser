@@ -1,4 +1,4 @@
-const { normalizeString } =  require('../lib/utils.js')
+const { normalizeString } = require('../lib/utils.js')
 
 const title = ({
   Collection,
@@ -33,7 +33,7 @@ const title = ({
 
 const handleTitle = titleElement => {
   const {
-    b203: TitlePrefix,
+    b030: TitlePrefix,
     b031: TitleWithoutPrefix,
     b203: TitleText
   } = titleElement

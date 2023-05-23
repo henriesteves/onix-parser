@@ -31,6 +31,7 @@ const onix = onixPath => {
         '/ONIXmessage/product/contentdetail/contentitem/supportingresource/resourceversion/resourceversionfeature',
         '/ONIXmessage/product/descriptivedetail/contributor',
         '/ONIXmessage/product/descriptivedetail/collection',
+        '/ONIXmessage/product/descriptivedetail/collection/titledetail',
         '/ONIXmessage/product/descriptivedetail/collection/titledetail/titleelement',
         '/ONIXmessage/product/descriptivedetail/extent',
         '/ONIXmessage/product/descriptivedetail/language',
