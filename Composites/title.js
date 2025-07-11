@@ -1,4 +1,4 @@
-const { normalizeString } = require('../lib/utils.js')
+const { normalizeString, normalizeAllUnicodeText } = require('../lib/utils.js')
 
 const title = ({
   Collection,
@@ -52,7 +52,7 @@ const handleTitle = titleElement => {
     title = TitleText.$t
   }
 
-  return normalizeString(title.trim())
+  return normalizeString(normalizeAllUnicodeText(title.trim()))
 }
 
 const handleSubTitle = titleElement => {
@@ -64,7 +64,7 @@ const handleSubTitle = titleElement => {
     subtitle = Subtitle.$t
   }
 
-  return normalizeString(subtitle.trim())
+  return normalizeString(normalizeAllUnicodeText(subtitle.trim()))
 }
 
 module.exports = {

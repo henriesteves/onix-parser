@@ -1,6 +1,6 @@
 const XMLMapping = require('xml-mapping')
 
-const { normalizeString } = require('../lib/utils')
+const { normalizeString, normalizeAllUnicodeText } = require('../lib/utils')
 
 const details = ({
   textcontent: TextContent,
@@ -11,6 +11,8 @@ const details = ({
     toc: ''
   }
 
+  // console.log(TextContent)
+
   for (let i = 0; i < TextContent.length; i++) {
     const element = TextContent[i];
 
@@ -19,23 +21,27 @@ const details = ({
       d104: Text
     } = element
 
+    if (!TextType || !Text) {
+      continue
+    }
+
     // descrição curta
     if (parseInt(TextType.$t, 10) === 2) { // 02 - Short description/annotation
-      result.shortDescription = normalizeString(handleText(Text.$t) || handleXHTML(Text, '02', onixContentRaw) || handleContent(Text))
+      result.shortDescription = normalizeString(normalizeAllUnicodeText(handleText(Text.$t)) || handleXHTML(Text, '02', onixContentRaw) || handleContent(Text))
 
       continue
     }
 
     // descrição
     if (parseInt(TextType.$t, 10) === 3) { // 03 - Description
-      result.description = normalizeString(handleText(Text.$t) || handleXHTML(Text, '03', onixContentRaw) || handleContent(Text))
+      result.description = normalizeString(normalizeAllUnicodeText(handleText(Text.$t)) || handleXHTML(Text, '03', onixContentRaw) || handleContent(Text))
 
       continue
     }
 
     // tabela de conteudo
     if (parseInt(TextType.$t, 10) === 4) { // 04 - Table of contents
-      result.toc = normalizeString(handleText(Text.$t) || handleXHTML(Text, '04', onixContentRaw) || handleContent(Text))
+      result.toc = normalizeString(normalizeAllUnicodeText(handleText(Text.$t)) || handleXHTML(Text, '04', onixContentRaw) || handleContent(Text))
 
       continue
     }

@@ -1,4 +1,4 @@
-const { getJSONfromFile, getByValue, normalizeString, normalizeContributer } = require('../lib/utils')
+const { getJSONfromFile, getByValue, normalizeString, normalizeContributerName } = require('../lib/utils')
 
 const contributorRoleList = getJSONfromFile('CodeLists/contributorRole.json')
 
@@ -19,7 +19,7 @@ const contributors = ({ contributor: Contributor }) => {
       sequence: parseInt(SequenceNumber.$t, 10),
       contributorRoleCode: ContributorRole.$t,
       contributorRole: getByValue(contributorRoleList, 'Value', ContributorRole.$t, 'Description'),
-      personName: handleName(contributor)
+      personName: normalizeString(normalizeContributerName(handleName(contributor))),
     })
   }
 
@@ -34,33 +34,27 @@ const handleName = ({
   b047: CorporateName,
   x443: CorporateNameInverted,
 }) => {
-  let name = ''
+
 
   // Person Name
   if (PersonName) {
-    name = PersonName.$t
-
-    return normalizeString(name)
+    return PersonName.$t
   }
 
   if (PersonNameInverted) {
-    name = PersonNameInverted.$t.split(',').reverse().join(' ').trim()
-
-    return normalizeString(name)
+    return PersonNameInverted.$t.split(',').reverse().join(' ').trim()
   }
 
   // Corporate Name
   if (CorporateName) {
-    name = CorporateName.$t
-
-    return normalizeString(name)
+    return CorporateName.$t
   }
 
   if (CorporateNameInverted) {
-    name = CorporateNameInverted.$t.split(',').reverse().join(' ').trim()
-
-    return normalizeString(name)
+    return CorporateNameInverted.$t.split(',').reverse().join(' ').trim()
   }
+
+  let name = ''
 
   // Key name
   if (NamesBeforeKey) {
@@ -71,7 +65,7 @@ const handleName = ({
     name += KeyNames.$t + ' '
   }
 
-  return normalizeString(normalizeContributer(name))
+  return name
 }
 
 module.exports = {
