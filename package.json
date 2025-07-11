@@ -1,17 +1,29 @@
 {
   "name": "onix-parser",
-  "version": "1.0.40",
-  "description": "",
+  "version": "1.0.41",
+  "description": "Parse ONIX 3.0 XML files and extract structured product data for publishing and digital books",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/henriesteves/onix-parser.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "onix",
+    "xml",
+    "parser",
+    "publishing",
+    "books",
+    "ebook",
+    "epub",
+    "audiobook",
+    "metadata",
+    "isbn"
+  ],
+  "author": "Henrique Esteves",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/henriesteves/onix-parser/issues"
