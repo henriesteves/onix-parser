@@ -15,6 +15,11 @@ const contributors = ({ contributor: Contributor }) => {
       b035: ContributorRole,
     } = contributor
 
+    // this will ignore UnnamedPersons
+    if (contributor.b249) {
+      continue
+    }
+
     contributorsList.push({
       sequence: parseInt(SequenceNumber.$t, 10),
       contributorRoleCode: ContributorRole.$t,
@@ -33,6 +38,7 @@ const handleName = ({
   b040: KeyNames,
   b047: CorporateName,
   x443: CorporateNameInverted,
+  b249: UnnamedPersons,
 }) => {
 
 
