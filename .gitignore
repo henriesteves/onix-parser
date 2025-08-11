@@ -106,3 +106,5 @@ dist
 files/
 
 final-*.json
+
+test-results/
