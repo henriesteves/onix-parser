@@ -1,6 +1,6 @@
 {
   "name": "onix-parser",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "Parse ONIX 3.0 XML files and extract structured product data for publishing and digital books",
   "main": "index.js",
   "scripts": {
