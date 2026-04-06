@@ -108,3 +108,4 @@ files/
 final-*.json
 
 test-results/
+.DS_Store
