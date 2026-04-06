@@ -60,7 +60,7 @@ const handleSubTitle = titleElement => {
 
   let subtitle = ''
 
-  if (Subtitle) {
+  if (Subtitle && Subtitle.$t) {
     subtitle = Subtitle.$t
   }
 
